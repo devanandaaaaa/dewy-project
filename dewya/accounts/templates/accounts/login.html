@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% block title %}Login - {{ site_name }}{% endblock %}
+{% block content %}
+<div class="container mt-4">
+  <h3>Login</h3>
+  <form method="post">
+    {% csrf_token %}
+    <div class="mb-3">
+      <label>Username</label>
+      <input name="username" class="form-control">
+    </div>
+    <div class="mb-3">
+      <label>Password</label>
+      <input name="password" type="password" class="form-control">
+    </div>
+    <button class="btn btn-primary">Login</button>
+  </form>
+</div>
+{% endblock %}
+
+

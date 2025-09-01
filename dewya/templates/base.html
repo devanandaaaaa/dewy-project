@@ -1,0 +1,107 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% block title %}{{ site_name }}{% endblock %}</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+  <link href="{% static 'css/style.css' %}" rel="stylesheet">
+</head>
+
+<body class="d-flex flex-column min-vh-100">
+  <!-- Top Header -->
+  <header class="bg-white border-bottom py-2">
+    <div class="container d-flex align-items-center">
+      <a class="navbar-brand fw-bold fs-4 me-3 text-decoration-none" href="{% url 'store:product_list' %}">
+        {{ site_name }}
+      </a>
+
+      <!-- Search -->
+      <form class="d-flex flex-grow-1 me-3" method="get" action="{% url 'store:product_list' %}">
+        <input class="form-control me-2" type="search" name="q" placeholder="Search products..." value="{{ request.GET.q }}">
+        <button class="btn btn-outline-dark" type="submit">Search</button>
+      </form>
+
+      <!-- Auth & Cart -->
+      <nav class="d-flex align-items-center">
+        {% if user.is_authenticated %}
+          <span class="me-3">Hello, {{ user.username }}</span>
+          <a href="{% url 'accounts:logout' %}" class="me-3 text-decoration-none">Logout</a>
+        {% else %}
+          <a href="{% url 'accounts:login' %}" class="me-3 text-decoration-none">Login</a>
+          <a href="{% url 'accounts:register' %}" class="me-3 text-decoration-none">Register</a>
+        {% endif %}
+        <a href="{% url 'cart:view_cart' %}" class="position-relative text-decoration-none">
+          Cart
+          {% if cart_item_count %}
+          <span class="badge bg-danger position-absolute top-0 start-100 translate-middle">{{ cart_item_count }}</span>
+          {% endif %}
+        </a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Sticky Category Bar -->
+  <nav class="bg-light border-bottom sticky-top">
+    <div class="container d-flex justify-content-center flex-wrap gap-3 py-2">
+      <a href="{% url 'store:product_list' %}?category=cleansers" class="text-dark text-decoration-none">Cleansers</a>
+      <a href="{% url 'store:product_list' %}?category=toners" class="text-dark text-decoration-none">Toners</a>
+      <a href="{% url 'store:product_list' %}?category=serums" class="text-dark text-decoration-none">Serums</a>
+      <a href="{% url 'store:product_list' %}?category=moisturizers" class="text-dark text-decoration-none">Moisturizers</a>
+      <a href="{% url 'store:product_list' %}?category=sunscreens" class="text-dark text-decoration-none">Sunscreens</a>
+      <a href="{% url 'store:product_list' %}?category=face-masks" class="text-dark text-decoration-none">Face Masks</a>
+      <a href="{% url 'store:product_list' %}?category=eye-cream" class="text-dark text-decoration-none">Eye Cream</a>
+      <a href="{% url 'store:product_list' %}?category=lip-care" class="text-dark text-decoration-none">Lip Care</a>
+      <a href="{% url 'store:product_list' %}?category=scrubs" class="text-dark text-decoration-none">Scrubs</a>
+      <a href="{% url 'store:product_list' %}?category=night-cream" class="text-dark text-decoration-none">Night Cream</a>
+    </div>
+  </nav>
+
+  <!-- Hero Banner -->
+  <section class="hero-banner d-flex align-items-center justify-content-center text-center text-white">
+    <div>
+      <h1 class="display-5 fw-bold">Glow Without Limits</h1>
+      <p class="lead">Luxury skincare, made for you</p>
+      <a href="{% url 'store:product_list' %}" class="btn btn-primary btn-lg shadow-lg">Shop Now</a>
+  </section>
+
+  <!-- Optional brand strip -->
+  <div class="bg-white py-3 border-bottom">
+    <div class="container d-flex justify-content-around flex-wrap small text-muted">
+      <span>Beauty of Joseon</span>
+      <span>Fenty Beauty</span>
+      <span>COSRX</span>
+      <span>Maybelline</span>
+      <span>Lakmé</span>
+      <span>Minimalist</span>
+    </div>
+  </div>
+
+  <!-- Page Content -->
+  <main class="flex-fill">
+    {% if messages %}
+      <div class="container pt-3">
+        {% for msg in messages %}
+          <div class="alert alert-{{ msg.tags }}">{{ msg }}</div>
+        {% endfor %}
+      </div>
+    {% endif %}
+    {% block content %}{% endblock %}
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-light py-4 mt-auto">
+    <div class="container text-center">
+      <small>&copy; The Dewy Ritual - All rights reserved</small>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="{% static 'js/main.js' %}"></script>
+</body>
+</html>
+
+
