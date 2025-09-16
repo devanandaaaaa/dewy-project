@@ -155,7 +155,7 @@ DEFAULT_FROM_EMAIL = 'noreply@thedewyritual.com'
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
-EMAIL_HOST_USER = 'your-email@gmail.com'
+EMAIL_HOST_USER = 'thedewy@gmail.com'
 EMAIL_HOST_PASSWORD = 'your-email-app-password'
 DEFAULT_FROM_EMAIL = 'noreply@thedewyritual.com'
 
