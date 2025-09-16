@@ -1,0 +1,45 @@
+{% extends "base.html" %}
+
+{% block title %}AI Chatbot - The Dewy Ritual{% endblock %}
+
+{% block content %}
+<div class="container mt-5">
+    <h2>AI Skincare Assistant</h2>
+
+    <div id="chatbox" style="border: 1px solid #ddd; padding: 20px; height: 300px; overflow-y: scroll;"></div>
+
+    <form id="chat-form" class="mt-3">
+        {% csrf_token %}
+        <input type="text" id="message" name="message" class="form-control" placeholder="Ask your skincare question..." required>
+        <button type="submit" class="btn btn-primary mt-2">Send</button>
+    </form>
+</div>
+
+<script>
+    const form = document.getElementById('chat-form');
+    const chatbox = document.getElementById('chatbox');
+
+    form.addEventListener('submit', async (e) => {
+        e.preventDefault();
+        const messageInput = document.getElementById('message');
+        const message = messageInput.value;
+
+        chatbox.innerHTML += `<p><b>You:</b> ${message}</p>`;
+        messageInput.value = '';
+
+        const response = await fetch("{% url 'chatbot:chatbot_home' %}", {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/x-www-form-urlencoded',
+                'X-CSRFToken': document.querySelector('[name=csrfmiddlewaretoken]').value
+            },
+            body: new URLSearchParams({'message': message})
+        });
+
+        const data = await response.json();
+        chatbox.innerHTML += `<p><b>Bot:</b> ${data.reply}</p>`;
+        chatbox.scrollTop = chatbox.scrollHeight;
+    });
+</script>
+{% endblock %}
+

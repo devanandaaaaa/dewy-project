@@ -7,6 +7,7 @@ from django.http import JsonResponse, HttpResponse
 from cart.models import CartItem
 from .models import Order
 from django.urls import reverse
+from django.core.mail import send_mail
 
 stripe.api_key = settings.STRIPE_SECRET_KEY
 
@@ -16,8 +17,8 @@ def checkout(request):
     if not items:
         return redirect('store:product_list')
 
-    total = sum([item.get_total_price() for item in items])  # Decimal
-    total_paise = int(total * 100)  # Stripe requires paise
+    total = sum([item.get_total_price() for item in items])  
+    total_paise = int(total * 100)  
 
     if request.method == 'POST':
         full_name = request.POST.get('full_name')
@@ -65,8 +66,26 @@ def order_success(request, order_id):
     CartItem.objects.filter(user=request.user).delete()
     return render(request, 'orders/order_success.html', {'order': order})
 
-def order_cancel(request):
-    return render(request, 'orders/order_cancel.html')
+def payment_success(request):
+    order_id = request.session.get('order_id')
+    order = Order.objects.get(id=order_id)
+    order.status = 'paid'
+    order.save()
+    send_mail(
+        subject=f"Your order #{order.id} confirmation - The Dewy Ritual",
+        message=f"Hi {order.full_name},\n\n"
+                f"Thank you for your order #{order.id}. Your payment has been received successfully.\n\n"
+                f"Order Details:\n"
+                f"- Amount Paid: ₹{order.total_amount}\n"
+                f"- Status: {order.status}\n\n"
+                f"You can track your order in your account anytime.\n\n"
+                f"Regards,\nThe Dewy Ritual Team",
+        from_email=settings.DEFAULT_FROM_EMAIL,
+        recipient_list=[order.email],
+        fail_silently=False,
+    )
+
+    return render(request, 'orders/order_success.html', {'order': order})
 
 @login_required
 def my_orders(request):
@@ -95,3 +114,23 @@ def stripe_webhook(request):
             pass
 
     return HttpResponse(status=200)
+
+@login_required
+def order_tracking(request, order_id):
+    order = get_object_or_404(Order, id=order_id, user=request.user)
+    return render(request, 'orders/order_tracking.html', {'order': order})
+
+def order_cancel(request, order_id):
+    order = Order.objects.get(id=order_id, user=request.user)
+    order.status = 'cancelled'
+    order.save()
+    
+    return render(request, 'orders/order_cancel.html', {'order': order})
+
+@login_required
+def refund_order(request, order_id):
+    order = get_object_or_404(Order, id=order_id, user=request.user)
+    order.status = 'refunded'
+    order.save()
+
+    return render(request, 'orders/order_refunded.html', {'order': order})

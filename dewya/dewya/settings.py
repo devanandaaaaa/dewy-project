@@ -49,6 +49,7 @@ INSTALLED_APPS = [
     'cart',
     'orders',
     'accounts',
+    'chatbot',
 ]
 
 CRISPY_ALLOWED_TEMPLATE_PACKS = "bootstrap5"
@@ -64,7 +65,7 @@ MIDDLEWARE = [
     "django.middleware.clickjacking.XFrameOptionsMiddleware",
 ]
 
-ROOT_URLCONF = "the_dewy_ritual.urls"
+ROOT_URLCONF = "dewya.urls"
 
 TEMPLATES = [
     {
@@ -84,7 +85,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = "the_dewy_ritual.wsgi.application"
+WSGI_APPLICATION = "dewya.wsgi.application"
 
 # Database
 # https://docs.djangoproject.com/en/5.2/ref/settings/#databases
@@ -145,10 +146,18 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 from decouple import config
 
 STRIPE_SECRET_KEY = config("STRIPE_SECRET_KEY")
-
 STRIPE_PUBLIC_KEY = "pk_test_51R7K6rC7WOGeXfsjp4J9m1iZEZbKm0O6WBNXABkQzKRcGoeYaaDAECxJ3wIWehDIxSxiuRBOlqAGmXCAOyCjdqPy00l1hRqEAM"
 STRIPE_WEBHOOK_SECRET = "your_test_webhook_secret"
 
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+DEFAULT_FROM_EMAIL = 'noreply@thedewyritual.com'
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_PORT = 587
+EMAIL_USE_TLS = True
+EMAIL_HOST_USER = 'your-email@gmail.com'
+EMAIL_HOST_PASSWORD = 'your-email-app-password'
+DEFAULT_FROM_EMAIL = 'noreply@thedewyritual.com'
 
+
+OPENAI_API_KEY = config('OPENAI_API_KEY')
 

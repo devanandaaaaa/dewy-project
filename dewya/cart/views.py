@@ -17,7 +17,8 @@ def add_to_cart(request):
 
         if request.user.is_authenticated:
             item, created = CartItem.objects.get_or_create(
-                user=request.user, product=product,
+                user=request.user,
+                product=product,
                 defaults={'quantity': quantity}
             )
             if not created:
@@ -26,13 +27,16 @@ def add_to_cart(request):
         else:
             session_key = _get_session_key(request)
             item, created = CartItem.objects.get_or_create(
-                session_key=session_key, product=product,
+                session_key=session_key,
+                product=product,
                 defaults={'quantity': quantity}
             )
             if not created:
                 item.quantity += quantity
                 item.save()
+
         return redirect('cart:view_cart')
+
     return redirect('store:product_list')
 
 def view_cart(request):
@@ -42,5 +46,40 @@ def view_cart(request):
         session_key = _get_session_key(request)
         items = CartItem.objects.filter(session_key=session_key)
 
-    total = sum([item.get_total_price() for item in items])
-    return render(request, 'cart/cart.html', {'items': items, 'total': total})
+    cart_items = []
+    total_price = 0
+
+    for item in items:
+        subtotal = item.product.price * item.quantity
+        total_price += subtotal
+        cart_items.append({
+            'id': item.id,
+            'product': item.product,
+            'quantity': item.quantity,
+            'subtotal': subtotal,
+        })
+
+    return render(request, 'cart/cart.html', {
+        'cart_items': cart_items,
+        'total_price': total_price,
+    })
+
+
+def update_cart(request, cart_item_id):
+    cart_item = get_object_or_404(CartItem, id=cart_item_id)
+
+    if request.method == 'POST':
+        quantity = int(request.POST.get('quantity', 1))
+
+        if quantity > 0:
+            cart_item.quantity = quantity
+            cart_item.save()
+        else:
+            cart_item.delete()  
+
+    return redirect('cart:view_cart')
+
+def remove_cart_item(request, cart_item_id):
+    cart_item = get_object_or_404(CartItem, id=cart_item_id)
+    cart_item.delete()
+    return redirect('cart:view_cart')

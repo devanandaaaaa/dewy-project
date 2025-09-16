@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block title %}Wishlist - The Dewy Ritual{% endblock %}
+{% block content %}
+<h2>My Wishlist</h2>
+{% for item in items %}
+    <div class="wishlist-item">
+        <h4>{{ item.product.name }}</h4>
+        <a href="{% url 'store:product_detail' item.product.id %}">View Product</a>
+        <a href="{% url 'store:remove_from_wishlist' item.id %}">Remove</a>
+    </div>
+{% empty %}
+    <p>Your wishlist is empty.</p>
+{% endfor %}
+{% endblock %}

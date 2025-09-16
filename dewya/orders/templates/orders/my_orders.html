@@ -20,6 +20,7 @@
           {% for order in orders %}
           <tr>
             <td><a href="{% url 'orders:order_success' order.id %}">#{{ order.id }}</a></td>
+            <td><a href="{% url 'orders:order_tracking' order.id %}">#{{ order.id }}</a></td>
             <td>{{ order.created|date:"M d, Y H:i" }}</td>
             <td>
               {% if order.status == 'paid' %}

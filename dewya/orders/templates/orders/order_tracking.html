@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+
+{% block title %}Track Order - {{ site_name }}{% endblock %}
+
+{% block content %}
+<div class="container mt-5">
+    <h3>Order Tracking - Order #{{ order.id }}</h3>
+    <p><strong>Full Name:</strong> {{ order.full_name }}</p>
+    <p><strong>Email:</strong> {{ order.email }}</p>
+    <p><strong>Address:</strong> {{ order.address }}</p>
+    <p><strong>Placed On:</strong> {{ order.created|date:"M d, Y H:i" }}</p>
+    <p><strong>Total Amount:</strong> ₹{{ order.total_amount }}</p>
+    <p><b>Order Location:</b> {{ order.location }}</p>
+    
+    <h4>Status:</h4>
+    {% if order.status == 'pending' %}
+        <span class="badge bg-warning text-dark">Pending</span>
+    {% elif order.status == 'paid' %}
+        <span class="badge bg-success">Paid</span>
+    {% else %}
+        <span class="badge bg-secondary">{{ order.status|title }}</span>
+    {% endif %}
+
+    <a href="{% url 'orders:my_orders' %}" class="btn btn-primary mt-3">Back to My Orders</a>
+</div>
+{% endblock %}

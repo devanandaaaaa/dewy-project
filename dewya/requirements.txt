@@ -1,5 +1,8 @@
 Django==4.2
-pillow==10.0.0
-razorpay==1.4.2
+pillow
+stripe==5.0.0
 django-crispy-forms==1.14.0
 crispy-bootstrap5==0.6
+python-decouple==3.8
+openai
+

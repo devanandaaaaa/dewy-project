@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block title %}Offers - The Dewy Ritual{% endblock %}
+{% block content %}
+<h2>Current Offers & Discounts</h2>
+{% for offer in offers %}
+    <div class="offer">
+        <h3>{{ offer.title }} - {{ offer.discount_percent }}% Off</h3>
+        <p>{{ offer.description }}</p>
+        <small>Valid till {{ offer.valid_to|date:"M d, Y" }}</small>
+    </div>
+{% empty %}
+    <p>No active offers at the moment.</p>
+{% endfor %}
+{% endblock %}
