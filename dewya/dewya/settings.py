@@ -30,7 +30,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = "django-insecure-!5v5r9j90dy%qkihaqwl$1#+*dorf)bju_=!h+^h3@tjns3iv@"
 
 DEBUG = False
-ALLOWED_HOSTS = ['dewy-project.onrender.com']
+ALLOWED_HOSTS = ['.onrender.com']
 
 INSTALLED_APPS = [
     'django.contrib.admin',
