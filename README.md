@@ -1,25 +1,45 @@
-The Dewy Ritual is a full-stack e-commerce web application built with Django.
-It is designed as a skincare shopping platform inspired by Nykaa and Purplle, with a pink & white modern theme.
-The project demonstrates a complete shopping flow including authentication, product management, cart, checkout, and payment integration.
+# The Dewy Ritual
 
-✨ Features
- 🛍 Product Categories (cleansers, toners, moisturizers, sunscreens, etc.)
- 🔎 Search & Filter Products
- 👤 User Authentication (Register, Login, Logout, Profile)
- 🛒 Shopping Cart (add/remove items, quantity update, total price)
- 🧾 Order Checkout & Summary
- 🚚 Order Tracking (status: pending, paid, cancelled)
- 💳 Payment Integration (Stripe, Razorpay, or PayPal)
- 🛠 Admin Panel (manage users, orders, and products)
- 📱 Responsive & Animated UI with custom CSS + JavaScript
- 🌗 Optional: Wishlist, Reviews & Ratings, Blog Section, Dark Mode
+A modern, aesthetic skincare e-commerce web application built using Django, offering a seamless shopping experience for beauty enthusiasts.
 
-⚙️ Tech Stack
- Backend: Django 4.2, SQLite/MySQL
- Frontend: HTML, CSS (Bootstrap + custom animations), JavaScript
- Payments: Stripe & Razorpay APIs
- Other: Django Crispy Forms, Crispy Bootstrap 5
+## Features
 
-🚀 Deployment Ready
- Works on Heroku/Render
- Supports mobile + desktop responsive views
+- User Authentication (Register, Login, Logout)
+- Product Listing with Categories
+- Product Search
+- Add to Cart & Update Cart Quantities
+- Checkout with Stripe Payment Integration
+- Order Tracking Page
+- Review & Rating System for Products
+- Wishlist Functionality
+- Offers/Discounts Page
+- AI Chatbot Integration (via OpenAI API)
+- Profile Page for User Details
+- Responsive Design (Works on Mobile & Desktop)
+- Static & Media File Handling
+- Order Location Tracking
+- Admin Panel for Product Management
+
+## Tech Stack
+
+- Python 3.13  
+- Django 4.2  
+- SQLite (for Development)  
+- Stripe API (for Payment)  
+- OpenAI API (for AI Chatbot)  
+- Bootstrap 5.3 (for Styling)  
+- Static & Media File Management
+
+## Environment Variables
+
+Create a `.env` file in the project root with:
+
+```env
+DEBUG=False
+SECRET_KEY=your-django-secret-key
+ALLOWED_HOSTS=.onrender.com
+OPENAI_API_KEY=your_openai_api_key
+EMAIL_HOST_USER=your_email@gmail.com
+EMAIL_HOST_PASSWORD=your_email_app_password
+STRIPE_PUBLIC_KEY=your_stripe_public_key
+STRIPE_SECRET_KEY=your_stripe_secret_key
