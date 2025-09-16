@@ -3,14 +3,12 @@
 
 {% block content %}
 <div class="shop-container">
-  <!-- Hero Section -->
   <section class="hero-section">
     <h1>Welcome to The Dewy Ritual</h1>
     <p>Luxury skincare, made for you.</p>
     <a href="#products" class="shop-now-btn">Shop Now</a>
   </section>
 
-  <!-- Search Bar -->
   <div class="search-bar">
     <form method="get" action="{% url 'store:product_list' %}">
       <input type="text" name="q" placeholder="Search products..." value="{{ request.GET.q }}">
@@ -18,9 +16,7 @@
     </form>
   </div>
 
-  <!-- Products & Categories -->
   <div id="products" class="product-layout">
-    <!-- Categories Sidebar -->
     <aside class="categories">
       <h3>Categories</h3>
       <ul>
@@ -32,8 +28,6 @@
         {% endfor %}
       </ul>
     </aside>
-
-    <!-- Products Section -->
     <main class="product-list">
       {% if products %}
         <div class="product-grid">
@@ -41,7 +35,7 @@
             <div class="product-card">
               <img src="{{ product.image.url }}" alt="{{ product.name }}">
               <h4>{{ product.name }}</h4>
-              <p>${{ product.price }}</p>
+              <p>₹{{ product.price }}</p>
               <a href="{% url 'store:product_detail' product.slug %}">{{ product.name }}</a>
             </div>
           {% endfor %}

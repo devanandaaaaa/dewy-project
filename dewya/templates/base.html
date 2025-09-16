@@ -28,7 +28,6 @@
             margin-bottom: 30px;
         }
 
-        /* Search bar */
         form .form-control {
             border-radius: 50px;
             padding-left: 20px;
@@ -51,7 +50,6 @@
             background-color: #ff85c1;
         }
 
-        /* Icon buttons */
         .icon-btn {
             display: flex;
             align-items: center;
@@ -69,18 +67,15 @@
             box-shadow: 0 5px 15px rgba(0,0,0,0.2);
         }
 
-        /* Dropdown tweaks */
         .dropdown-toggle::after {
             display: none;
         }
 
-        /* Partner section */
         .partner-section {
             font-size: 0.9rem;
             color: #555;
         }
 
-        /* Chatbot icon */
         .chatbot-icon {
             position: fixed;
             bottom: 20px;
@@ -101,13 +96,11 @@
             transform: scale(1.1);
         }
 
-        /* Footer */
         footer {
             background-color: #fff;
             box-shadow: 0 -2px 8px rgba(0,0,0,0.05);
         }
 
-        /* Category Navbar */
         nav.category-nav .btn {
             border-radius: 30px;
             margin: 2px;
@@ -131,35 +124,24 @@
 </head>
 
 <body class="d-flex flex-column min-vh-100">
-    <!-- Header -->
     <header class="bg-white shadow-sm py-3">
         <div class="container d-flex align-items-center justify-content-between flex-wrap">
-
-            <!-- Logo -->
             <a class="navbar-brand fw-bold fs-3 text-decoration-none" href="{% url 'store:product_list' %}">
                 The Dewy Ritual
             </a>
-
-            <!-- Search Bar -->
             <form class="d-flex flex-grow-1 mx-3 position-relative" method="get" action="{% url 'store:product_list' %}">
                 <input class="form-control" type="search" name="q" placeholder="Search products..." value="{{ request.GET.q }}">
                 <button class="btn btn-pink position-absolute end-0 me-1 top-50 translate-middle-y px-3" type="submit">🔍</button>
             </form>
-
-            <!-- Navigation Icons -->
             <div class="d-flex align-items-center gap-2 my-2 my-md-0">
-
-                <!-- Home Icon -->
                 <a href="{% url 'store:product_list' %}" class="icon-btn" title="Home">
                     <img src="{% static 'images/homeicon.png' %}" alt="Home" width="25" height="25">
                 </a>
 
-                <!-- Offers Icon -->
                 <a href="{% url 'store:offers' %}" class="icon-btn" title="Offers">
                     <img src="{% static 'images/offericon.png' %}" alt="Offers" width="25" height="25">
                 </a>
 
-                <!-- User Dropdown -->
                 {% if user.is_authenticated %}
                     <div class="dropdown">
                         <a href="#" class="icon-btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
@@ -179,8 +161,6 @@
                         <img src="{% static 'images/register-icon.png' %}" alt="Register" width="25" height="25">
                     </a>
                 {% endif %}
-
-                <!-- Cart Icon -->
                 <a href="{% url 'cart:view_cart' %}" class="icon-btn position-relative" title="Cart">
                     <img src="{% static 'images/carticon.jpeg' %}" alt="Cart" width="25" height="25">
                     {% if cart_item_count %}
@@ -191,8 +171,6 @@
             </div>
         </div>
     </header>
-
-    <!-- Category Navbar -->
     <nav class="category-nav bg-white py-2 shadow-sm overflow-auto">
         <div class="container d-flex justify-content-start flex-nowrap gap-2">
             <a href="{% url 'store:product_list' %}?category=cleansers" class="btn">Cleansers</a>
@@ -207,25 +185,17 @@
             <a href="{% url 'store:product_list' %}?category=night-cream" class="btn">Night Cream</a>
         </div>
     </nav>
-
-    <!-- Hero Banner -->
     <section class="hero-banner text-center text-white my-5">
         <h1 class="display-4 fw-bold">Glow Without Limits</h1>
         <p class="lead">Luxury skincare, crafted to enhance your natural beauty.</p>
         <a href="{% url 'store:product_list' %}" class="btn btn-outline-secondary btn-lg">Explore Products</a>
     </section>
-
-    <!-- Chatbot -->
     <a href="{% url 'chatbot:chatbot_home' %}" class="chatbot-icon" title="Chat with AI">
         <img src="{% static 'images/chatbot.jpeg' %}" alt="Chatbot" style="width: 30px; height: 30px;">
     </a>
-
-    <!-- Partner Section -->
     <div class="partner-section bg-white py-3 text-center border-top border-bottom">
         Beauty of Joseon &nbsp;|&nbsp; Fenty Beauty &nbsp;|&nbsp; COSRX &nbsp;|&nbsp; Maybelline &nbsp;|&nbsp; Lakmé &nbsp;|&nbsp; Minimalist
     </div>
-
-    <!-- Main Content -->
     <main class="flex-fill container my-5">
         {% if messages %}
             {% for msg in messages %}
@@ -234,8 +204,6 @@
         {% endif %}
         {% block content %}{% endblock %}
     </main>
-
-    <!-- Footer -->
     <footer class="bg-white text-center py-4 mt-auto shadow-sm">
         <small>&copy; 2025 The Dewy Ritual – All rights reserved</small>
     </footer>
