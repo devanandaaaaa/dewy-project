@@ -263,7 +263,7 @@
     <section class="category-section">
         {% for category in categories %}
         <a href="{% url 'store:product_list' %}?category={{ category.slug }}" class="category-card">
-            <img src="{{ category.image.url }}" alt="{{ category.name }}">
+            <img src="{{ category.image.url|default:'/static/images/placeholder.png' }}" alt="{{ category.name }}">
             <span>{{ category.name }}</span>
         </a>
         {% endfor %}
