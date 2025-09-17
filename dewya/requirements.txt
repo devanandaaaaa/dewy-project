@@ -28,3 +28,5 @@ typing-inspection==0.4.1
 typing_extensions==4.15.0
 urllib3==2.5.0
 whitenoise==6.10.0
+dj-database-url
+psycopg2-binary
