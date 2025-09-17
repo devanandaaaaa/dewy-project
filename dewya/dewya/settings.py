@@ -33,7 +33,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY', 'django-insecure-local-dev-fallback')
 from decouple import config
 
 DEBUG = True  
-ALLOWED_HOSTS = ['dewya.onrender.com', '127.0.0.1', 'localhost']
+ALLOWED_HOSTS = ['the-dewy-ritual.onrender.com', '127.0.0.1', 'localhost']
 
 INSTALLED_APPS = [
     'django.contrib.admin',
