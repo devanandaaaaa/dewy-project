@@ -177,3 +177,6 @@ DEFAULT_FROM_EMAIL = 'noreply@thedewyritual.com'
 
 OPENAI_API_KEY = config('OPENAI_API_KEY')
 
+DEFAULT_FILE_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
+
+
