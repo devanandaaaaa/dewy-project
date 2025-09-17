@@ -7,3 +7,4 @@ prenv/
 staticfiles/
 .DS_Store
 
+*.sqlite3
