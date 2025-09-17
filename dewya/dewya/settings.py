@@ -32,13 +32,8 @@ SECRET_KEY = os.environ.get('SECRET_KEY', 'django-insecure-local-dev-fallback')
 
 from decouple import config
 
-# # settings.py
-# DEBUG = True
-# ALLOWED_HOSTS = ['*']  
-# # settings.py
-
 DEBUG = False  
-ALLOWED_HOSTS = ['dewya.onrender.com']
+ALLOWED_HOSTS = ['dewya.onrender.com', '127.0.0.1', 'localhost']
 
 INSTALLED_APPS = [
     'django.contrib.admin',
@@ -95,16 +90,6 @@ TEMPLATES = [
 
 WSGI_APPLICATION = "dewya.wsgi.application"
 
-# Database
-# https://docs.djangoproject.com/en/5.2/ref/settings/#databases
-
-# DATABASES = {
-#     "default": {
-#         "ENGINE": "django.db.backends.sqlite3",
-#         "NAME": BASE_DIR / "db.sqlite3",
-#     }
-# }
-
 if os.environ.get('DATABASE_URL'):
     DATABASES = {
         'default': dj_database_url.config(default=os.environ.get('DATABASE_URL'))
@@ -150,14 +135,6 @@ USE_TZ = True
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/5.2/howto/static-files/
-import os
-
-# STATIC_URL = '/static/'
-# STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
-# STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]
-
-# MEDIA_URL = '/media/'
-# MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
 STATIC_URL = '/static/'
 STATIC_ROOT = BASE_DIR / 'staticfiles'  
