@@ -1,1 +1,3574 @@
-[{"model": "admin.logentry", "pk": 1, "fields": {"action_time": "2025-08-13T17:09:36.970Z", "user": 1, "content_type": 7, "object_id": "1", "object_repr": "Cleansers", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 2, "fields": {"action_time": "2025-08-13T17:09:51.743Z", "user": 1, "content_type": 7, "object_id": "2", "object_repr": "TONERS", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 3, "fields": {"action_time": "2025-08-13T17:10:15.936Z", "user": 1, "content_type": 7, "object_id": "3", "object_repr": "SERUMS", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 4, "fields": {"action_time": "2025-08-13T17:10:29.799Z", "user": 1, "content_type": 7, "object_id": "4", "object_repr": "MOISTURIZER", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 5, "fields": {"action_time": "2025-08-13T17:10:33.215Z", "user": 1, "content_type": 7, "object_id": "5", "object_repr": "FACE MASK", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 6, "fields": {"action_time": "2025-08-13T17:10:56.071Z", "user": 1, "content_type": 7, "object_id": "5", "object_repr": "FACE MASK", "action_flag": 3, "change_message": ""}}, {"model": "admin.logentry", "pk": 7, "fields": {"action_time": "2025-08-13T17:10:56.074Z", "user": 1, "content_type": 7, "object_id": "1", "object_repr": "Cleansers", "action_flag": 3, "change_message": ""}}, {"model": "admin.logentry", "pk": 8, "fields": {"action_time": "2025-08-13T17:11:07.971Z", "user": 1, "content_type": 7, "object_id": "6", "object_repr": "CLEANSERS", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 9, "fields": {"action_time": "2025-08-13T17:11:21.624Z", "user": 1, "content_type": 7, "object_id": "7", "object_repr": "FACE MASK", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 10, "fields": {"action_time": "2025-08-13T17:11:32.979Z", "user": 1, "content_type": 7, "object_id": "8", "object_repr": "FACE SCRUB", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 11, "fields": {"action_time": "2025-08-13T17:11:43.958Z", "user": 1, "content_type": 7, "object_id": "9", "object_repr": "NIGHT CREAM", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 12, "fields": {"action_time": "2025-08-13T17:11:48.694Z", "user": 1, "content_type": 7, "object_id": "10", "object_repr": "LIP CARE", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 13, "fields": {"action_time": "2025-08-13T17:12:08.581Z", "user": 1, "content_type": 7, "object_id": "10", "object_repr": "LIP CARE", "action_flag": 3, "change_message": ""}}, {"model": "admin.logentry", "pk": 14, "fields": {"action_time": "2025-08-13T17:12:29.714Z", "user": 1, "content_type": 7, "object_id": "11", "object_repr": "LIP CARE", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 15, "fields": {"action_time": "2025-08-13T17:12:39.114Z", "user": 1, "content_type": 7, "object_id": "12", "object_repr": "EYE CREAM", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 16, "fields": {"action_time": "2025-08-13T17:12:54.433Z", "user": 1, "content_type": 7, "object_id": "13", "object_repr": "SUNSCREEN", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 17, "fields": {"action_time": "2025-08-13T21:48:42.706Z", "user": 1, "content_type": 8, "object_id": "1", "object_repr": "cosrx-low-ph-good-morning-gel-cleanser", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 18, "fields": {"action_time": "2025-08-15T06:55:50.386Z", "user": 1, "content_type": 8, "object_id": "2", "object_repr": "Innisfree Green Tea Foam Cleanser", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 19, "fields": {"action_time": "2025-08-15T06:56:54.263Z", "user": 1, "content_type": 8, "object_id": "3", "object_repr": "Etude House Soon Jung pH 6.5 Whip Cleanser", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 20, "fields": {"action_time": "2025-08-15T06:57:54.245Z", "user": 1, "content_type": 8, "object_id": "4", "object_repr": "Banila Co Clean It Zero Cleansing Balm (Original)", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 21, "fields": {"action_time": "2025-08-15T06:58:51.565Z", "user": 1, "content_type": 8, "object_id": "5", "object_repr": "Klairs Rich Moist Foaming Cleanser", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 22, "fields": {"action_time": "2025-08-15T07:03:45.970Z", "user": 1, "content_type": 8, "object_id": "6", "object_repr": "Beauty of Joseon Green Plum Refreshing Cleanser", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 23, "fields": {"action_time": "2025-08-15T07:05:03.930Z", "user": 1, "content_type": 8, "object_id": "7", "object_repr": "Some By Mi AHA-BHA-PHA 30 Days Miracle Acne Clear Foam (100ml)", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 24, "fields": {"action_time": "2025-08-15T07:06:13.619Z", "user": 1, "content_type": 8, "object_id": "8", "object_repr": "Heimish All Clean Balm (120ml)", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 25, "fields": {"action_time": "2025-08-15T07:07:06.551Z", "user": 1, "content_type": 8, "object_id": "9", "object_repr": "Neogen Real Fresh Foam Green Tea (160g)", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 26, "fields": {"action_time": "2025-08-15T07:07:52.382Z", "user": 1, "content_type": 8, "object_id": "10", "object_repr": "Isntree Green Tea Fresh Cleanser (150ml)", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 27, "fields": {"action_time": "2025-08-15T07:09:02.772Z", "user": 1, "content_type": 8, "object_id": "11", "object_repr": "Klairs Gentle Black Deep Cleansing Oil (150ml)", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 28, "fields": {"action_time": "2025-08-15T07:09:47.991Z", "user": 1, "content_type": 8, "object_id": "12", "object_repr": "Rovectin Skin Essentials Conditioning Cleanser (175ml)", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 29, "fields": {"action_time": "2025-08-15T07:10:51.613Z", "user": 1, "content_type": 8, "object_id": "13", "object_repr": "The Face Shop Rice Water Bright Cleansing Foam (150ml)", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 30, "fields": {"action_time": "2025-08-15T07:11:39.748Z", "user": 1, "content_type": 8, "object_id": "14", "object_repr": "Dr. G pH Cleansing Gel Foam (200ml)", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 31, "fields": {"action_time": "2025-08-15T07:13:07.872Z", "user": 1, "content_type": 8, "object_id": "15", "object_repr": "Mary & May Vegan Cica Tea Tree AHA PHA BHA Foaming Cleanser (150ml)", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 32, "fields": {"action_time": "2025-08-15T07:14:15.178Z", "user": 1, "content_type": 8, "object_id": "16", "object_repr": "Mediheal Intensive Pore Clean Cleansing Foam (170ml)", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 33, "fields": {"action_time": "2025-08-15T07:15:07.780Z", "user": 1, "content_type": 8, "object_id": "17", "object_repr": "Beauty of Joseon Ginseng Essence Water (150ml)", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 34, "fields": {"action_time": "2025-08-15T07:15:56.374Z", "user": 1, "content_type": 8, "object_id": "18", "object_repr": "Cosrx Advanced Snail 96 Mucin Power Essence (100ml)", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 35, "fields": {"action_time": "2025-08-15T07:16:45.503Z", "user": 1, "content_type": 8, "object_id": "19", "object_repr": "Isntree Hyaluronic Acid Toner (200ml)", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 36, "fields": {"action_time": "2025-08-15T07:17:34.994Z", "user": 1, "content_type": 8, "object_id": "20", "object_repr": "Some By Mi Galactomyces Pure Vitamin C Glow Toner (200ml)", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 37, "fields": {"action_time": "2025-08-15T07:19:24.220Z", "user": 1, "content_type": 8, "object_id": "21", "object_repr": "Etude Soon Jung pH 5.5 Relief Toner (180ml)", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 38, "fields": {"action_time": "2025-08-15T07:20:08.282Z", "user": 1, "content_type": 8, "object_id": "22", "object_repr": "Klairs Supple Preparation Unscented Toner (180ml)", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 39, "fields": {"action_time": "2025-08-15T07:21:06.915Z", "user": 1, "content_type": 8, "object_id": "23", "object_repr": "Laneige Essential Power Skin Refiner Moisture (200ml)", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 40, "fields": {"action_time": "2025-08-15T07:22:51.467Z", "user": 1, "content_type": 8, "object_id": "24", "object_repr": "Pyunkang Yul Essence Toner (200ml)", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 41, "fields": {"action_time": "2025-08-15T07:23:43.061Z", "user": 1, "content_type": 8, "object_id": "25", "object_repr": "Innisfree Green Tea Seed Skin (200ml)", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 42, "fields": {"action_time": "2025-08-15T07:24:27.346Z", "user": 1, "content_type": 8, "object_id": "26", "object_repr": "Round Lab Dokdo Toner (200ml)", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 43, "fields": {"action_time": "2025-08-15T07:25:33.280Z", "user": 1, "content_type": 8, "object_id": "27", "object_repr": "Dr. Ceuracle Vegan Kombucha Tea Essence (150ml)", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 44, "fields": {"action_time": "2025-08-15T07:26:12.919Z", "user": 1, "content_type": 8, "object_id": "28", "object_repr": "Torriden Dive-In Low Molecule Hyaluronic Acid Toner (300ml)", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 45, "fields": {"action_time": "2025-08-15T07:26:57.556Z", "user": 1, "content_type": 8, "object_id": "29", "object_repr": "AHC Aqualuronic Toner (140ml)", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 46, "fields": {"action_time": "2025-08-15T07:27:42.812Z", "user": 1, "content_type": 8, "object_id": "30", "object_repr": "Missha Time Revolution The First Essence 5X (150ml)", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 47, "fields": {"action_time": "2025-08-15T07:28:29.397Z", "user": 1, "content_type": 8, "object_id": "31", "object_repr": "Haruharu Wonder Black Rice Hyaluronic Toner (150ml)", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 48, "fields": {"action_time": "2025-08-15T07:30:00.108Z", "user": 1, "content_type": 8, "object_id": "32", "object_repr": "Beauty of Joseon Glow Serum (30ml)", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 49, "fields": {"action_time": "2025-08-15T07:31:19.881Z", "user": 1, "content_type": 8, "object_id": "33", "object_repr": "Cosrx Advanced Snail 96 Mucin Power Essence (100ml)", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 50, "fields": {"action_time": "2025-08-15T07:32:44.295Z", "user": 1, "content_type": 8, "object_id": "34", "object_repr": "Some By Mi Yuja Niacin Blemish Care Serum (50ml)", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 51, "fields": {"action_time": "2025-08-15T07:33:28.545Z", "user": 1, "content_type": 8, "object_id": "35", "object_repr": "Innisfree Green Tea Seed Serum (80ml)", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 52, "fields": {"action_time": "2025-08-15T07:34:52.046Z", "user": 1, "content_type": 8, "object_id": "36", "object_repr": "Missha Time Revolution Night Repair Ampoule 5X (50ml)", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 53, "fields": {"action_time": "2025-08-15T07:35:40.406Z", "user": 1, "content_type": 8, "object_id": "37", "object_repr": "Benton Snail Bee High Content Essence (60ml)", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 54, "fields": {"action_time": "2025-08-15T08:05:09.720Z", "user": 1, "content_type": 8, "object_id": "38", "object_repr": "Dr. Ceuracle Royal Vita Propolis 33 Ampoule (30ml)", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 55, "fields": {"action_time": "2025-08-15T08:06:38.104Z", "user": 1, "content_type": 8, "object_id": "39", "object_repr": "Torriden Dive-In Serum (50ml)", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 56, "fields": {"action_time": "2025-08-15T08:07:27.341Z", "user": 1, "content_type": 8, "object_id": "40", "object_repr": "Isntree C-Niacin Toning Ampoule (50ml)", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 57, "fields": {"action_time": "2025-08-15T08:08:22.446Z", "user": 1, "content_type": 8, "object_id": "41", "object_repr": "Klairs Freshly Juiced Vitamin Drop (35ml)", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 58, "fields": {"action_time": "2025-08-15T08:09:10.823Z", "user": 1, "content_type": 8, "object_id": "42", "object_repr": "Neogen Real Ferment Micro Serum (30ml)", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 59, "fields": {"action_time": "2025-08-15T08:09:51.864Z", "user": 1, "content_type": 8, "object_id": "43", "object_repr": "Laneige Water Bank Blue Hyaluronic Serum (50ml)", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 60, "fields": {"action_time": "2025-08-15T08:10:35.279Z", "user": 1, "content_type": 8, "object_id": "44", "object_repr": "AHC Youth Lasting Real Eye Serum for Face (30ml)", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 61, "fields": {"action_time": "2025-08-15T08:11:24.353Z", "user": 1, "content_type": 8, "object_id": "45", "object_repr": "Mediheal N.M.F Intensive Hydrating Serum (50ml)", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 62, "fields": {"action_time": "2025-08-15T08:14:31.990Z", "user": 1, "content_type": 8, "object_id": "46", "object_repr": "SKIN1004 Madagascar Centella Tone Brightening Capsule Ampoule", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 63, "fields": {"action_time": "2025-08-15T08:15:34.786Z", "user": 1, "content_type": 8, "object_id": "47", "object_repr": "Innisfree Jeju Orchid Eye Cream (30ml)", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 64, "fields": {"action_time": "2025-08-15T08:16:10.218Z", "user": 1, "content_type": 8, "object_id": "48", "object_repr": "Mizon Snail Repair Eye Cream (25ml)", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 65, "fields": {"action_time": "2025-08-15T08:17:49.351Z", "user": 1, "content_type": 8, "object_id": "49", "object_repr": "Beauty of Joseon Revive Eye Serum (30ml)", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 66, "fields": {"action_time": "2025-08-15T08:18:28.144Z", "user": 1, "content_type": 8, "object_id": "50", "object_repr": "AHC Essential Real Eye Cream for Face (30ml)", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 67, "fields": {"action_time": "2025-08-15T08:19:15.405Z", "user": 1, "content_type": 8, "object_id": "51", "object_repr": "Laneige Perfect Renew Youth Eye Cream (20ml)", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 68, "fields": {"action_time": "2025-08-15T08:19:56.870Z", "user": 1, "content_type": 8, "object_id": "52", "object_repr": "Etude House Moistfull Collagen Eye Cream (28ml)", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 69, "fields": {"action_time": "2025-08-15T08:20:40.488Z", "user": 1, "content_type": 8, "object_id": "53", "object_repr": "Benton Fermentation Eye Cream (30g)", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 70, "fields": {"action_time": "2025-08-15T08:21:27.299Z", "user": 1, "content_type": 8, "object_id": "54", "object_repr": "The Saem Urban Eco Harakeke Eye Cream (30ml)", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 71, "fields": {"action_time": "2025-08-15T08:22:08.344Z", "user": 1, "content_type": 8, "object_id": "55", "object_repr": "Some By Mi Retinol Intense Advanced Triple Action Eye Cream (30ml)", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 72, "fields": {"action_time": "2025-08-15T08:23:01.547Z", "user": 1, "content_type": 8, "object_id": "56", "object_repr": "Sulwhasoo Concentrated Ginseng Renewing Eye Cream (20ml)", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 73, "fields": {"action_time": "2025-08-15T08:23:40.584Z", "user": 1, "content_type": 8, "object_id": "57", "object_repr": "Klairs Fundamental Eye Awakening Gel (35ml)", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 74, "fields": {"action_time": "2025-08-15T08:24:46.572Z", "user": 1, "content_type": 8, "object_id": "58", "object_repr": "Missha Geum Sul Vitalizing Eye Cream (30ml)", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 75, "fields": {"action_time": "2025-08-15T08:25:51.727Z", "user": 1, "content_type": 8, "object_id": "59", "object_repr": "Dr. Jart+ Ceramidin Eye Cream (20ml)", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 76, "fields": {"action_time": "2025-08-15T08:27:13.552Z", "user": 1, "content_type": 8, "object_id": "60", "object_repr": "Holika Holika Aloe Soothing Essence Eye Cream (30ml)", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 77, "fields": {"action_time": "2025-08-15T08:28:03.116Z", "user": 1, "content_type": 8, "object_id": "61", "object_repr": "Mediheal Vita Collagen Eye Cream (30ml)", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 78, "fields": {"action_time": "2025-08-15T08:39:18.152Z", "user": 1, "content_type": 8, "object_id": "33", "object_repr": "Cosrx Advanced Snail 96 Mucin Power Essence (100ml)", "action_flag": 2, "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"}}, {"model": "admin.logentry", "pk": 79, "fields": {"action_time": "2025-08-15T08:42:49.025Z", "user": 1, "content_type": 8, "object_id": "62", "object_repr": "Skinfood Black Sugar Mask Wash Off (100g)", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 80, "fields": {"action_time": "2025-08-15T08:44:16.649Z", "user": 1, "content_type": 8, "object_id": "63", "object_repr": "Innisfree Jeju Volcanic Pore Scrub Foam (150ml)", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 81, "fields": {"action_time": "2025-08-15T08:45:07.176Z", "user": 1, "content_type": 8, "object_id": "64", "object_repr": "The Face Shop Jeju Volcanic Lava Pore Scrub Foam (150ml)", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 82, "fields": {"action_time": "2025-08-15T08:45:48.251Z", "user": 1, "content_type": 8, "object_id": "65", "object_repr": "Skinfood Rice Mask Wash Off (100g)", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 83, "fields": {"action_time": "2025-08-15T08:46:41.630Z", "user": 1, "content_type": 8, "object_id": "66", "object_repr": "Missha Super Aqua D-TOX Peeling Gel (100ml)", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 84, "fields": {"action_time": "2025-08-15T08:47:31.455Z", "user": 1, "content_type": 8, "object_id": "67", "object_repr": "The Saem Natural Condition Scrub Foam Deep Clean (150ml)", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 85, "fields": {"action_time": "2025-08-15T08:48:36.222Z", "user": 1, "content_type": 8, "object_id": "68", "object_repr": "Neogen Bio-Peel Gauze Peeling Lemon (30 pads)", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 86, "fields": {"action_time": "2025-08-15T08:49:24.457Z", "user": 1, "content_type": 8, "object_id": "69", "object_repr": "Neogen Bio-Peel Gauze Peeling Green Tea (30 pads)", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 87, "fields": {"action_time": "2025-08-15T08:50:29.128Z", "user": 1, "content_type": 8, "object_id": "70", "object_repr": "Some By Mi Super Matcha Pore Clean Clay Mask + Scrub (100g)", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 88, "fields": {"action_time": "2025-08-15T08:53:37.872Z", "user": 1, "content_type": 8, "object_id": "71", "object_repr": "COSRX – BHA Blackhead Power Liquid.", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 89, "fields": {"action_time": "2025-08-15T08:54:20.469Z", "user": 1, "content_type": 8, "object_id": "72", "object_repr": "It’s Skin MangoWhite Peeling Gel (120ml)", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 90, "fields": {"action_time": "2025-08-15T08:55:39.143Z", "user": 1, "content_type": 8, "object_id": "73", "object_repr": "Holika Holika Smooth Egg Skin Peeling Gel (140ml)", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 91, "fields": {"action_time": "2025-08-15T08:56:24.652Z", "user": 1, "content_type": 8, "object_id": "74", "object_repr": "Etude House Baking Powder Crunch Pore Scrub (200ml)", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 92, "fields": {"action_time": "2025-08-15T08:57:16.986Z", "user": 1, "content_type": 8, "object_id": "75", "object_repr": "Laneige Clear-C Peeling Mask (70ml)", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 93, "fields": {"action_time": "2025-08-15T08:58:00.574Z", "user": 1, "content_type": 8, "object_id": "76", "object_repr": "TonyMoly Floria Brightening Peeling Gel (150ml)", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 94, "fields": {"action_time": "2025-08-16T12:50:43.289Z", "user": 1, "content_type": 8, "object_id": "76", "object_repr": "TonyMoly Floria Brightening Peeling Gel (150ml)", "action_flag": 2, "change_message": "[]"}}, {"model": "admin.logentry", "pk": 95, "fields": {"action_time": "2025-08-16T12:51:13.445Z", "user": 1, "content_type": 8, "object_id": "76", "object_repr": "TonyMoly Floria Brightening Peeling Gel (150ml)", "action_flag": 2, "change_message": "[]"}}, {"model": "admin.logentry", "pk": 96, "fields": {"action_time": "2025-08-16T12:56:56.626Z", "user": 1, "content_type": 8, "object_id": "76", "object_repr": "TonyMoly Floria Brightening Peeling Gel (150ml)", "action_flag": 2, "change_message": "[{\"changed\": {\"fields\": [\"Stock\"]}}]"}}, {"model": "auth.permission", "pk": 1, "fields": {"name": "Can add log entry", "content_type": 1, "codename": "add_logentry"}}, {"model": "auth.permission", "pk": 2, "fields": {"name": "Can change log entry", "content_type": 1, "codename": "change_logentry"}}, {"model": "auth.permission", "pk": 3, "fields": {"name": "Can delete log entry", "content_type": 1, "codename": "delete_logentry"}}, {"model": "auth.permission", "pk": 4, "fields": {"name": "Can view log entry", "content_type": 1, "codename": "view_logentry"}}, {"model": "auth.permission", "pk": 5, "fields": {"name": "Can add permission", "content_type": 2, "codename": "add_permission"}}, {"model": "auth.permission", "pk": 6, "fields": {"name": "Can change permission", "content_type": 2, "codename": "change_permission"}}, {"model": "auth.permission", "pk": 7, "fields": {"name": "Can delete permission", "content_type": 2, "codename": "delete_permission"}}, {"model": "auth.permission", "pk": 8, "fields": {"name": "Can view permission", "content_type": 2, "codename": "view_permission"}}, {"model": "auth.permission", "pk": 9, "fields": {"name": "Can add group", "content_type": 3, "codename": "add_group"}}, {"model": "auth.permission", "pk": 10, "fields": {"name": "Can change group", "content_type": 3, "codename": "change_group"}}, {"model": "auth.permission", "pk": 11, "fields": {"name": "Can delete group", "content_type": 3, "codename": "delete_group"}}, {"model": "auth.permission", "pk": 12, "fields": {"name": "Can view group", "content_type": 3, "codename": "view_group"}}, {"model": "auth.permission", "pk": 13, "fields": {"name": "Can add user", "content_type": 4, "codename": "add_user"}}, {"model": "auth.permission", "pk": 14, "fields": {"name": "Can change user", "content_type": 4, "codename": "change_user"}}, {"model": "auth.permission", "pk": 15, "fields": {"name": "Can delete user", "content_type": 4, "codename": "delete_user"}}, {"model": "auth.permission", "pk": 16, "fields": {"name": "Can view user", "content_type": 4, "codename": "view_user"}}, {"model": "auth.permission", "pk": 17, "fields": {"name": "Can add content type", "content_type": 5, "codename": "add_contenttype"}}, {"model": "auth.permission", "pk": 18, "fields": {"name": "Can change content type", "content_type": 5, "codename": "change_contenttype"}}, {"model": "auth.permission", "pk": 19, "fields": {"name": "Can delete content type", "content_type": 5, "codename": "delete_contenttype"}}, {"model": "auth.permission", "pk": 20, "fields": {"name": "Can view content type", "content_type": 5, "codename": "view_contenttype"}}, {"model": "auth.permission", "pk": 21, "fields": {"name": "Can add session", "content_type": 6, "codename": "add_session"}}, {"model": "auth.permission", "pk": 22, "fields": {"name": "Can change session", "content_type": 6, "codename": "change_session"}}, {"model": "auth.permission", "pk": 23, "fields": {"name": "Can delete session", "content_type": 6, "codename": "delete_session"}}, {"model": "auth.permission", "pk": 24, "fields": {"name": "Can view session", "content_type": 6, "codename": "view_session"}}, {"model": "auth.permission", "pk": 25, "fields": {"name": "Can add category", "content_type": 7, "codename": "add_category"}}, {"model": "auth.permission", "pk": 26, "fields": {"name": "Can change category", "content_type": 7, "codename": "change_category"}}, {"model": "auth.permission", "pk": 27, "fields": {"name": "Can delete category", "content_type": 7, "codename": "delete_category"}}, {"model": "auth.permission", "pk": 28, "fields": {"name": "Can view category", "content_type": 7, "codename": "view_category"}}, {"model": "auth.permission", "pk": 29, "fields": {"name": "Can add product", "content_type": 8, "codename": "add_product"}}, {"model": "auth.permission", "pk": 30, "fields": {"name": "Can change product", "content_type": 8, "codename": "change_product"}}, {"model": "auth.permission", "pk": 31, "fields": {"name": "Can delete product", "content_type": 8, "codename": "delete_product"}}, {"model": "auth.permission", "pk": 32, "fields": {"name": "Can view product", "content_type": 8, "codename": "view_product"}}, {"model": "auth.permission", "pk": 33, "fields": {"name": "Can add cart item", "content_type": 9, "codename": "add_cartitem"}}, {"model": "auth.permission", "pk": 34, "fields": {"name": "Can change cart item", "content_type": 9, "codename": "change_cartitem"}}, {"model": "auth.permission", "pk": 35, "fields": {"name": "Can delete cart item", "content_type": 9, "codename": "delete_cartitem"}}, {"model": "auth.permission", "pk": 36, "fields": {"name": "Can view cart item", "content_type": 9, "codename": "view_cartitem"}}, {"model": "auth.permission", "pk": 37, "fields": {"name": "Can add order", "content_type": 10, "codename": "add_order"}}, {"model": "auth.permission", "pk": 38, "fields": {"name": "Can change order", "content_type": 10, "codename": "change_order"}}, {"model": "auth.permission", "pk": 39, "fields": {"name": "Can delete order", "content_type": 10, "codename": "delete_order"}}, {"model": "auth.permission", "pk": 40, "fields": {"name": "Can view order", "content_type": 10, "codename": "view_order"}}, {"model": "auth.permission", "pk": 41, "fields": {"name": "Can add profile", "content_type": 11, "codename": "add_profile"}}, {"model": "auth.permission", "pk": 42, "fields": {"name": "Can change profile", "content_type": 11, "codename": "change_profile"}}, {"model": "auth.permission", "pk": 43, "fields": {"name": "Can delete profile", "content_type": 11, "codename": "delete_profile"}}, {"model": "auth.permission", "pk": 44, "fields": {"name": "Can view profile", "content_type": 11, "codename": "view_profile"}}, {"model": "auth.permission", "pk": 45, "fields": {"name": "Can add order item", "content_type": 12, "codename": "add_orderitem"}}, {"model": "auth.permission", "pk": 46, "fields": {"name": "Can change order item", "content_type": 12, "codename": "change_orderitem"}}, {"model": "auth.permission", "pk": 47, "fields": {"name": "Can delete order item", "content_type": 12, "codename": "delete_orderitem"}}, {"model": "auth.permission", "pk": 48, "fields": {"name": "Can view order item", "content_type": 12, "codename": "view_orderitem"}}, {"model": "auth.permission", "pk": 49, "fields": {"name": "Can add offer", "content_type": 13, "codename": "add_offer"}}, {"model": "auth.permission", "pk": 50, "fields": {"name": "Can change offer", "content_type": 13, "codename": "change_offer"}}, {"model": "auth.permission", "pk": 51, "fields": {"name": "Can delete offer", "content_type": 13, "codename": "delete_offer"}}, {"model": "auth.permission", "pk": 52, "fields": {"name": "Can view offer", "content_type": 13, "codename": "view_offer"}}, {"model": "auth.permission", "pk": 53, "fields": {"name": "Can add wishlist", "content_type": 14, "codename": "add_wishlist"}}, {"model": "auth.permission", "pk": 54, "fields": {"name": "Can change wishlist", "content_type": 14, "codename": "change_wishlist"}}, {"model": "auth.permission", "pk": 55, "fields": {"name": "Can delete wishlist", "content_type": 14, "codename": "delete_wishlist"}}, {"model": "auth.permission", "pk": 56, "fields": {"name": "Can view wishlist", "content_type": 14, "codename": "view_wishlist"}}, {"model": "auth.permission", "pk": 57, "fields": {"name": "Can add review", "content_type": 15, "codename": "add_review"}}, {"model": "auth.permission", "pk": 58, "fields": {"name": "Can change review", "content_type": 15, "codename": "change_review"}}, {"model": "auth.permission", "pk": 59, "fields": {"name": "Can delete review", "content_type": 15, "codename": "delete_review"}}, {"model": "auth.permission", "pk": 60, "fields": {"name": "Can view review", "content_type": 15, "codename": "view_review"}}, {"model": "auth.user", "pk": 1, "fields": {"password": "pbkdf2_sha256$600000$1kQ2zMlU8mp4xXSxJbpImw$UNNF0vMkfO7vFY3lrFdDEhYw82iXyVMMigaJ5C8OxJE=", "last_login": "2025-09-15T17:58:33.498Z", "is_superuser": true, "username": "thedewyritual", "first_name": "", "last_name": "", "email": "thedewy@gmail.com", "is_staff": true, "is_active": true, "date_joined": "2025-08-11T20:52:51.930Z", "groups": [], "user_permissions": []}}, {"model": "contenttypes.contenttype", "pk": 1, "fields": {"app_label": "admin", "model": "logentry"}}, {"model": "contenttypes.contenttype", "pk": 2, "fields": {"app_label": "auth", "model": "permission"}}, {"model": "contenttypes.contenttype", "pk": 3, "fields": {"app_label": "auth", "model": "group"}}, {"model": "contenttypes.contenttype", "pk": 4, "fields": {"app_label": "auth", "model": "user"}}, {"model": "contenttypes.contenttype", "pk": 5, "fields": {"app_label": "contenttypes", "model": "contenttype"}}, {"model": "contenttypes.contenttype", "pk": 6, "fields": {"app_label": "sessions", "model": "session"}}, {"model": "contenttypes.contenttype", "pk": 7, "fields": {"app_label": "store", "model": "category"}}, {"model": "contenttypes.contenttype", "pk": 8, "fields": {"app_label": "store", "model": "product"}}, {"model": "contenttypes.contenttype", "pk": 9, "fields": {"app_label": "cart", "model": "cartitem"}}, {"model": "contenttypes.contenttype", "pk": 10, "fields": {"app_label": "orders", "model": "order"}}, {"model": "contenttypes.contenttype", "pk": 11, "fields": {"app_label": "accounts", "model": "profile"}}, {"model": "contenttypes.contenttype", "pk": 12, "fields": {"app_label": "orders", "model": "orderitem"}}, {"model": "contenttypes.contenttype", "pk": 13, "fields": {"app_label": "store", "model": "offer"}}, {"model": "contenttypes.contenttype", "pk": 14, "fields": {"app_label": "store", "model": "wishlist"}}, {"model": "contenttypes.contenttype", "pk": 15, "fields": {"app_label": "store", "model": "review"}}, {"model": "sessions.session", "pk": "cfp77bl2wq5yuf7gluulknpkce9sxm24", "fields": {"session_data": ".eJxVjMsOgjAURP-la9NYuLm1Lt37Dc19VVADCYUV8d-FhIUuZ86ZWV2mZe7yUm3KvbqrC-702zHJy4Yd6JOGx-hlHOapZ78r_qDV30e19-1w_w46qt22bhIDhqa0FgUVNW2BBUMsCCSNghZVTQQggQUo4iWdISRGNSvWus8X7eM4nA:1uyDTF:eCmjrwQKxifZDMvIw4WGZHR2OV3JlapMG2EMI2501ZU", "expire_date": "2025-09-29T17:58:33.498Z"}}, {"model": "sessions.session", "pk": "ghlbh94hrkxnaxunmh23gn3xdnksy6j9", "fields": {"session_data": ".eJxVjMsOgjAURP-la9NYuLm1Lt37Dc19VVADCYUV8d-FhIUuZ86ZWV2mZe7yUm3KvbqrC-702zHJy4Yd6JOGx-hlHOapZ78r_qDV30e19-1w_w46qt22bhIDhqa0FgUVNW2BBUMsCCSNghZVTQQggQUo4iWdISRGNSvWus8X7eM4nA:1unGwc:D_TXLAGcAFhefvszJv_BIX9lRzyOhNUGXSObNHGJmNE", "expire_date": "2025-08-30T13:27:38.202Z"}}, {"model": "store.category", "pk": 2, "fields": {"name": "TONERS", "slug": "toners", "image": "categories/toner.jpg"}}, {"model": "store.category", "pk": 3, "fields": {"name": "SERUMS", "slug": "serums", "image": "categories/serum.jpg"}}, {"model": "store.category", "pk": 4, "fields": {"name": "MOISTURIZER", "slug": "moisturizer", "image": "categories/moist.jpg"}}, {"model": "store.category", "pk": 6, "fields": {"name": "CLEANSERS", "slug": "cleansers", "image": "categories/clenser_lGZR9gI.jpg"}}, {"model": "store.category", "pk": 7, "fields": {"name": "FACE MASK", "slug": "face-mask", "image": "categories/mask.jpg"}}, {"model": "store.category", "pk": 8, "fields": {"name": "FACE SCRUB", "slug": "face-scrub", "image": "categories/scrub.jpg"}}, {"model": "store.category", "pk": 9, "fields": {"name": "NIGHT CREAM", "slug": "night-cream", "image": "categories/night.jpg"}}, {"model": "store.category", "pk": 11, "fields": {"name": "LIP CARE", "slug": "lip-care", "image": "categories/lip.jpg"}}, {"model": "store.category", "pk": 12, "fields": {"name": "EYE CREAM", "slug": "eye-cream", "image": "categories/eye.jpg"}}, {"model": "store.category", "pk": 13, "fields": {"name": "SUNSCREEN", "slug": "sunscreen", "image": "categories/sun.jpg"}}, {"model": "store.product", "pk": 1, "fields": {"category": 6, "name": "cosrx-low-ph-good-morning-gel-cleanser", "slug": "cosrx-low-ph-good-morning-gel-cleanser", "description": "A gentle gel cleanser with a low pH of 5.0–6.0 to maintain skin balance. Contains tea tree oil and natural BHA to refine skin texture.", "price": "850.00", "image": "products/cleanser1.jpg.webp", "available": true, "created": "2025-08-13T21:48:42.704Z"}}, {"model": "store.product", "pk": 2, "fields": {"category": 6, "name": "Innisfree Green Tea Foam Cleanser", "slug": "innisfree-green-tea-foam-cleanser", "description": "Description: Enriched with Jeju green tea extract to hydrate and refresh the skin while gently removing impurities.", "price": "750.00", "image": "products/cleanser2.jpeg", "available": true, "created": "2025-08-15T06:55:50.384Z"}}, {"model": "store.product", "pk": 3, "fields": {"category": 6, "name": "Etude House Soon Jung pH 6.5 Whip Cleanser", "slug": "etude-house-soon-jung-ph-65-whip-cleanser", "description": "Hypoallergenic cleanser with panthenol and madecassoside to soothe and protect sensitive skin.", "price": "1050.00", "image": "products/cleanser3.jpeg", "available": true, "created": "2025-08-15T06:56:54.262Z"}}, {"model": "store.product", "pk": 4, "fields": {"category": 6, "name": "Banila Co Clean It Zero Cleansing Balm (Original)", "slug": "banila-co-clean-it-zero-cleansing-balm-original", "description": "A sherbet-type cleansing balm that melts away makeup and impurities while leaving skin hydrated.", "price": "1290.00", "image": "products/cleanser4.webp", "available": true, "created": "2025-08-15T06:57:54.244Z"}}, {"model": "store.product", "pk": 5, "fields": {"category": 6, "name": "Klairs Rich Moist Foaming Cleanser", "slug": "klairs-rich-moist-foaming-cleanser", "description": "Hydrating foaming cleanser with amino acids and hyaluronic acid for soft, supple skin.", "price": "1100.00", "image": "products/cleanser5.webp", "available": true, "created": "2025-08-15T06:58:51.565Z"}}, {"model": "store.product", "pk": 6, "fields": {"category": 6, "name": "Beauty of Joseon Green Plum Refreshing Cleanser", "slug": "beauty-of-joseon-green-plum-refreshing-cleanser", "description": "Mild daily cleanser with plum water & mung bean extract(100ml)", "price": "990.00", "image": "products/cleanser6.jpg", "available": true, "created": "2025-08-15T07:03:45.969Z"}}, {"model": "store.product", "pk": 7, "fields": {"category": 6, "name": "Some By Mi AHA-BHA-PHA 30 Days Miracle Acne Clear Foam (100ml)", "slug": "some-by-mi-aha-bha-pha-30-days-miracle-acne-clear-foam-100ml", "description": "Exfoliating foam with triple acids for acne-prone skin.", "price": "890.00", "image": "products/cleanser7.jpeg", "available": true, "created": "2025-08-15T07:05:03.929Z"}}, {"model": "store.product", "pk": 8, "fields": {"category": 6, "name": "Heimish All Clean Balm (120ml)", "slug": "heimish-all-clean-balm-120ml", "description": "Coconut and shea butter cleansing balm for heavy makeup.", "price": "1090.00", "image": "products/cleanser8.jpeg", "available": true, "created": "2025-08-15T07:06:13.618Z"}}, {"model": "store.product", "pk": 9, "fields": {"category": 6, "name": "Neogen Real Fresh Foam Green Tea (160g)", "slug": "neogen-real-fresh-foam-green-tea-160g", "description": "Foaming cleanser with fermented green tea leaves for detoxifying.", "price": "1250.00", "image": "products/cleanser9.webp", "available": true, "created": "2025-08-15T07:07:06.550Z"}}, {"model": "store.product", "pk": 10, "fields": {"category": 6, "name": "Isntree Green Tea Fresh Cleanser (150ml)", "slug": "isntree-green-tea-fresh-cleanser-150ml", "description": "Refreshing foam with green tea antioxidants for oily skin.", "price": "980.00", "image": "products/cleanser10.jpeg", "available": true, "created": "2025-08-15T07:07:52.381Z"}}, {"model": "store.product", "pk": 11, "fields": {"category": 6, "name": "Klairs Gentle Black Deep Cleansing Oil (150ml)", "slug": "klairs-gentle-black-deep-cleansing-oil-150ml", "description": "Nourishing cleansing oil with black sesame and black currant.", "price": "1390.00", "image": "products/cleanser11.jpeg", "available": true, "created": "2025-08-15T07:09:02.771Z"}}, {"model": "store.product", "pk": 12, "fields": {"category": 6, "name": "Rovectin Skin Essentials Conditioning Cleanser (175ml)", "slug": "rovectin-skin-essentials-conditioning-cleanser-175ml", "description": "Low-pH hydrating cleanser with minimal ingredients.", "price": "1290.00", "image": "products/cleanser12.webp", "available": true, "created": "2025-08-15T07:09:47.990Z"}}, {"model": "store.product", "pk": 13, "fields": {"category": 6, "name": "The Face Shop Rice Water Bright Cleansing Foam (150ml)", "slug": "the-face-shop-rice-water-bright-cleansing-foam-150ml", "description": "Brightening rice water foam for clear skin.", "price": "650.00", "image": "products/cleanser13.webp", "available": true, "created": "2025-08-15T07:10:51.612Z"}}, {"model": "store.product", "pk": 14, "fields": {"category": 6, "name": "Dr. G pH Cleansing Gel Foam (200ml)", "slug": "dr-g-ph-cleansing-gel-foam-200ml", "description": "Gentle dermatologist-tested gel foam for daily use.", "price": "1050.00", "image": "products/cleanser14.jpeg", "available": true, "created": "2025-08-15T07:11:39.747Z"}}, {"model": "store.product", "pk": 15, "fields": {"category": 6, "name": "Mary & May Vegan Cica Tea Tree AHA PHA BHA Foaming Cleanser (150ml)", "slug": "mary-may-vegan-cica-tea-tree-aha-pha-bha-foaming-cleanser-150ml", "description": "Vegan exfoliating cleanser for acne-prone skin.", "price": "990.00", "image": "products/cleanser15.webp", "available": true, "created": "2025-08-15T07:13:07.872Z"}}, {"model": "store.product", "pk": 16, "fields": {"category": 6, "name": "Mediheal Intensive Pore Clean Cleansing Foam (170ml)", "slug": "mediheal-intensive-pore-clean-cleansing-foam-170ml", "description": "Charcoal foam for deep pore cleansing.", "price": "920.00", "image": "products/cleanser16.jpeg", "available": true, "created": "2025-08-15T07:14:15.177Z"}}, {"model": "store.product", "pk": 17, "fields": {"category": 2, "name": "Beauty of Joseon Ginseng Essence Water (150ml)", "slug": "beauty-of-joseon-ginseng-essence-water-150ml", "description": "Hydrating and nourishing toner with ginseng and niacinamide.", "price": "1290.00", "image": "products/toner1.jpeg", "available": true, "created": "2025-08-15T07:15:07.779Z"}}, {"model": "store.product", "pk": 18, "fields": {"category": 2, "name": "Cosrx Advanced Snail 96 Mucin Power Essence (100ml)", "slug": "cosrx-advanced-snail-96-mucin-power-essence-100ml", "description": "Snail mucin essence that repairs and deeply hydrates.", "price": "1250.00", "image": "products/toner2.webp", "available": true, "created": "2025-08-15T07:15:56.373Z"}}, {"model": "store.product", "pk": 19, "fields": {"category": 2, "name": "Isntree Hyaluronic Acid Toner (200ml)", "slug": "isntree-hyaluronic-acid-toner-200ml", "description": "Deep hydration with five types of hyaluronic acid.", "price": "990.00", "image": "products/toner3.jpeg", "available": true, "created": "2025-08-15T07:16:45.502Z"}}, {"model": "store.product", "pk": 20, "fields": {"category": 2, "name": "Some By Mi Galactomyces Pure Vitamin C Glow Toner (200ml)", "slug": "some-by-mi-galactomyces-pure-vitamin-c-glow-toner-200ml", "description": "Brightening toner with galactomyces ferment and vitamin C.", "price": "1090.00", "image": "products/toner4.webp", "available": true, "created": "2025-08-15T07:17:34.993Z"}}, {"model": "store.product", "pk": 21, "fields": {"category": 2, "name": "Etude Soon Jung pH 5.5 Relief Toner (180ml)", "slug": "etude-soon-jung-ph-55-relief-toner-180ml", "description": "Soothing toner for sensitive skin.", "price": "950.00", "image": "products/toner5.jpeg", "available": true, "created": "2025-08-15T07:19:24.220Z"}}, {"model": "store.product", "pk": 22, "fields": {"category": 2, "name": "Klairs Supple Preparation Unscented Toner (180ml)", "slug": "klairs-supple-preparation-unscented-toner-180ml", "description": "Balancing and hydrating unscented toner.", "price": "1350.00", "image": "products/toner6.jpeg", "available": true, "created": "2025-08-15T07:20:08.281Z"}}, {"model": "store.product", "pk": 23, "fields": {"category": 2, "name": "Laneige Essential Power Skin Refiner Moisture (200ml)", "slug": "laneige-essential-power-skin-refiner-moisture-200ml", "description": "Moisturizing toner for dry skin.", "price": "1850.00", "image": "products/toner7.jpeg", "available": true, "created": "2025-08-15T07:21:06.915Z"}}, {"model": "store.product", "pk": 24, "fields": {"category": 2, "name": "Pyunkang Yul Essence Toner (200ml)", "slug": "pyunkang-yul-essence-toner-200ml", "description": "Minimalist formula for intense hydration.", "price": "1050.00", "image": "products/toner8.webp", "available": true, "created": "2025-08-15T07:22:51.466Z"}}, {"model": "store.product", "pk": 25, "fields": {"category": 2, "name": "Innisfree Green Tea Seed Skin (200ml)", "slug": "innisfree-green-tea-seed-skin-200ml", "description": "Antioxidant-rich green tea toner for hydration.", "price": "1050.00", "image": "products/toner9.jpeg", "available": true, "created": "2025-08-15T07:23:43.060Z"}}, {"model": "store.product", "pk": 26, "fields": {"category": 2, "name": "Round Lab Dokdo Toner (200ml)", "slug": "round-lab-dokdo-toner-200ml", "description": "Deep sea water toner rich in minerals.", "price": "1290.00", "image": "products/toner10.jpeg", "available": true, "created": "2025-08-15T07:24:27.345Z"}}, {"model": "store.product", "pk": 27, "fields": {"category": 2, "name": "Dr. Ceuracle Vegan Kombucha Tea Essence (150ml)", "slug": "dr-ceuracle-vegan-kombucha-tea-essence-150ml", "description": "Creamy essence toner with kombucha extract.", "price": "1750.00", "image": "products/toner11.webp", "available": true, "created": "2025-08-15T07:25:33.279Z"}}, {"model": "store.product", "pk": 28, "fields": {"category": 2, "name": "Torriden Dive-In Low Molecule Hyaluronic Acid Toner (300ml)", "slug": "torriden-dive-in-low-molecule-hyaluronic-acid-toner-300ml", "description": "Lightweight hydrating toner.", "price": "1200.00", "image": "products/toner12.jpeg", "available": true, "created": "2025-08-15T07:26:12.918Z"}}, {"model": "store.product", "pk": 29, "fields": {"category": 2, "name": "AHC Aqualuronic Toner (140ml)", "slug": "ahc-aqualuronic-toner-140ml", "description": "Moisture-rich toner with triple hyaluronic acid.", "price": "1450.00", "image": "products/toner13.jpeg", "available": true, "created": "2025-08-15T07:26:57.555Z"}}, {"model": "store.product", "pk": 30, "fields": {"category": 2, "name": "Missha Time Revolution The First Essence 5X (150ml)", "slug": "missha-time-revolution-the-first-essence-5x-150ml", "description": "Fermented essence for anti-aging and brightening.", "price": "2690.00", "image": "products/toner14.jpeg", "available": true, "created": "2025-08-15T07:27:42.811Z"}}, {"model": "store.product", "pk": 31, "fields": {"category": 2, "name": "Haruharu Wonder Black Rice Hyaluronic Toner (150ml)", "slug": "haruharu-wonder-black-rice-hyaluronic-toner-150ml", "description": "Hydrating toner with fermented black rice.", "price": "1250.00", "image": "products/toner15.jpeg", "available": true, "created": "2025-08-15T07:28:29.397Z"}}, {"model": "store.product", "pk": 32, "fields": {"category": 3, "name": "Beauty of Joseon Glow Serum (30ml)", "slug": "beauty-of-joseon-glow-serum-30ml", "description": "Glow-boosting serum with propolis and niacinamide.", "price": "1190.00", "image": "products/serum1.webp", "available": true, "created": "2025-08-15T07:30:00.107Z"}}, {"model": "store.product", "pk": 33, "fields": {"category": 3, "name": "Cosrx Advanced Snail 96 Mucin Power Essence (100ml)", "slug": "cosrx-advanced-snail-96-mucin-poweer-essence-100ml", "description": "Snail mucin serum for skin repair and hydration.", "price": "1250.00", "image": "products/serum2.webp", "available": true, "created": "2025-08-15T07:31:19.880Z"}}, {"model": "store.product", "pk": 34, "fields": {"category": 3, "name": "Some By Mi Yuja Niacin Blemish Care Serum (50ml)", "slug": "some-by-mi-yuja-niacin-blemish-care-serum-50ml", "description": "Brightening serum with vitamin C-rich yuja extract.", "price": "1250.00", "image": "products/serum3.jpeg", "available": true, "created": "2025-08-15T07:32:44.295Z"}}, {"model": "store.product", "pk": 35, "fields": {"category": 3, "name": "Innisfree Green Tea Seed Serum (80ml)", "slug": "innisfree-green-tea-seed-serum-80ml", "description": "Antioxidant serum for hydration and radiance.", "price": "1650.00", "image": "products/serum4.webp", "available": true, "created": "2025-08-15T07:33:28.544Z"}}, {"model": "store.product", "pk": 36, "fields": {"category": 3, "name": "Missha Time Revolution Night Repair Ampoule 5X (50ml)", "slug": "missha-time-revolution-night-repair-ampoule-5x-50ml", "description": "Anti-aging ampoule for firmness and elasticity.", "price": "2850.00", "image": "products/serum5.jpeg", "available": true, "created": "2025-08-15T07:34:52.045Z"}}, {"model": "store.product", "pk": 37, "fields": {"category": 3, "name": "Benton Snail Bee High Content Essence (60ml)", "slug": "benton-snail-bee-high-content-essence-60ml", "description": "Soothing essence with snail mucin and bee venom.", "price": "1250.00", "image": "products/serum6.webp", "available": true, "created": "2025-08-15T07:35:40.405Z"}}, {"model": "store.product", "pk": 38, "fields": {"category": 3, "name": "Dr. Ceuracle Royal Vita Propolis 33 Ampoule (30ml)", "slug": "dr-ceuracle-royal-vita-propolis-33-ampoule-30ml", "description": "Glow serum with propolis and royal jelly.", "price": "1890.00", "image": "products/serum7.webp", "available": true, "created": "2025-08-15T08:05:09.719Z"}}, {"model": "store.product", "pk": 39, "fields": {"category": 3, "name": "Torriden Dive-In Serum (50ml)", "slug": "torriden-dive-in-serum-50ml", "description": "Lightweight hyaluronic acid serum.", "price": "1250.00", "image": "products/serum8.jpeg", "available": true, "created": "2025-08-15T08:06:38.104Z"}}, {"model": "store.product", "pk": 40, "fields": {"category": 3, "name": "Isntree C-Niacin Toning Ampoule (50ml)", "slug": "isntree-c-niacin-toning-ampoule-50ml", "description": "Brightening serum with niacinamide and vitamin C", "price": "1150.00", "image": "products/serum9.png", "available": true, "created": "2025-08-15T08:07:27.338Z"}}, {"model": "store.product", "pk": 41, "fields": {"category": 3, "name": "Klairs Freshly Juiced Vitamin Drop (35ml)", "slug": "klairs-freshly-juiced-vitamin-drop-35ml", "description": "Pure vitamin C serum for bright skin.", "price": "1590.00", "image": "products/serum10.jpeg", "available": true, "created": "2025-08-15T08:08:22.445Z"}}, {"model": "store.product", "pk": 42, "fields": {"category": 3, "name": "Neogen Real Ferment Micro Serum (30ml)", "slug": "neogen-real-ferment-micro-serum-30ml", "description": "Firming serum with fermented ingredients.", "price": "2190.00", "image": "products/serum11.png", "available": true, "created": "2025-08-15T08:09:10.822Z"}}, {"model": "store.product", "pk": 43, "fields": {"category": 3, "name": "Laneige Water Bank Blue Hyaluronic Serum (50ml)", "slug": "laneige-water-bank-blue-hyaluronic-serum-50ml", "description": "Deep hydration serum with blue hyaluronic acid.", "price": "2450.00", "image": "products/serum12.webp", "available": true, "created": "2025-08-15T08:09:51.862Z"}}, {"model": "store.product", "pk": 44, "fields": {"category": 3, "name": "AHC Youth Lasting Real Eye Serum for Face (30ml)", "slug": "ahc-youth-lasting-real-eye-serum-for-face-30ml", "description": "Multi-use anti-aging serum for eyes and face.", "price": "1450.00", "image": "products/serum13.webp", "available": true, "created": "2025-08-15T08:10:35.278Z"}}, {"model": "store.product", "pk": 45, "fields": {"category": 3, "name": "Mediheal N.M.F Intensive Hydrating Serum (50ml)", "slug": "mediheal-nmf-intensive-hydrating-serum-50ml", "description": "Moisture-lock serum for dehydrated skin.", "price": "1250.00", "image": "products/serum14.jpeg", "available": true, "created": "2025-08-15T08:11:24.351Z"}}, {"model": "store.product", "pk": 46, "fields": {"category": 3, "name": "SKIN1004 Madagascar Centella Tone Brightening Capsule Ampoule", "slug": "skin1004-madagascar-centella-tone-brightening-capsule-ampoule", "description": "SKIN1004 Madagascar Centella Tone Brightening Capsule Ampoule 100ml is a lightweight ampoule similar to an essence - designed to enhance the skin's luminosity and promote an even tone.\r\nBenefit: Anti-ageing, Deep Hydration, Fade, Glowing Skin, Healing, Melanin Reduction, Scar Treatment, Skin Elasticity, Soft Skin, Tone\r\nFinish: Nongreasy\r\nForm: Serum\r\nIngredient: C Serum, Carotene, Niacinamide, Panthenol, Tranexamic Acid, Vitamin C", "price": "2499.00", "image": "products/serum15.jpeg", "available": true, "created": "2025-08-15T08:14:31.989Z"}}, {"model": "store.product", "pk": 47, "fields": {"category": 12, "name": "Innisfree Jeju Orchid Eye Cream (30ml)", "slug": "innisfree-jeju-orchid-eye-cream-30ml", "description": "Anti-aging cream with Jeju orchid extract.", "price": "2090.00", "image": "products/eye1.jpeg", "available": true, "created": "2025-08-15T08:15:34.785Z"}}, {"model": "store.product", "pk": 48, "fields": {"category": 12, "name": "Mizon Snail Repair Eye Cream (25ml)", "slug": "mizon-snail-repair-eye-cream-25ml", "description": "Snail mucin cream for fine lines and hydration.", "price": "1090.00", "image": "products/eye2.webp", "available": true, "created": "2025-08-15T08:16:10.217Z"}}, {"model": "store.product", "pk": 49, "fields": {"category": 12, "name": "Beauty of Joseon Revive Eye Serum (30ml)", "slug": "beauty-of-joseon-revive-eye-serum-30ml", "description": "Ginseng and retinol serum for eyes.", "price": "1250.00", "image": "products/eye3.jpeg", "available": true, "created": "2025-08-15T08:17:49.350Z"}}, {"model": "store.product", "pk": 50, "fields": {"category": 12, "name": "AHC Essential Real Eye Cream for Face (30ml)", "slug": "ahc-essential-real-eye-cream-for-face-30ml", "description": "Firming cream usable on eyes and face.", "price": "1450.00", "image": "products/eye4.jpeg", "available": true, "created": "2025-08-15T08:18:28.143Z"}}, {"model": "store.product", "pk": 51, "fields": {"category": 12, "name": "Laneige Perfect Renew Youth Eye Cream (20ml)", "slug": "laneige-perfect-renew-youth-eye-cream-20ml", "description": "Luxury anti-aging eye cream.", "price": "4150.00", "image": "products/eye5.jpeg", "available": true, "created": "2025-08-15T08:19:15.404Z"}}, {"model": "store.product", "pk": 52, "fields": {"category": 12, "name": "Etude House Moistfull Collagen Eye Cream (28ml)", "slug": "etude-house-moistfull-collagen-eye-cream-28ml", "description": "Firming collagen cream for the eye area.", "price": "1150.00", "image": "products/eye6.jpeg", "available": true, "created": "2025-08-15T08:19:56.869Z"}}, {"model": "store.product", "pk": 53, "fields": {"category": 12, "name": "Benton Fermentation Eye Cream (30g)", "slug": "benton-fermentation-eye-cream-30g", "description": "Nourishing eye cream with galactomyces and bifida ferment.", "price": "1250.00", "image": "products/eye7.jpeg", "available": true, "created": "2025-08-15T08:20:40.488Z"}}, {"model": "store.product", "pk": 54, "fields": {"category": 12, "name": "The Saem Urban Eco Harakeke Eye Cream (30ml)", "slug": "the-saem-urban-eco-harakeke-eye-cream-30ml", "description": "Hydrating cream with Harakeke extract.", "price": "1050.00", "image": "products/eye8.jpeg", "available": true, "created": "2025-08-15T08:21:27.298Z"}}, {"model": "store.product", "pk": 55, "fields": {"category": 12, "name": "Some By Mi Retinol Intense Advanced Triple Action Eye Cream (30ml)", "slug": "some-by-mi-retinol-intense-advanced-triple-action-eye-cream-30ml", "description": "Anti-wrinkle, brightening retinol eye cream.", "price": "1090.00", "image": "products/eye9.jpeg", "available": true, "created": "2025-08-15T08:22:08.343Z"}}, {"model": "store.product", "pk": 56, "fields": {"category": 12, "name": "Sulwhasoo Concentrated Ginseng Renewing Eye Cream (20ml)", "slug": "sulwhasoo-concentrated-ginseng-renewing-eye-cream-20ml", "description": "Premium ginseng anti-aging cream.", "price": "12500.00", "image": "products/eye10.webp", "available": true, "created": "2025-08-15T08:23:01.546Z"}}, {"model": "store.product", "pk": 57, "fields": {"category": 12, "name": "Klairs Fundamental Eye Awakening Gel (35ml)", "slug": "klairs-fundamental-eye-awakening-gel-35ml", "description": "Cooling caffeine gel for tired eyes.", "price": "1690.00", "image": "products/eye11.jpeg", "available": true, "created": "2025-08-15T08:23:40.583Z"}}, {"model": "store.product", "pk": 58, "fields": {"category": 12, "name": "Missha Geum Sul Vitalizing Eye Cream (30ml)", "slug": "missha-geum-sul-vitalizing-eye-cream-30ml", "description": "Ginseng-rich nourishing eye cream.", "price": "3750.00", "image": "products/eye12.webp", "available": true, "created": "2025-08-15T08:24:46.572Z"}}, {"model": "store.product", "pk": 59, "fields": {"category": 12, "name": "Dr. Jart+ Ceramidin Eye Cream (20ml)", "slug": "dr-jart-ceramidin-eye-cream-20ml", "description": "Moisturizing cream with ceramides.", "price": "3050.00", "image": "products/eye13.jpeg", "available": true, "created": "2025-08-15T08:25:51.726Z"}}, {"model": "store.product", "pk": 60, "fields": {"category": 12, "name": "Holika Holika Aloe Soothing Essence Eye Cream (30ml)", "slug": "holika-holika-aloe-soothing-essence-eye-cream-30ml", "description": "Lightweight aloe-based cream.", "price": "990.00", "image": "products/eye14.png", "available": true, "created": "2025-08-15T08:27:13.550Z"}}, {"model": "store.product", "pk": 61, "fields": {"category": 12, "name": "Mediheal Vita Collagen Eye Cream (30ml)", "slug": "mediheal-vita-collagen-eye-cream-30ml", "description": "Hydrating eye cream with collagen and vitamins.", "price": "1150.00", "image": "products/eye15.jpeg", "available": true, "created": "2025-08-15T08:28:03.115Z"}}, {"model": "store.product", "pk": 62, "fields": {"category": 8, "name": "Skinfood Black Sugar Mask Wash Off (100g)", "slug": "skinfood-black-sugar-mask-wash-off-100g", "description": "Exfoliating scrub with black sugar granules and nourishing minerals.", "price": "950.00", "image": "products/scrub1.jpeg", "available": true, "created": "2025-08-15T08:42:49.025Z"}}, {"model": "store.product", "pk": 63, "fields": {"category": 8, "name": "Innisfree Jeju Volcanic Pore Scrub Foam (150ml)", "slug": "innisfree-jeju-volcanic-pore-scrub-foam-150ml", "description": "Volcanic cluster scrub for deep pore cleansing.", "price": "750.00", "image": "products/scrub2.png", "available": true, "created": "2025-08-15T08:44:16.647Z"}}, {"model": "store.product", "pk": 64, "fields": {"category": 8, "name": "The Face Shop Jeju Volcanic Lava Pore Scrub Foam (150ml)", "slug": "the-face-shop-jeju-volcanic-lava-pore-scrub-foam-150ml", "description": "Gentle volcanic scrub to remove excess sebum.", "price": "720.00", "image": "products/scrub3.jpeg", "available": true, "created": "2025-08-15T08:45:07.175Z"}}, {"model": "store.product", "pk": 65, "fields": {"category": 8, "name": "Skinfood Rice Mask Wash Off (100g)", "slug": "skinfood-rice-mask-wash-off-100g", "description": "Brightening rice scrub with soft exfoliation.", "price": "890.00", "image": "products/scrub4.jpeg", "available": true, "created": "2025-08-15T08:45:48.251Z"}}, {"model": "store.product", "pk": 66, "fields": {"category": 8, "name": "Missha Super Aqua D-TOX Peeling Gel (100ml)", "slug": "missha-super-aqua-d-tox-peeling-gel-100ml", "description": "Enzyme peeling gel for smooth skin.", "price": "1050.00", "image": "products/scrub5.jpeg", "available": true, "created": "2025-08-15T08:46:41.629Z"}}, {"model": "store.product", "pk": 67, "fields": {"category": 8, "name": "The Saem Natural Condition Scrub Foam Deep Clean (150ml)", "slug": "the-saem-natural-condition-scrub-foam-deep-clean-150ml", "description": "Scrub foam for refreshing deep cleansing.", "price": "650.00", "image": "products/scrub6.jpeg", "available": true, "created": "2025-08-15T08:47:31.454Z"}}, {"model": "store.product", "pk": 68, "fields": {"category": 8, "name": "Neogen Bio-Peel Gauze Peeling Lemon (30 pads)", "slug": "neogen-bio-peel-gauze-peeling-lemon-30-pads", "description": "Vitamin C pads for brightening exfoliation.", "price": "1590.00", "image": "products/scrub7.jpeg", "available": true, "created": "2025-08-15T08:48:36.221Z"}}, {"model": "store.product", "pk": 69, "fields": {"category": 8, "name": "Neogen Bio-Peel Gauze Peeling Green Tea (30 pads)", "slug": "neogen-bio-peel-gauze-peeling-green-tea-30-pads", "description": "Antioxidant exfoliating pads with green tea.", "price": "1590.00", "image": "products/scrub8.jpeg", "available": true, "created": "2025-08-15T08:49:24.456Z"}}, {"model": "store.product", "pk": 70, "fields": {"category": 8, "name": "Some By Mi Super Matcha Pore Clean Clay Mask + Scrub (100g)", "slug": "some-by-mi-super-matcha-pore-clean-clay-mask-scrub-100g", "description": "Matcha-infused scrub for pore tightening.", "price": "1050.00", "image": "products/scrub9.webp", "available": true, "created": "2025-08-15T08:50:29.128Z"}}, {"model": "store.product", "pk": 71, "fields": {"category": 8, "name": "COSRX – BHA Blackhead Power Liquid.", "slug": "cosrx-bha-blackhead-power-liquid", "description": "COSRX BHA Blackhead Power Liquid has a simple yet deeply effective formula designed to detoxify oily or acne-prone skin types\r\nFeatures: Exfoliating, Moisturising\r\nForm: Liquid\r\nKey Ingredient: Butylene Glycol, Hydroxy Acid, Niacinamide, Panthenol, Sodium Hydroxide, Willow Bark", "price": "1250.00", "image": "products/scrub10.webp", "available": true, "created": "2025-08-15T08:53:37.870Z"}}, {"model": "store.product", "pk": 72, "fields": {"category": 8, "name": "It’s Skin MangoWhite Peeling Gel (120ml)", "slug": "its-skin-mangowhite-peeling-gel-120ml", "description": "Gentle fruit enzyme peeling gel.", "price": "880.00", "image": "products/scrub11.webp", "available": true, "created": "2025-08-15T08:54:20.468Z"}}, {"model": "store.product", "pk": 73, "fields": {"category": 8, "name": "Holika Holika Smooth Egg Skin Peeling Gel (140ml)", "slug": "holika-holika-smooth-egg-skin-peeling-gel-140ml", "description": "Egg extract peeling gel for smooth texture.", "price": "1050.00", "image": "products/scrub_12.jpeg", "available": true, "created": "2025-08-15T08:55:39.142Z"}}, {"model": "store.product", "pk": 74, "fields": {"category": 8, "name": "Etude House Baking Powder Crunch Pore Scrub (200ml)", "slug": "etude-house-baking-powder-crunch-pore-scrub-200ml", "description": "Baking powder beads for deep cleansing.", "price": "850.00", "image": "products/scrub13.jpeg", "available": true, "created": "2025-08-15T08:56:24.652Z"}}, {"model": "store.product", "pk": 75, "fields": {"category": 8, "name": "Laneige Clear-C Peeling Mask (70ml)", "slug": "laneige-clear-c-peeling-mask-70ml", "description": "Vitamin C peeling mask with berry extract.", "price": "1650.00", "image": "products/scrub14.jpeg", "available": true, "created": "2025-08-15T08:57:16.985Z"}}, {"model": "store.product", "pk": 76, "fields": {"category": 8, "name": "TonyMoly Floria Brightening Peeling Gel (150ml)", "slug": "tonymoly-floria-brightening-peeling-gel-150ml", "description": "Gentle gel exfoliator with lotus flower extract.", "price": "980.00", "image": "products/scrub15.jpeg", "available": true, "created": "2025-08-15T08:58:00.573Z"}}, {"model": "store.wishlist", "pk": 1, "fields": {"user": 1, "product": 75}}, {"model": "cart.cartitem", "pk": 7, "fields": {"user": null, "session_key": "e2rll1lqim2c7mygrc43v6om4sihhad7", "product": 76, "quantity": 1, "added": "2025-08-16T13:20:36.272Z"}}, {"model": "cart.cartitem", "pk": 8, "fields": {"user": null, "session_key": "55l71ubbmf8bdudxnmf44iz7a45uv46p", "product": 76, "quantity": 1, "added": "2025-08-16T13:27:30.579Z"}}, {"model": "cart.cartitem", "pk": 10, "fields": {"user": null, "session_key": "og99slbpgvvn23oa5pf9czgv41jibztj", "product": 75, "quantity": 1, "added": "2025-09-15T17:58:26.238Z"}}, {"model": "cart.cartitem", "pk": 11, "fields": {"user": 1, "session_key": null, "product": 75, "quantity": 2, "added": "2025-09-15T17:58:40.791Z"}}, {"model": "orders.order", "pk": 1, "fields": {"user": 1, "full_name": "dev", "email": "dev@gmail.com", "address": "ekklwjfdlkvnc", "created": "2025-08-13T21:51:31.929Z", "status": "pending", "total_amount": "850.00", "stripe_payment_intent_id": null, "stripe_payment_status": null, "location": "Processing warehouse"}}, {"model": "orders.order", "pk": 2, "fields": {"user": 1, "full_name": "dev", "email": "dev@gmail.com", "address": "rsdtfyguhijoljkhjghfgcb ", "created": "2025-08-14T03:12:55.304Z", "status": "pending", "total_amount": "2550.00", "stripe_payment_intent_id": null, "stripe_payment_status": null, "location": "Processing warehouse"}}, {"model": "orders.order", "pk": 3, "fields": {"user": 1, "full_name": "dev", "email": "dev@gmail.com", "address": "rsdtfyguhijoljkhjghfgcb ", "created": "2025-08-14T03:12:57.629Z", "status": "pending", "total_amount": "2550.00", "stripe_payment_intent_id": null, "stripe_payment_status": null, "location": "Processing warehouse"}}, {"model": "orders.order", "pk": 4, "fields": {"user": 1, "full_name": "dev", "email": "dev@gmail.com", "address": "rsdtfyguhijoljkhjghfgcb ", "created": "2025-08-14T03:12:59.626Z", "status": "pending", "total_amount": "2550.00", "stripe_payment_intent_id": null, "stripe_payment_status": null, "location": "Processing warehouse"}}, {"model": "orders.order", "pk": 5, "fields": {"user": 1, "full_name": "dev", "email": "dev@gmail.com", "address": "rsdtfyguhijoljkhjghfgcb ", "created": "2025-08-14T03:13:00.101Z", "status": "pending", "total_amount": "2550.00", "stripe_payment_intent_id": null, "stripe_payment_status": null, "location": "Processing warehouse"}}, {"model": "orders.order", "pk": 6, "fields": {"user": 1, "full_name": "dev", "email": "dev@gmail.com", "address": "rsdtfyguhijoljkhjghfgcb ", "created": "2025-08-14T03:13:00.334Z", "status": "pending", "total_amount": "2550.00", "stripe_payment_intent_id": null, "stripe_payment_status": null, "location": "Processing warehouse"}}, {"model": "orders.order", "pk": 7, "fields": {"user": 1, "full_name": "dev", "email": "dev@gmail.com", "address": "rsdtfyguhijoljkhjghfgcb ", "created": "2025-08-14T03:13:00.564Z", "status": "pending", "total_amount": "2550.00", "stripe_payment_intent_id": null, "stripe_payment_status": null, "location": "Processing warehouse"}}, {"model": "orders.order", "pk": 8, "fields": {"user": 1, "full_name": "dev", "email": "dev@gmail.com", "address": "rsdtfyguhijoljkhjghfgcb ", "created": "2025-08-14T03:13:00.784Z", "status": "pending", "total_amount": "2550.00", "stripe_payment_intent_id": null, "stripe_payment_status": null, "location": "Processing warehouse"}}, {"model": "orders.order", "pk": 9, "fields": {"user": 1, "full_name": "dev", "email": "dev@gmail.com", "address": "rsdtfyguhijoljkhjghfgcb ", "created": "2025-08-14T03:13:01.028Z", "status": "pending", "total_amount": "2550.00", "stripe_payment_intent_id": null, "stripe_payment_status": null, "location": "Processing warehouse"}}, {"model": "orders.order", "pk": 10, "fields": {"user": 1, "full_name": "dev", "email": "dev@gmail.com", "address": "rsdtfyguhijoljkhjghfgcb ", "created": "2025-08-14T03:13:01.911Z", "status": "pending", "total_amount": "2550.00", "stripe_payment_intent_id": null, "stripe_payment_status": null, "location": "Processing warehouse"}}, {"model": "orders.order", "pk": 11, "fields": {"user": 1, "full_name": "dev", "email": "dev@gmail.com", "address": "rsdtfyguhijoljkhjghfgcb ", "created": "2025-08-14T03:13:02.539Z", "status": "pending", "total_amount": "2550.00", "stripe_payment_intent_id": null, "stripe_payment_status": null, "location": "Processing warehouse"}}, {"model": "orders.order", "pk": 12, "fields": {"user": 1, "full_name": "dev", "email": "dev@gmail.com", "address": "rsdtfyguhijoljkhjghfgcb ", "created": "2025-08-14T03:13:06.113Z", "status": "pending", "total_amount": "2550.00", "stripe_payment_intent_id": null, "stripe_payment_status": null, "location": "Processing warehouse"}}, {"model": "orders.order", "pk": 13, "fields": {"user": 1, "full_name": "dev", "email": "dev@gmail.com", "address": "rsdtfyguhijoljkhjghfgcb ", "created": "2025-08-14T03:13:06.353Z", "status": "pending", "total_amount": "2550.00", "stripe_payment_intent_id": null, "stripe_payment_status": null, "location": "Processing warehouse"}}, {"model": "orders.order", "pk": 14, "fields": {"user": 1, "full_name": "Y5YRDTFYJGUKH", "email": "SRDG@GMAIL.COM", "address": "ARESRDTFUYGUHIPJOLK.BJNV", "created": "2025-08-15T06:50:02.910Z", "status": "pending", "total_amount": "2550.00", "stripe_payment_intent_id": null, "stripe_payment_status": null, "location": "Processing warehouse"}}, {"model": "orders.order", "pk": 15, "fields": {"user": 1, "full_name": "Y5YRDTFYJGUKH", "email": "SRDG@GMAIL.COM", "address": "ARESRDTFUYGUHIPJOLK.BJNV", "created": "2025-08-15T06:50:04.611Z", "status": "pending", "total_amount": "2550.00", "stripe_payment_intent_id": null, "stripe_payment_status": null, "location": "Processing warehouse"}}, {"model": "orders.order", "pk": 16, "fields": {"user": 1, "full_name": "Y5YRDTFYJGUKH", "email": "SRDG@GMAIL.COM", "address": "ARESRDTFUYGUHIPJOLK.BJNV", "created": "2025-08-15T06:50:04.945Z", "status": "pending", "total_amount": "2550.00", "stripe_payment_intent_id": null, "stripe_payment_status": null, "location": "Processing warehouse"}}, {"model": "orders.order", "pk": 17, "fields": {"user": 1, "full_name": "Y5YRDTFYJGUKH", "email": "SRDG@GMAIL.COM", "address": "ARESRDTFUYGUHIPJOLK.BJNV", "created": "2025-08-15T06:50:05.378Z", "status": "pending", "total_amount": "2550.00", "stripe_payment_intent_id": null, "stripe_payment_status": null, "location": "Processing warehouse"}}, {"model": "orders.order", "pk": 18, "fields": {"user": 1, "full_name": "Y5YRDTFYJGUKH", "email": "SRDG@GMAIL.COM", "address": "ARESRDTFUYGUHIPJOLK.BJNV", "created": "2025-08-15T06:50:05.626Z", "status": "pending", "total_amount": "2550.00", "stripe_payment_intent_id": null, "stripe_payment_status": null, "location": "Processing warehouse"}}, {"model": "orders.order", "pk": 19, "fields": {"user": 1, "full_name": "Y5YRDTFYJGUKH", "email": "SRDG@GMAIL.COM", "address": "ARESRDTFUYGUHIPJOLK.BJNV", "created": "2025-08-15T06:50:05.842Z", "status": "pending", "total_amount": "2550.00", "stripe_payment_intent_id": null, "stripe_payment_status": null, "location": "Processing warehouse"}}, {"model": "orders.order", "pk": 20, "fields": {"user": 1, "full_name": "srtcvhjbkn", "email": "srdghvjb@gmail.com", "address": "exfcvyuijop['klkjhvcgv bam,", "created": "2025-08-15T10:41:23.267Z", "status": "pending", "total_amount": "2550.00", "stripe_payment_intent_id": null, "stripe_payment_status": null, "location": "Processing warehouse"}}, {"model": "orders.order", "pk": 21, "fields": {"user": 1, "full_name": "xfg n", "email": "fcgvhbj@gmail.com", "address": "rctvbjnkml", "created": "2025-08-15T10:44:34.302Z", "status": "pending", "total_amount": "2550.00", "stripe_payment_intent_id": null, "stripe_payment_status": null, "location": "Processing warehouse"}}, {"model": "orders.order", "pk": 22, "fields": {"user": 1, "full_name": "gvhbn", "email": "hjmjk@gmail.com", "address": "rctvybuniom", "created": "2025-08-15T10:47:25.521Z", "status": "paid", "total_amount": "2550.00", "stripe_payment_intent_id": null, "stripe_payment_status": null, "location": "Processing warehouse"}}, {"model": "orders.order", "pk": 23, "fields": {"user": 1, "full_name": "devananda", "email": "devananda@gmail.com", "address": "rctvybujnkml", "created": "2025-08-15T10:54:36.401Z", "status": "paid", "total_amount": "980.00", "stripe_payment_intent_id": null, "stripe_payment_status": null, "location": "Processing warehouse"}}, {"model": "orders.order", "pk": 24, "fields": {"user": 1, "full_name": "deva", "email": "deva@gmail.com", "address": "dfghkjhgvbnm,", "created": "2025-08-15T10:58:10.876Z", "status": "pending", "total_amount": "920.00", "stripe_payment_intent_id": null, "stripe_payment_status": null, "location": "Processing warehouse"}}, {"model": "orders.order", "pk": 25, "fields": {"user": 1, "full_name": "rtyuj", "email": "rctvybu@gmail.com", "address": "exf ghjbnmopoihgufydtsrfxg hjknlm", "created": "2025-08-15T11:01:45.354Z", "status": "paid", "total_amount": "2570.00", "stripe_payment_intent_id": null, "stripe_payment_status": null, "location": "Processing warehouse"}}, {"model": "orders.order", "pk": 26, "fields": {"user": 1, "full_name": "shan z", "email": "safyvh@gmail.com", "address": "dtyvsbjnkd", "created": "2025-08-15T11:35:19.741Z", "status": "paid", "total_amount": "980.00", "stripe_payment_intent_id": null, "stripe_payment_status": null, "location": "Processing warehouse"}}, {"model": "orders.order", "pk": 27, "fields": {"user": 1, "full_name": "thedewyritual", "email": "thedewy@gmail.com", "address": "ewrdtfygfdfswdsfvcb", "created": "2025-08-16T12:57:15.868Z", "status": "pending", "total_amount": "980.00", "stripe_payment_intent_id": null, "stripe_payment_status": null, "location": "Processing warehouse"}}, {"model": "orders.order", "pk": 28, "fields": {"user": 1, "full_name": "thedewyritual", "email": "thedewy@gmail.com", "address": "ewrdtfygfdfswdsfvcb", "created": "2025-08-16T12:59:00.766Z", "status": "pending", "total_amount": "980.00", "stripe_payment_intent_id": null, "stripe_payment_status": null, "location": "Processing warehouse"}}, {"model": "orders.order", "pk": 29, "fields": {"user": 1, "full_name": "thedewyritual", "email": "thedewy@gmail.com", "address": "qwerfghgfd", "created": "2025-08-16T12:59:39.198Z", "status": "pending", "total_amount": "980.00", "stripe_payment_intent_id": null, "stripe_payment_status": null, "location": "Processing warehouse"}}, {"model": "orders.order", "pk": 30, "fields": {"user": 1, "full_name": "thedewyritual", "email": "thedewy@gmail.com", "address": "wergfdsx", "created": "2025-08-16T13:05:54.653Z", "status": "pending", "total_amount": "980.00", "stripe_payment_intent_id": null, "stripe_payment_status": null, "location": "Processing warehouse"}}, {"model": "orders.order", "pk": 31, "fields": {"user": 1, "full_name": "thedewyritual", "email": "thedewy@gmail.com", "address": "rgfhnm,.", "created": "2025-08-16T13:27:42.111Z", "status": "paid", "total_amount": "980.00", "stripe_payment_intent_id": null, "stripe_payment_status": null, "location": "Processing warehouse"}}, {"model": "orders.order", "pk": 32, "fields": {"user": 1, "full_name": "rxtcvhbj", "email": "cghvbj@gmail.com", "address": "cvhbjnkm", "created": "2025-08-16T14:34:20.111Z", "status": "pending", "total_amount": "980.00", "stripe_payment_intent_id": null, "stripe_payment_status": null, "location": "Processing warehouse"}}, {"model": "orders.order", "pk": 33, "fields": {"user": 1, "full_name": " hnm", "email": "hgf@gmail.com", "address": "hadj m", "created": "2025-08-16T14:36:18.571Z", "status": "paid", "total_amount": "980.00", "stripe_payment_intent_id": null, "stripe_payment_status": null, "location": "Processing warehouse"}}, {"model": "orders.order", "pk": 34, "fields": {"user": 1, "full_name": "dsuhskjn,", "email": "dsli@gmail.com", "address": "ftybusjnk ", "created": "2025-09-15T17:58:51.246Z", "status": "pending", "total_amount": "1650.00", "stripe_payment_intent_id": null, "stripe_payment_status": null, "location": "Processing warehouse"}}]
+[
+    {
+      "model": "admin.logentry",
+      "pk": 1,
+      "fields": {
+        "action_time": "2025-08-13T17:09:36.970Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "1",
+        "object_repr": "Cleansers",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 2,
+      "fields": {
+        "action_time": "2025-08-13T17:09:51.743Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "2",
+        "object_repr": "TONERS",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 3,
+      "fields": {
+        "action_time": "2025-08-13T17:10:15.936Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "3",
+        "object_repr": "SERUMS",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 4,
+      "fields": {
+        "action_time": "2025-08-13T17:10:29.799Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "4",
+        "object_repr": "MOISTURIZER",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 5,
+      "fields": {
+        "action_time": "2025-08-13T17:10:33.215Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "5",
+        "object_repr": "FACE MASK",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 6,
+      "fields": {
+        "action_time": "2025-08-13T17:10:56.071Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "5",
+        "object_repr": "FACE MASK",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 7,
+      "fields": {
+        "action_time": "2025-08-13T17:10:56.074Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "1",
+        "object_repr": "Cleansers",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 8,
+      "fields": {
+        "action_time": "2025-08-13T17:11:07.971Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "6",
+        "object_repr": "CLEANSERS",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 9,
+      "fields": {
+        "action_time": "2025-08-13T17:11:21.624Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "7",
+        "object_repr": "FACE MASK",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 10,
+      "fields": {
+        "action_time": "2025-08-13T17:11:32.979Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "8",
+        "object_repr": "FACE SCRUB",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 11,
+      "fields": {
+        "action_time": "2025-08-13T17:11:43.958Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "9",
+        "object_repr": "NIGHT CREAM",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 12,
+      "fields": {
+        "action_time": "2025-08-13T17:11:48.694Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "10",
+        "object_repr": "LIP CARE",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 13,
+      "fields": {
+        "action_time": "2025-08-13T17:12:08.581Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "10",
+        "object_repr": "LIP CARE",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 14,
+      "fields": {
+        "action_time": "2025-08-13T17:12:29.714Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "11",
+        "object_repr": "LIP CARE",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 15,
+      "fields": {
+        "action_time": "2025-08-13T17:12:39.114Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "12",
+        "object_repr": "EYE CREAM",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 16,
+      "fields": {
+        "action_time": "2025-08-13T17:12:54.433Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "13",
+        "object_repr": "SUNSCREEN",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 17,
+      "fields": {
+        "action_time": "2025-08-13T21:48:42.706Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "1",
+        "object_repr": "cosrx-low-ph-good-morning-gel-cleanser",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 18,
+      "fields": {
+        "action_time": "2025-08-15T06:55:50.386Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "2",
+        "object_repr": "Innisfree Green Tea Foam Cleanser",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 19,
+      "fields": {
+        "action_time": "2025-08-15T06:56:54.263Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "3",
+        "object_repr": "Etude House Soon Jung pH 6.5 Whip Cleanser",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 20,
+      "fields": {
+        "action_time": "2025-08-15T06:57:54.245Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "4",
+        "object_repr": "Banila Co Clean It Zero Cleansing Balm (Original)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 21,
+      "fields": {
+        "action_time": "2025-08-15T06:58:51.565Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "5",
+        "object_repr": "Klairs Rich Moist Foaming Cleanser",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 22,
+      "fields": {
+        "action_time": "2025-08-15T07:03:45.970Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "6",
+        "object_repr": "Beauty of Joseon Green Plum Refreshing Cleanser",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 23,
+      "fields": {
+        "action_time": "2025-08-15T07:05:03.930Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "7",
+        "object_repr": "Some By Mi AHA-BHA-PHA 30 Days Miracle Acne Clear Foam (100ml)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 24,
+      "fields": {
+        "action_time": "2025-08-15T07:06:13.619Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "8",
+        "object_repr": "Heimish All Clean Balm (120ml)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 25,
+      "fields": {
+        "action_time": "2025-08-15T07:07:06.551Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "9",
+        "object_repr": "Neogen Real Fresh Foam Green Tea (160g)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 26,
+      "fields": {
+        "action_time": "2025-08-15T07:07:52.382Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "10",
+        "object_repr": "Isntree Green Tea Fresh Cleanser (150ml)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 27,
+      "fields": {
+        "action_time": "2025-08-15T07:09:02.772Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "11",
+        "object_repr": "Klairs Gentle Black Deep Cleansing Oil (150ml)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 28,
+      "fields": {
+        "action_time": "2025-08-15T07:09:47.991Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "12",
+        "object_repr": "Rovectin Skin Essentials Conditioning Cleanser (175ml)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 29,
+      "fields": {
+        "action_time": "2025-08-15T07:10:51.613Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "13",
+        "object_repr": "The Face Shop Rice Water Bright Cleansing Foam (150ml)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 30,
+      "fields": {
+        "action_time": "2025-08-15T07:11:39.748Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "14",
+        "object_repr": "Dr. G pH Cleansing Gel Foam (200ml)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 31,
+      "fields": {
+        "action_time": "2025-08-15T07:13:07.872Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "15",
+        "object_repr": "Mary & May Vegan Cica Tea Tree AHA PHA BHA Foaming Cleanser (150ml)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 32,
+      "fields": {
+        "action_time": "2025-08-15T07:14:15.178Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "16",
+        "object_repr": "Mediheal Intensive Pore Clean Cleansing Foam (170ml)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 33,
+      "fields": {
+        "action_time": "2025-08-15T07:15:07.780Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "17",
+        "object_repr": "Beauty of Joseon Ginseng Essence Water (150ml)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 34,
+      "fields": {
+        "action_time": "2025-08-15T07:15:56.374Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "18",
+        "object_repr": "Cosrx Advanced Snail 96 Mucin Power Essence (100ml)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 35,
+      "fields": {
+        "action_time": "2025-08-15T07:16:45.503Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "19",
+        "object_repr": "Isntree Hyaluronic Acid Toner (200ml)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 36,
+      "fields": {
+        "action_time": "2025-08-15T07:17:34.994Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "20",
+        "object_repr": "Some By Mi Galactomyces Pure Vitamin C Glow Toner (200ml)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 37,
+      "fields": {
+        "action_time": "2025-08-15T07:19:24.220Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "21",
+        "object_repr": "Etude Soon Jung pH 5.5 Relief Toner (180ml)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 38,
+      "fields": {
+        "action_time": "2025-08-15T07:20:08.282Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "22",
+        "object_repr": "Klairs Supple Preparation Unscented Toner (180ml)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 39,
+      "fields": {
+        "action_time": "2025-08-15T07:21:06.915Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "23",
+        "object_repr": "Laneige Essential Power Skin Refiner Moisture (200ml)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 40,
+      "fields": {
+        "action_time": "2025-08-15T07:22:51.467Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "24",
+        "object_repr": "Pyunkang Yul Essence Toner (200ml)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 41,
+      "fields": {
+        "action_time": "2025-08-15T07:23:43.061Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "25",
+        "object_repr": "Innisfree Green Tea Seed Skin (200ml)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 42,
+      "fields": {
+        "action_time": "2025-08-15T07:24:27.346Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "26",
+        "object_repr": "Round Lab Dokdo Toner (200ml)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 43,
+      "fields": {
+        "action_time": "2025-08-15T07:25:33.280Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "27",
+        "object_repr": "Dr. Ceuracle Vegan Kombucha Tea Essence (150ml)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 44,
+      "fields": {
+        "action_time": "2025-08-15T07:26:12.919Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "28",
+        "object_repr": "Torriden Dive-In Low Molecule Hyaluronic Acid Toner (300ml)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 45,
+      "fields": {
+        "action_time": "2025-08-15T07:26:57.556Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "29",
+        "object_repr": "AHC Aqualuronic Toner (140ml)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 46,
+      "fields": {
+        "action_time": "2025-08-15T07:27:42.812Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "30",
+        "object_repr": "Missha Time Revolution The First Essence 5X (150ml)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 47,
+      "fields": {
+        "action_time": "2025-08-15T07:28:29.397Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "31",
+        "object_repr": "Haruharu Wonder Black Rice Hyaluronic Toner (150ml)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 48,
+      "fields": {
+        "action_time": "2025-08-15T07:30:00.108Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "32",
+        "object_repr": "Beauty of Joseon Glow Serum (30ml)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 49,
+      "fields": {
+        "action_time": "2025-08-15T07:31:19.881Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "33",
+        "object_repr": "Cosrx Advanced Snail 96 Mucin Power Essence (100ml)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 50,
+      "fields": {
+        "action_time": "2025-08-15T07:32:44.295Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "34",
+        "object_repr": "Some By Mi Yuja Niacin Blemish Care Serum (50ml)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 51,
+      "fields": {
+        "action_time": "2025-08-15T07:33:28.545Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "35",
+        "object_repr": "Innisfree Green Tea Seed Serum (80ml)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 52,
+      "fields": {
+        "action_time": "2025-08-15T07:34:52.046Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "36",
+        "object_repr": "Missha Time Revolution Night Repair Ampoule 5X (50ml)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 53,
+      "fields": {
+        "action_time": "2025-08-15T07:35:40.406Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "37",
+        "object_repr": "Benton Snail Bee High Content Essence (60ml)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 54,
+      "fields": {
+        "action_time": "2025-08-15T08:05:09.720Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "38",
+        "object_repr": "Dr. Ceuracle Royal Vita Propolis 33 Ampoule (30ml)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 55,
+      "fields": {
+        "action_time": "2025-08-15T08:06:38.104Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "39",
+        "object_repr": "Torriden Dive-In Serum (50ml)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 56,
+      "fields": {
+        "action_time": "2025-08-15T08:07:27.341Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "40",
+        "object_repr": "Isntree C-Niacin Toning Ampoule (50ml)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 57,
+      "fields": {
+        "action_time": "2025-08-15T08:08:22.446Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "41",
+        "object_repr": "Klairs Freshly Juiced Vitamin Drop (35ml)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 58,
+      "fields": {
+        "action_time": "2025-08-15T08:09:10.823Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "42",
+        "object_repr": "Neogen Real Ferment Micro Serum (30ml)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 59,
+      "fields": {
+        "action_time": "2025-08-15T08:09:51.864Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "43",
+        "object_repr": "Laneige Water Bank Blue Hyaluronic Serum (50ml)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 60,
+      "fields": {
+        "action_time": "2025-08-15T08:10:35.279Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "44",
+        "object_repr": "AHC Youth Lasting Real Eye Serum for Face (30ml)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 61,
+      "fields": {
+        "action_time": "2025-08-15T08:11:24.353Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "45",
+        "object_repr": "Mediheal N.M.F Intensive Hydrating Serum (50ml)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 62,
+      "fields": {
+        "action_time": "2025-08-15T08:14:31.990Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "46",
+        "object_repr": "SKIN1004 Madagascar Centella Tone Brightening Capsule Ampoule",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 63,
+      "fields": {
+        "action_time": "2025-08-15T08:15:34.786Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "47",
+        "object_repr": "Innisfree Jeju Orchid Eye Cream (30ml)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 64,
+      "fields": {
+        "action_time": "2025-08-15T08:16:10.218Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "48",
+        "object_repr": "Mizon Snail Repair Eye Cream (25ml)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 65,
+      "fields": {
+        "action_time": "2025-08-15T08:17:49.351Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "49",
+        "object_repr": "Beauty of Joseon Revive Eye Serum (30ml)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 66,
+      "fields": {
+        "action_time": "2025-08-15T08:18:28.144Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "50",
+        "object_repr": "AHC Essential Real Eye Cream for Face (30ml)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 67,
+      "fields": {
+        "action_time": "2025-08-15T08:19:15.405Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "51",
+        "object_repr": "Laneige Perfect Renew Youth Eye Cream (20ml)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 68,
+      "fields": {
+        "action_time": "2025-08-15T08:19:56.870Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "52",
+        "object_repr": "Etude House Moistfull Collagen Eye Cream (28ml)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 69,
+      "fields": {
+        "action_time": "2025-08-15T08:20:40.488Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "53",
+        "object_repr": "Benton Fermentation Eye Cream (30g)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 70,
+      "fields": {
+        "action_time": "2025-08-15T08:21:27.299Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "54",
+        "object_repr": "The Saem Urban Eco Harakeke Eye Cream (30ml)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 71,
+      "fields": {
+        "action_time": "2025-08-15T08:22:08.344Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "55",
+        "object_repr": "Some By Mi Retinol Intense Advanced Triple Action Eye Cream (30ml)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 72,
+      "fields": {
+        "action_time": "2025-08-15T08:23:01.547Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "56",
+        "object_repr": "Sulwhasoo Concentrated Ginseng Renewing Eye Cream (20ml)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 73,
+      "fields": {
+        "action_time": "2025-08-15T08:23:40.584Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "57",
+        "object_repr": "Klairs Fundamental Eye Awakening Gel (35ml)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 74,
+      "fields": {
+        "action_time": "2025-08-15T08:24:46.572Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "58",
+        "object_repr": "Missha Geum Sul Vitalizing Eye Cream (30ml)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 75,
+      "fields": {
+        "action_time": "2025-08-15T08:25:51.727Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "59",
+        "object_repr": "Dr. Jart+ Ceramidin Eye Cream (20ml)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 76,
+      "fields": {
+        "action_time": "2025-08-15T08:27:13.552Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "60",
+        "object_repr": "Holika Holika Aloe Soothing Essence Eye Cream (30ml)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 77,
+      "fields": {
+        "action_time": "2025-08-15T08:28:03.116Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "61",
+        "object_repr": "Mediheal Vita Collagen Eye Cream (30ml)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 78,
+      "fields": {
+        "action_time": "2025-08-15T08:39:18.152Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "33",
+        "object_repr": "Cosrx Advanced Snail 96 Mucin Power Essence (100ml)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 79,
+      "fields": {
+        "action_time": "2025-08-15T08:42:49.025Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "62",
+        "object_repr": "Skinfood Black Sugar Mask Wash Off (100g)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 80,
+      "fields": {
+        "action_time": "2025-08-15T08:44:16.649Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "63",
+        "object_repr": "Innisfree Jeju Volcanic Pore Scrub Foam (150ml)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 81,
+      "fields": {
+        "action_time": "2025-08-15T08:45:07.176Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "64",
+        "object_repr": "The Face Shop Jeju Volcanic Lava Pore Scrub Foam (150ml)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 82,
+      "fields": {
+        "action_time": "2025-08-15T08:45:48.251Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "65",
+        "object_repr": "Skinfood Rice Mask Wash Off (100g)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 83,
+      "fields": {
+        "action_time": "2025-08-15T08:46:41.630Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "66",
+        "object_repr": "Missha Super Aqua D-TOX Peeling Gel (100ml)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 84,
+      "fields": {
+        "action_time": "2025-08-15T08:47:31.455Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "67",
+        "object_repr": "The Saem Natural Condition Scrub Foam Deep Clean (150ml)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 85,
+      "fields": {
+        "action_time": "2025-08-15T08:48:36.222Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "68",
+        "object_repr": "Neogen Bio-Peel Gauze Peeling Lemon (30 pads)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 86,
+      "fields": {
+        "action_time": "2025-08-15T08:49:24.457Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "69",
+        "object_repr": "Neogen Bio-Peel Gauze Peeling Green Tea (30 pads)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 87,
+      "fields": {
+        "action_time": "2025-08-15T08:50:29.128Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "70",
+        "object_repr": "Some By Mi Super Matcha Pore Clean Clay Mask + Scrub (100g)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 88,
+      "fields": {
+        "action_time": "2025-08-15T08:53:37.872Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "71",
+        "object_repr": "COSRX – BHA Blackhead Power Liquid.",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 89,
+      "fields": {
+        "action_time": "2025-08-15T08:54:20.469Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "72",
+        "object_repr": "It’s Skin MangoWhite Peeling Gel (120ml)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 90,
+      "fields": {
+        "action_time": "2025-08-15T08:55:39.143Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "73",
+        "object_repr": "Holika Holika Smooth Egg Skin Peeling Gel (140ml)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 91,
+      "fields": {
+        "action_time": "2025-08-15T08:56:24.652Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "74",
+        "object_repr": "Etude House Baking Powder Crunch Pore Scrub (200ml)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 92,
+      "fields": {
+        "action_time": "2025-08-15T08:57:16.986Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "75",
+        "object_repr": "Laneige Clear-C Peeling Mask (70ml)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 93,
+      "fields": {
+        "action_time": "2025-08-15T08:58:00.574Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "76",
+        "object_repr": "TonyMoly Floria Brightening Peeling Gel (150ml)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 94,
+      "fields": {
+        "action_time": "2025-08-16T12:50:43.289Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "76",
+        "object_repr": "TonyMoly Floria Brightening Peeling Gel (150ml)",
+        "action_flag": 2,
+        "change_message": "[]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 95,
+      "fields": {
+        "action_time": "2025-08-16T12:51:13.445Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "76",
+        "object_repr": "TonyMoly Floria Brightening Peeling Gel (150ml)",
+        "action_flag": 2,
+        "change_message": "[]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 96,
+      "fields": {
+        "action_time": "2025-08-16T12:56:56.626Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "76",
+        "object_repr": "TonyMoly Floria Brightening Peeling Gel (150ml)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Stock\"]}}]"
+      }
+    },
+    {
+      "model": "auth.permission",
+      "pk": 1,
+      "fields": {
+        "name": "Can add log entry",
+        "content_type": 1,
+        "codename": "add_logentry"
+      }
+    },
+    {
+      "model": "auth.permission",
+      "pk": 2,
+      "fields": {
+        "name": "Can change log entry",
+        "content_type": 1,
+        "codename": "change_logentry"
+      }
+    },
+    {
+      "model": "auth.permission",
+      "pk": 3,
+      "fields": {
+        "name": "Can delete log entry",
+        "content_type": 1,
+        "codename": "delete_logentry"
+      }
+    },
+    {
+      "model": "auth.permission",
+      "pk": 4,
+      "fields": {
+        "name": "Can view log entry",
+        "content_type": 1,
+        "codename": "view_logentry"
+      }
+    },
+    {
+      "model": "auth.permission",
+      "pk": 5,
+      "fields": {
+        "name": "Can add permission",
+        "content_type": 2,
+        "codename": "add_permission"
+      }
+    },
+    {
+      "model": "auth.permission",
+      "pk": 6,
+      "fields": {
+        "name": "Can change permission",
+        "content_type": 2,
+        "codename": "change_permission"
+      }
+    },
+    {
+      "model": "auth.permission",
+      "pk": 7,
+      "fields": {
+        "name": "Can delete permission",
+        "content_type": 2,
+        "codename": "delete_permission"
+      }
+    },
+    {
+      "model": "auth.permission",
+      "pk": 8,
+      "fields": {
+        "name": "Can view permission",
+        "content_type": 2,
+        "codename": "view_permission"
+      }
+    },
+    {
+      "model": "auth.permission",
+      "pk": 9,
+      "fields": {
+        "name": "Can add group",
+        "content_type": 3,
+        "codename": "add_group"
+      }
+    },
+    {
+      "model": "auth.permission",
+      "pk": 10,
+      "fields": {
+        "name": "Can change group",
+        "content_type": 3,
+        "codename": "change_group"
+      }
+    },
+    {
+      "model": "auth.permission",
+      "pk": 11,
+      "fields": {
+        "name": "Can delete group",
+        "content_type": 3,
+        "codename": "delete_group"
+      }
+    },
+    {
+      "model": "auth.permission",
+      "pk": 12,
+      "fields": {
+        "name": "Can view group",
+        "content_type": 3,
+        "codename": "view_group"
+      }
+    },
+    {
+      "model": "auth.permission",
+      "pk": 13,
+      "fields": {
+        "name": "Can add user",
+        "content_type": 4,
+        "codename": "add_user"
+      }
+    },
+    {
+      "model": "auth.permission",
+      "pk": 14,
+      "fields": {
+        "name": "Can change user",
+        "content_type": 4,
+        "codename": "change_user"
+      }
+    },
+    {
+      "model": "auth.permission",
+      "pk": 15,
+      "fields": {
+        "name": "Can delete user",
+        "content_type": 4,
+        "codename": "delete_user"
+      }
+    },
+    {
+      "model": "auth.permission",
+      "pk": 16,
+      "fields": {
+        "name": "Can view user",
+        "content_type": 4,
+        "codename": "view_user"
+      }
+    },
+    {
+      "model": "auth.permission",
+      "pk": 17,
+      "fields": {
+        "name": "Can add content type",
+        "content_type": 5,
+        "codename": "add_contenttype"
+      }
+    },
+    {
+      "model": "auth.permission",
+      "pk": 18,
+      "fields": {
+        "name": "Can change content type",
+        "content_type": 5,
+        "codename": "change_contenttype"
+      }
+    },
+    {
+      "model": "auth.permission",
+      "pk": 19,
+      "fields": {
+        "name": "Can delete content type",
+        "content_type": 5,
+        "codename": "delete_contenttype"
+      }
+    },
+    {
+      "model": "auth.permission",
+      "pk": 20,
+      "fields": {
+        "name": "Can view content type",
+        "content_type": 5,
+        "codename": "view_contenttype"
+      }
+    },
+    {
+      "model": "auth.permission",
+      "pk": 21,
+      "fields": {
+        "name": "Can add session",
+        "content_type": 6,
+        "codename": "add_session"
+      }
+    },
+    {
+      "model": "auth.permission",
+      "pk": 22,
+      "fields": {
+        "name": "Can change session",
+        "content_type": 6,
+        "codename": "change_session"
+      }
+    },
+    {
+      "model": "auth.permission",
+      "pk": 23,
+      "fields": {
+        "name": "Can delete session",
+        "content_type": 6,
+        "codename": "delete_session"
+      }
+    },
+    {
+      "model": "auth.permission",
+      "pk": 24,
+      "fields": {
+        "name": "Can view session",
+        "content_type": 6,
+        "codename": "view_session"
+      }
+    },
+    {
+      "model": "auth.permission",
+      "pk": 25,
+      "fields": {
+        "name": "Can add category",
+        "content_type": 7,
+        "codename": "add_category"
+      }
+    },
+    {
+      "model": "auth.permission",
+      "pk": 26,
+      "fields": {
+        "name": "Can change category",
+        "content_type": 7,
+        "codename": "change_category"
+      }
+    },
+    {
+      "model": "auth.permission",
+      "pk": 27,
+      "fields": {
+        "name": "Can delete category",
+        "content_type": 7,
+        "codename": "delete_category"
+      }
+    },
+    {
+      "model": "auth.permission",
+      "pk": 28,
+      "fields": {
+        "name": "Can view category",
+        "content_type": 7,
+        "codename": "view_category"
+      }
+    },
+    {
+      "model": "auth.permission",
+      "pk": 29,
+      "fields": {
+        "name": "Can add product",
+        "content_type": 8,
+        "codename": "add_product"
+      }
+    },
+    {
+      "model": "auth.permission",
+      "pk": 30,
+      "fields": {
+        "name": "Can change product",
+        "content_type": 8,
+        "codename": "change_product"
+      }
+    },
+    {
+      "model": "auth.permission",
+      "pk": 31,
+      "fields": {
+        "name": "Can delete product",
+        "content_type": 8,
+        "codename": "delete_product"
+      }
+    },
+    {
+      "model": "auth.permission",
+      "pk": 32,
+      "fields": {
+        "name": "Can view product",
+        "content_type": 8,
+        "codename": "view_product"
+      }
+    },
+    {
+      "model": "auth.permission",
+      "pk": 33,
+      "fields": {
+        "name": "Can add cart item",
+        "content_type": 9,
+        "codename": "add_cartitem"
+      }
+    },
+    {
+      "model": "auth.permission",
+      "pk": 34,
+      "fields": {
+        "name": "Can change cart item",
+        "content_type": 9,
+        "codename": "change_cartitem"
+      }
+    },
+    {
+      "model": "auth.permission",
+      "pk": 35,
+      "fields": {
+        "name": "Can delete cart item",
+        "content_type": 9,
+        "codename": "delete_cartitem"
+      }
+    },
+    {
+      "model": "auth.permission",
+      "pk": 36,
+      "fields": {
+        "name": "Can view cart item",
+        "content_type": 9,
+        "codename": "view_cartitem"
+      }
+    },
+    {
+      "model": "auth.permission",
+      "pk": 37,
+      "fields": {
+        "name": "Can add order",
+        "content_type": 10,
+        "codename": "add_order"
+      }
+    },
+    {
+      "model": "auth.permission",
+      "pk": 38,
+      "fields": {
+        "name": "Can change order",
+        "content_type": 10,
+        "codename": "change_order"
+      }
+    },
+    {
+      "model": "auth.permission",
+      "pk": 39,
+      "fields": {
+        "name": "Can delete order",
+        "content_type": 10,
+        "codename": "delete_order"
+      }
+    },
+    {
+      "model": "auth.permission",
+      "pk": 40,
+      "fields": {
+        "name": "Can view order",
+        "content_type": 10,
+        "codename": "view_order"
+      }
+    },
+    {
+      "model": "auth.permission",
+      "pk": 41,
+      "fields": {
+        "name": "Can add profile",
+        "content_type": 11,
+        "codename": "add_profile"
+      }
+    },
+    {
+      "model": "auth.permission",
+      "pk": 42,
+      "fields": {
+        "name": "Can change profile",
+        "content_type": 11,
+        "codename": "change_profile"
+      }
+    },
+    {
+      "model": "auth.permission",
+      "pk": 43,
+      "fields": {
+        "name": "Can delete profile",
+        "content_type": 11,
+        "codename": "delete_profile"
+      }
+    },
+    {
+      "model": "auth.permission",
+      "pk": 44,
+      "fields": {
+        "name": "Can view profile",
+        "content_type": 11,
+        "codename": "view_profile"
+      }
+    },
+    {
+      "model": "auth.permission",
+      "pk": 45,
+      "fields": {
+        "name": "Can add order item",
+        "content_type": 12,
+        "codename": "add_orderitem"
+      }
+    },
+    {
+      "model": "auth.permission",
+      "pk": 46,
+      "fields": {
+        "name": "Can change order item",
+        "content_type": 12,
+        "codename": "change_orderitem"
+      }
+    },
+    {
+      "model": "auth.permission",
+      "pk": 47,
+      "fields": {
+        "name": "Can delete order item",
+        "content_type": 12,
+        "codename": "delete_orderitem"
+      }
+    },
+    {
+      "model": "auth.permission",
+      "pk": 48,
+      "fields": {
+        "name": "Can view order item",
+        "content_type": 12,
+        "codename": "view_orderitem"
+      }
+    },
+    {
+      "model": "auth.permission",
+      "pk": 49,
+      "fields": {
+        "name": "Can add offer",
+        "content_type": 13,
+        "codename": "add_offer"
+      }
+    },
+    {
+      "model": "auth.permission",
+      "pk": 50,
+      "fields": {
+        "name": "Can change offer",
+        "content_type": 13,
+        "codename": "change_offer"
+      }
+    },
+    {
+      "model": "auth.permission",
+      "pk": 51,
+      "fields": {
+        "name": "Can delete offer",
+        "content_type": 13,
+        "codename": "delete_offer"
+      }
+    },
+    {
+      "model": "auth.permission",
+      "pk": 52,
+      "fields": {
+        "name": "Can view offer",
+        "content_type": 13,
+        "codename": "view_offer"
+      }
+    },
+    {
+      "model": "auth.permission",
+      "pk": 53,
+      "fields": {
+        "name": "Can add wishlist",
+        "content_type": 14,
+        "codename": "add_wishlist"
+      }
+    },
+    {
+      "model": "auth.permission",
+      "pk": 54,
+      "fields": {
+        "name": "Can change wishlist",
+        "content_type": 14,
+        "codename": "change_wishlist"
+      }
+    },
+    {
+      "model": "auth.permission",
+      "pk": 55,
+      "fields": {
+        "name": "Can delete wishlist",
+        "content_type": 14,
+        "codename": "delete_wishlist"
+      }
+    },
+    {
+      "model": "auth.permission",
+      "pk": 56,
+      "fields": {
+        "name": "Can view wishlist",
+        "content_type": 14,
+        "codename": "view_wishlist"
+      }
+    },
+    {
+      "model": "auth.permission",
+      "pk": 57,
+      "fields": {
+        "name": "Can add review",
+        "content_type": 15,
+        "codename": "add_review"
+      }
+    },
+    {
+      "model": "auth.permission",
+      "pk": 58,
+      "fields": {
+        "name": "Can change review",
+        "content_type": 15,
+        "codename": "change_review"
+      }
+    },
+    {
+      "model": "auth.permission",
+      "pk": 59,
+      "fields": {
+        "name": "Can delete review",
+        "content_type": 15,
+        "codename": "delete_review"
+      }
+    },
+    {
+      "model": "auth.permission",
+      "pk": 60,
+      "fields": {
+        "name": "Can view review",
+        "content_type": 15,
+        "codename": "view_review"
+      }
+    },
+    {
+      "model": "auth.user",
+      "pk": 1,
+      "fields": {
+        "password": "pbkdf2_sha256$600000$1kQ2zMlU8mp4xXSxJbpImw$UNNF0vMkfO7vFY3lrFdDEhYw82iXyVMMigaJ5C8OxJE=",
+        "last_login": "2025-09-15T17:58:33.498Z",
+        "is_superuser": true,
+        "username": "thedewyritual",
+        "first_name": "",
+        "last_name": "",
+        "email": "thedewy@gmail.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2025-08-11T20:52:51.930Z",
+        "groups": [],
+        "user_permissions": []
+      }
+    },
+    {
+      "model": "sessions.session",
+      "pk": "cfp77bl2wq5yuf7gluulknpkce9sxm24",
+      "fields": {
+        "session_data": ".eJxVjMsOgjAURP-la9NYuLm1Lt37Dc19VVADCYUV8d-FhIUuZ86ZWV2mZe7yUm3KvbqrC-702zHJy4Yd6JOGx-hlHOapZ78r_qDV30e19-1w_w46qt22bhIDhqa0FgUVNW2BBUMsCCSNghZVTQQggQUo4iWdISRGNSvWus8X7eM4nA:1uyDTF:eCmjrwQKxifZDMvIw4WGZHR2OV3JlapMG2EMI2501ZU",
+        "expire_date": "2025-09-29T17:58:33.498Z"
+      }
+    },
+    {
+      "model": "sessions.session",
+      "pk": "ghlbh94hrkxnaxunmh23gn3xdnksy6j9",
+      "fields": {
+        "session_data": ".eJxVjMsOgjAURP-la9NYuLm1Lt37Dc19VVADCYUV8d-FhIUuZ86ZWV2mZe7yUm3KvbqrC-702zHJy4Yd6JOGx-hlHOapZ78r_qDV30e19-1w_w46qt22bhIDhqa0FgUVNW2BBUMsCCSNghZVTQQggQUo4iWdISRGNSvWus8X7eM4nA:1unGwc:D_TXLAGcAFhefvszJv_BIX9lRzyOhNUGXSObNHGJmNE",
+        "expire_date": "2025-08-30T13:27:38.202Z"
+      }
+    },
+    {
+      "model": "store.category",
+      "pk": 2,
+      "fields": {
+        "name": "TONERS",
+        "slug": "toners",
+        "image": "categories/toner.jpg"
+      }
+    },
+    {
+      "model": "store.category",
+      "pk": 3,
+      "fields": {
+        "name": "SERUMS",
+        "slug": "serums",
+        "image": "categories/serum.jpg"
+      }
+    },
+    {
+      "model": "store.category",
+      "pk": 4,
+      "fields": {
+        "name": "MOISTURIZER",
+        "slug": "moisturizer",
+        "image": "categories/moist.jpg"
+      }
+    },
+    {
+      "model": "store.category",
+      "pk": 6,
+      "fields": {
+        "name": "CLEANSERS",
+        "slug": "cleansers",
+        "image": "categories/clenser_lGZR9gI.jpg"
+      }
+    },
+    {
+      "model": "store.category",
+      "pk": 7,
+      "fields": {
+        "name": "FACE MASK",
+        "slug": "face-mask",
+        "image": "categories/mask.jpg"
+      }
+    },
+    {
+      "model": "store.category",
+      "pk": 8,
+      "fields": {
+        "name": "FACE SCRUB",
+        "slug": "face-scrub",
+        "image": "categories/scrub.jpg"
+      }
+    },
+    {
+      "model": "store.category",
+      "pk": 9,
+      "fields": {
+        "name": "NIGHT CREAM",
+        "slug": "night-cream",
+        "image": "categories/night.jpg"
+      }
+    },
+    {
+      "model": "store.category",
+      "pk": 11,
+      "fields": {
+        "name": "LIP CARE",
+        "slug": "lip-care",
+        "image": "categories/lip.jpg"
+      }
+    },
+    {
+      "model": "store.category",
+      "pk": 12,
+      "fields": {
+        "name": "EYE CREAM",
+        "slug": "eye-cream",
+        "image": "categories/eye.jpg"
+      }
+    },
+    {
+      "model": "store.category",
+      "pk": 13,
+      "fields": {
+        "name": "SUNSCREEN",
+        "slug": "sunscreen",
+        "image": "categories/sun.jpg"
+      }
+    },
+    {
+      "model": "store.product",
+      "pk": 1,
+      "fields": {
+        "category": 6,
+        "name": "cosrx-low-ph-good-morning-gel-cleanser",
+        "slug": "cosrx-low-ph-good-morning-gel-cleanser",
+        "description": "A gentle gel cleanser with a low pH of 5.0–6.0 to maintain skin balance. Contains tea tree oil and natural BHA to refine skin texture.",
+        "price": "850.00",
+        "image": "products/cleanser1.jpg.webp",
+        "available": true,
+        "created": "2025-08-13T21:48:42.704Z"
+      }
+    },
+    {
+      "model": "store.product",
+      "pk": 2,
+      "fields": {
+        "category": 6,
+        "name": "Innisfree Green Tea Foam Cleanser",
+        "slug": "innisfree-green-tea-foam-cleanser",
+        "description": "Description: Enriched with Jeju green tea extract to hydrate and refresh the skin while gently removing impurities.",
+        "price": "750.00",
+        "image": "products/cleanser2.jpeg",
+        "available": true,
+        "created": "2025-08-15T06:55:50.384Z"
+      }
+    },
+    {
+      "model": "store.product",
+      "pk": 3,
+      "fields": {
+        "category": 6,
+        "name": "Etude House Soon Jung pH 6.5 Whip Cleanser",
+        "slug": "etude-house-soon-jung-ph-65-whip-cleanser",
+        "description": "Hypoallergenic cleanser with panthenol and madecassoside to soothe and protect sensitive skin.",
+        "price": "1050.00",
+        "image": "products/cleanser3.jpeg",
+        "available": true,
+        "created": "2025-08-15T06:56:54.262Z"
+      }
+    },
+    {
+      "model": "store.product",
+      "pk": 4,
+      "fields": {
+        "category": 6,
+        "name": "Banila Co Clean It Zero Cleansing Balm (Original)",
+        "slug": "banila-co-clean-it-zero-cleansing-balm-original",
+        "description": "A sherbet-type cleansing balm that melts away makeup and impurities while leaving skin hydrated.",
+        "price": "1290.00",
+        "image": "products/cleanser4.webp",
+        "available": true,
+        "created": "2025-08-15T06:57:54.244Z"
+      }
+    },
+    {
+      "model": "store.product",
+      "pk": 5,
+      "fields": {
+        "category": 6,
+        "name": "Klairs Rich Moist Foaming Cleanser",
+        "slug": "klairs-rich-moist-foaming-cleanser",
+        "description": "Hydrating foaming cleanser with amino acids and hyaluronic acid for soft, supple skin.",
+        "price": "1100.00",
+        "image": "products/cleanser5.webp",
+        "available": true,
+        "created": "2025-08-15T06:58:51.565Z"
+      }
+    },
+    {
+      "model": "store.product",
+      "pk": 6,
+      "fields": {
+        "category": 6,
+        "name": "Beauty of Joseon Green Plum Refreshing Cleanser",
+        "slug": "beauty-of-joseon-green-plum-refreshing-cleanser",
+        "description": "Mild daily cleanser with plum water & mung bean extract(100ml)",
+        "price": "990.00",
+        "image": "products/cleanser6.jpg",
+        "available": true,
+        "created": "2025-08-15T07:03:45.969Z"
+      }
+    },
+    {
+      "model": "store.product",
+      "pk": 7,
+      "fields": {
+        "category": 6,
+        "name": "Some By Mi AHA-BHA-PHA 30 Days Miracle Acne Clear Foam (100ml)",
+        "slug": "some-by-mi-aha-bha-pha-30-days-miracle-acne-clear-foam-100ml",
+        "description": "Exfoliating foam with triple acids for acne-prone skin.",
+        "price": "890.00",
+        "image": "products/cleanser7.jpeg",
+        "available": true,
+        "created": "2025-08-15T07:05:03.929Z"
+      }
+    },
+    {
+      "model": "store.product",
+      "pk": 8,
+      "fields": {
+        "category": 6,
+        "name": "Heimish All Clean Balm (120ml)",
+        "slug": "heimish-all-clean-balm-120ml",
+        "description": "Coconut and shea butter cleansing balm for heavy makeup.",
+        "price": "1090.00",
+        "image": "products/cleanser8.jpeg",
+        "available": true,
+        "created": "2025-08-15T07:06:13.618Z"
+      }
+    },
+    {
+      "model": "store.product",
+      "pk": 9,
+      "fields": {
+        "category": 6,
+        "name": "Neogen Real Fresh Foam Green Tea (160g)",
+        "slug": "neogen-real-fresh-foam-green-tea-160g",
+        "description": "Foaming cleanser with fermented green tea leaves for detoxifying.",
+        "price": "1250.00",
+        "image": "products/cleanser9.webp",
+        "available": true,
+        "created": "2025-08-15T07:07:06.550Z"
+      }
+    },
+    {
+      "model": "store.product",
+      "pk": 10,
+      "fields": {
+        "category": 6,
+        "name": "Isntree Green Tea Fresh Cleanser (150ml)",
+        "slug": "isntree-green-tea-fresh-cleanser-150ml",
+        "description": "Refreshing foam with green tea antioxidants for oily skin.",
+        "price": "980.00",
+        "image": "products/cleanser10.jpeg",
+        "available": true,
+        "created": "2025-08-15T07:07:52.381Z"
+      }
+    },
+    {
+      "model": "store.product",
+      "pk": 11,
+      "fields": {
+        "category": 6,
+        "name": "Klairs Gentle Black Deep Cleansing Oil (150ml)",
+        "slug": "klairs-gentle-black-deep-cleansing-oil-150ml",
+        "description": "Nourishing cleansing oil with black sesame and black currant.",
+        "price": "1390.00",
+        "image": "products/cleanser11.jpeg",
+        "available": true,
+        "created": "2025-08-15T07:09:02.771Z"
+      }
+    },
+    {
+      "model": "store.product",
+      "pk": 12,
+      "fields": {
+        "category": 6,
+        "name": "Rovectin Skin Essentials Conditioning Cleanser (175ml)",
+        "slug": "rovectin-skin-essentials-conditioning-cleanser-175ml",
+        "description": "Low-pH hydrating cleanser with minimal ingredients.",
+        "price": "1290.00",
+        "image": "products/cleanser12.webp",
+        "available": true,
+        "created": "2025-08-15T07:09:47.990Z"
+      }
+    },
+    {
+      "model": "store.product",
+      "pk": 13,
+      "fields": {
+        "category": 6,
+        "name": "The Face Shop Rice Water Bright Cleansing Foam (150ml)",
+        "slug": "the-face-shop-rice-water-bright-cleansing-foam-150ml",
+        "description": "Brightening rice water foam for clear skin.",
+        "price": "650.00",
+        "image": "products/cleanser13.webp",
+        "available": true,
+        "created": "2025-08-15T07:10:51.612Z"
+      }
+    },
+    {
+      "model": "store.product",
+      "pk": 14,
+      "fields": {
+        "category": 6,
+        "name": "Dr. G pH Cleansing Gel Foam (200ml)",
+        "slug": "dr-g-ph-cleansing-gel-foam-200ml",
+        "description": "Gentle dermatologist-tested gel foam for daily use.",
+        "price": "1050.00",
+        "image": "products/cleanser14.jpeg",
+        "available": true,
+        "created": "2025-08-15T07:11:39.747Z"
+      }
+    },
+    {
+      "model": "store.product",
+      "pk": 15,
+      "fields": {
+        "category": 6,
+        "name": "Mary & May Vegan Cica Tea Tree AHA PHA BHA Foaming Cleanser (150ml)",
+        "slug": "mary-may-vegan-cica-tea-tree-aha-pha-bha-foaming-cleanser-150ml",
+        "description": "Vegan exfoliating cleanser for acne-prone skin.",
+        "price": "990.00",
+        "image": "products/cleanser15.webp",
+        "available": true,
+        "created": "2025-08-15T07:13:07.872Z"
+      }
+    },
+    {
+      "model": "store.product",
+      "pk": 16,
+      "fields": {
+        "category": 6,
+        "name": "Mediheal Intensive Pore Clean Cleansing Foam (170ml)",
+        "slug": "mediheal-intensive-pore-clean-cleansing-foam-170ml",
+        "description": "Charcoal foam for deep pore cleansing.",
+        "price": "920.00",
+        "image": "products/cleanser16.jpeg",
+        "available": true,
+        "created": "2025-08-15T07:14:15.177Z"
+      }
+    },
+    {
+      "model": "store.product",
+      "pk": 17,
+      "fields": {
+        "category": 2,
+        "name": "Beauty of Joseon Ginseng Essence Water (150ml)",
+        "slug": "beauty-of-joseon-ginseng-essence-water-150ml",
+        "description": "Hydrating and nourishing toner with ginseng and niacinamide.",
+        "price": "1290.00",
+        "image": "products/toner1.jpeg",
+        "available": true,
+        "created": "2025-08-15T07:15:07.779Z"
+      }
+    },
+    {
+      "model": "store.product",
+      "pk": 18,
+      "fields": {
+        "category": 2,
+        "name": "Cosrx Advanced Snail 96 Mucin Power Essence (100ml)",
+        "slug": "cosrx-advanced-snail-96-mucin-power-essence-100ml",
+        "description": "Snail mucin essence that repairs and deeply hydrates.",
+        "price": "1250.00",
+        "image": "products/toner2.webp",
+        "available": true,
+        "created": "2025-08-15T07:15:56.373Z"
+      }
+    },
+    {
+      "model": "store.product",
+      "pk": 19,
+      "fields": {
+        "category": 2,
+        "name": "Isntree Hyaluronic Acid Toner (200ml)",
+        "slug": "isntree-hyaluronic-acid-toner-200ml",
+        "description": "Deep hydration with five types of hyaluronic acid.",
+        "price": "990.00",
+        "image": "products/toner3.jpeg",
+        "available": true,
+        "created": "2025-08-15T07:16:45.502Z"
+      }
+    },
+    {
+      "model": "store.product",
+      "pk": 20,
+      "fields": {
+        "category": 2,
+        "name": "Some By Mi Galactomyces Pure Vitamin C Glow Toner (200ml)",
+        "slug": "some-by-mi-galactomyces-pure-vitamin-c-glow-toner-200ml",
+        "description": "Brightening toner with galactomyces ferment and vitamin C.",
+        "price": "1090.00",
+        "image": "products/toner4.webp",
+        "available": true,
+        "created": "2025-08-15T07:17:34.993Z"
+      }
+    },
+    {
+      "model": "store.product",
+      "pk": 21,
+      "fields": {
+        "category": 2,
+        "name": "Etude Soon Jung pH 5.5 Relief Toner (180ml)",
+        "slug": "etude-soon-jung-ph-55-relief-toner-180ml",
+        "description": "Soothing toner for sensitive skin.",
+        "price": "950.00",
+        "image": "products/toner5.jpeg",
+        "available": true,
+        "created": "2025-08-15T07:19:24.220Z"
+      }
+    },
+    {
+      "model": "store.product",
+      "pk": 22,
+      "fields": {
+        "category": 2,
+        "name": "Klairs Supple Preparation Unscented Toner (180ml)",
+        "slug": "klairs-supple-preparation-unscented-toner-180ml",
+        "description": "Balancing and hydrating unscented toner.",
+        "price": "1350.00",
+        "image": "products/toner6.jpeg",
+        "available": true,
+        "created": "2025-08-15T07:20:08.281Z"
+      }
+    },
+    {
+      "model": "store.product",
+      "pk": 23,
+      "fields": {
+        "category": 2,
+        "name": "Laneige Essential Power Skin Refiner Moisture (200ml)",
+        "slug": "laneige-essential-power-skin-refiner-moisture-200ml",
+        "description": "Moisturizing toner for dry skin.",
+        "price": "1850.00",
+        "image": "products/toner7.jpeg",
+        "available": true,
+        "created": "2025-08-15T07:21:06.915Z"
+      }
+    },
+    {
+      "model": "store.product",
+      "pk": 24,
+      "fields": {
+        "category": 2,
+        "name": "Pyunkang Yul Essence Toner (200ml)",
+        "slug": "pyunkang-yul-essence-toner-200ml",
+        "description": "Minimalist formula for intense hydration.",
+        "price": "1050.00",
+        "image": "products/toner8.webp",
+        "available": true,
+        "created": "2025-08-15T07:22:51.466Z"
+      }
+    },
+    {
+      "model": "store.product",
+      "pk": 25,
+      "fields": {
+        "category": 2,
+        "name": "Innisfree Green Tea Seed Skin (200ml)",
+        "slug": "innisfree-green-tea-seed-skin-200ml",
+        "description": "Antioxidant-rich green tea toner for hydration.",
+        "price": "1050.00",
+        "image": "products/toner9.jpeg",
+        "available": true,
+        "created": "2025-08-15T07:23:43.060Z"
+      }
+    },
+    {
+      "model": "store.product",
+      "pk": 26,
+      "fields": {
+        "category": 2,
+        "name": "Round Lab Dokdo Toner (200ml)",
+        "slug": "round-lab-dokdo-toner-200ml",
+        "description": "Deep sea water toner rich in minerals.",
+        "price": "1290.00",
+        "image": "products/toner10.jpeg",
+        "available": true,
+        "created": "2025-08-15T07:24:27.345Z"
+      }
+    },
+    {
+      "model": "store.product",
+      "pk": 27,
+      "fields": {
+        "category": 2,
+        "name": "Dr. Ceuracle Vegan Kombucha Tea Essence (150ml)",
+        "slug": "dr-ceuracle-vegan-kombucha-tea-essence-150ml",
+        "description": "Creamy essence toner with kombucha extract.",
+        "price": "1750.00",
+        "image": "products/toner11.webp",
+        "available": true,
+        "created": "2025-08-15T07:25:33.279Z"
+      }
+    },
+    {
+      "model": "store.product",
+      "pk": 28,
+      "fields": {
+        "category": 2,
+        "name": "Torriden Dive-In Low Molecule Hyaluronic Acid Toner (300ml)",
+        "slug": "torriden-dive-in-low-molecule-hyaluronic-acid-toner-300ml",
+        "description": "Lightweight hydrating toner.",
+        "price": "1200.00",
+        "image": "products/toner12.jpeg",
+        "available": true,
+        "created": "2025-08-15T07:26:12.918Z"
+      }
+    },
+    {
+      "model": "store.product",
+      "pk": 29,
+      "fields": {
+        "category": 2,
+        "name": "AHC Aqualuronic Toner (140ml)",
+        "slug": "ahc-aqualuronic-toner-140ml",
+        "description": "Moisture-rich toner with triple hyaluronic acid.",
+        "price": "1450.00",
+        "image": "products/toner13.jpeg",
+        "available": true,
+        "created": "2025-08-15T07:26:57.555Z"
+      }
+    },
+    {
+      "model": "store.product",
+      "pk": 30,
+      "fields": {
+        "category": 2,
+        "name": "Missha Time Revolution The First Essence 5X (150ml)",
+        "slug": "missha-time-revolution-the-first-essence-5x-150ml",
+        "description": "Fermented essence for anti-aging and brightening.",
+        "price": "2690.00",
+        "image": "products/toner14.jpeg",
+        "available": true,
+        "created": "2025-08-15T07:27:42.811Z"
+      }
+    },
+    {
+      "model": "store.product",
+      "pk": 31,
+      "fields": {
+        "category": 2,
+        "name": "Haruharu Wonder Black Rice Hyaluronic Toner (150ml)",
+        "slug": "haruharu-wonder-black-rice-hyaluronic-toner-150ml",
+        "description": "Hydrating toner with fermented black rice.",
+        "price": "1250.00",
+        "image": "products/toner15.jpeg",
+        "available": true,
+        "created": "2025-08-15T07:28:29.397Z"
+      }
+    },
+    {
+      "model": "store.product",
+      "pk": 32,
+      "fields": {
+        "category": 3,
+        "name": "Beauty of Joseon Glow Serum (30ml)",
+        "slug": "beauty-of-joseon-glow-serum-30ml",
+        "description": "Glow-boosting serum with propolis and niacinamide.",
+        "price": "1190.00",
+        "image": "products/serum1.webp",
+        "available": true,
+        "created": "2025-08-15T07:30:00.107Z"
+      }
+    },
+    {
+      "model": "store.product",
+      "pk": 33,
+      "fields": {
+        "category": 3,
+        "name": "Cosrx Advanced Snail 96 Mucin Power Essence (100ml)",
+        "slug": "cosrx-advanced-snail-96-mucin-poweer-essence-100ml",
+        "description": "Snail mucin serum for skin repair and hydration.",
+        "price": "1250.00",
+        "image": "products/serum2.webp",
+        "available": true,
+        "created": "2025-08-15T07:31:19.880Z"
+      }
+    },
+    {
+      "model": "store.product",
+      "pk": 34,
+      "fields": {
+        "category": 3,
+        "name": "Some By Mi Yuja Niacin Blemish Care Serum (50ml)",
+        "slug": "some-by-mi-yuja-niacin-blemish-care-serum-50ml",
+        "description": "Brightening serum with vitamin C-rich yuja extract.",
+        "price": "1250.00",
+        "image": "products/serum3.jpeg",
+        "available": true,
+        "created": "2025-08-15T07:32:44.295Z"
+      }
+    },
+    {
+      "model": "store.product",
+      "pk": 35,
+      "fields": {
+        "category": 3,
+        "name": "Innisfree Green Tea Seed Serum (80ml)",
+        "slug": "innisfree-green-tea-seed-serum-80ml",
+        "description": "Antioxidant serum for hydration and radiance.",
+        "price": "1650.00",
+        "image": "products/serum4.webp",
+        "available": true,
+        "created": "2025-08-15T07:33:28.544Z"
+      }
+    },
+    {
+      "model": "store.product",
+      "pk": 36,
+      "fields": {
+        "category": 3,
+        "name": "Missha Time Revolution Night Repair Ampoule 5X (50ml)",
+        "slug": "missha-time-revolution-night-repair-ampoule-5x-50ml",
+        "description": "Anti-aging ampoule for firmness and elasticity.",
+        "price": "2850.00",
+        "image": "products/serum5.jpeg",
+        "available": true,
+        "created": "2025-08-15T07:34:52.045Z"
+      }
+    },
+    {
+      "model": "store.product",
+      "pk": 37,
+      "fields": {
+        "category": 3,
+        "name": "Benton Snail Bee High Content Essence (60ml)",
+        "slug": "benton-snail-bee-high-content-essence-60ml",
+        "description": "Soothing essence with snail mucin and bee venom.",
+        "price": "1250.00",
+        "image": "products/serum6.webp",
+        "available": true,
+        "created": "2025-08-15T07:35:40.405Z"
+      }
+    },
+    {
+      "model": "store.product",
+      "pk": 38,
+      "fields": {
+        "category": 3,
+        "name": "Dr. Ceuracle Royal Vita Propolis 33 Ampoule (30ml)",
+        "slug": "dr-ceuracle-royal-vita-propolis-33-ampoule-30ml",
+        "description": "Glow serum with propolis and royal jelly.",
+        "price": "1890.00",
+        "image": "products/serum7.webp",
+        "available": true,
+        "created": "2025-08-15T08:05:09.719Z"
+      }
+    },
+    {
+      "model": "store.product",
+      "pk": 39,
+      "fields": {
+        "category": 3,
+        "name": "Torriden Dive-In Serum (50ml)",
+        "slug": "torriden-dive-in-serum-50ml",
+        "description": "Lightweight hyaluronic acid serum.",
+        "price": "1250.00",
+        "image": "products/serum8.jpeg",
+        "available": true,
+        "created": "2025-08-15T08:06:38.104Z"
+      }
+    },
+    {
+      "model": "store.product",
+      "pk": 40,
+      "fields": {
+        "category": 3,
+        "name": "Isntree C-Niacin Toning Ampoule (50ml)",
+        "slug": "isntree-c-niacin-toning-ampoule-50ml",
+        "description": "Brightening serum with niacinamide and vitamin C",
+        "price": "1150.00",
+        "image": "products/serum9.png",
+        "available": true,
+        "created": "2025-08-15T08:07:27.338Z"
+      }
+    },
+    {
+      "model": "store.product",
+      "pk": 41,
+      "fields": {
+        "category": 3,
+        "name": "Klairs Freshly Juiced Vitamin Drop (35ml)",
+        "slug": "klairs-freshly-juiced-vitamin-drop-35ml",
+        "description": "Pure vitamin C serum for bright skin.",
+        "price": "1590.00",
+        "image": "products/serum10.jpeg",
+        "available": true,
+        "created": "2025-08-15T08:08:22.445Z"
+      }
+    },
+    {
+      "model": "store.product",
+      "pk": 42,
+      "fields": {
+        "category": 3,
+        "name": "Neogen Real Ferment Micro Serum (30ml)",
+        "slug": "neogen-real-ferment-micro-serum-30ml",
+        "description": "Firming serum with fermented ingredients.",
+        "price": "2190.00",
+        "image": "products/serum11.png",
+        "available": true,
+        "created": "2025-08-15T08:09:10.822Z"
+      }
+    },
+    {
+      "model": "store.product",
+      "pk": 43,
+      "fields": {
+        "category": 3,
+        "name": "Laneige Water Bank Blue Hyaluronic Serum (50ml)",
+        "slug": "laneige-water-bank-blue-hyaluronic-serum-50ml",
+        "description": "Deep hydration serum with blue hyaluronic acid.",
+        "price": "2450.00",
+        "image": "products/serum12.webp",
+        "available": true,
+        "created": "2025-08-15T08:09:51.862Z"
+      }
+    },
+    {
+      "model": "store.product",
+      "pk": 44,
+      "fields": {
+        "category": 3,
+        "name": "AHC Youth Lasting Real Eye Serum for Face (30ml)",
+        "slug": "ahc-youth-lasting-real-eye-serum-for-face-30ml",
+        "description": "Multi-use anti-aging serum for eyes and face.",
+        "price": "1450.00",
+        "image": "products/serum13.webp",
+        "available": true,
+        "created": "2025-08-15T08:10:35.278Z"
+      }
+    },
+    {
+      "model": "store.product",
+      "pk": 45,
+      "fields": {
+        "category": 3,
+        "name": "Mediheal N.M.F Intensive Hydrating Serum (50ml)",
+        "slug": "mediheal-nmf-intensive-hydrating-serum-50ml",
+        "description": "Moisture-lock serum for dehydrated skin.",
+        "price": "1250.00",
+        "image": "products/serum14.jpeg",
+        "available": true,
+        "created": "2025-08-15T08:11:24.351Z"
+      }
+    },
+    {
+      "model": "store.product",
+      "pk": 46,
+      "fields": {
+        "category": 3,
+        "name": "SKIN1004 Madagascar Centella Tone Brightening Capsule Ampoule",
+        "slug": "skin1004-madagascar-centella-tone-brightening-capsule-ampoule",
+        "description": "SKIN1004 Madagascar Centella Tone Brightening Capsule Ampoule 100ml is a lightweight ampoule similar to an essence - designed to enhance the skin's luminosity and promote an even tone.\r\nBenefit: Anti-ageing, Deep Hydration, Fade, Glowing Skin, Healing, Melanin Reduction, Scar Treatment, Skin Elasticity, Soft Skin, Tone\r\nFinish: Nongreasy\r\nForm: Serum\r\nIngredient: C Serum, Carotene, Niacinamide, Panthenol, Tranexamic Acid, Vitamin C",
+        "price": "2499.00",
+        "image": "products/serum15.jpeg",
+        "available": true,
+        "created": "2025-08-15T08:14:31.989Z"
+      }
+    },
+    {
+      "model": "store.product",
+      "pk": 47,
+      "fields": {
+        "category": 12,
+        "name": "Innisfree Jeju Orchid Eye Cream (30ml)",
+        "slug": "innisfree-jeju-orchid-eye-cream-30ml",
+        "description": "Anti-aging cream with Jeju orchid extract.",
+        "price": "2090.00",
+        "image": "products/eye1.jpeg",
+        "available": true,
+        "created": "2025-08-15T08:15:34.785Z"
+      }
+    },
+    {
+      "model": "store.product",
+      "pk": 48,
+      "fields": {
+        "category": 12,
+        "name": "Mizon Snail Repair Eye Cream (25ml)",
+        "slug": "mizon-snail-repair-eye-cream-25ml",
+        "description": "Snail mucin cream for fine lines and hydration.",
+        "price": "1090.00",
+        "image": "products/eye2.webp",
+        "available": true,
+        "created": "2025-08-15T08:16:10.217Z"
+      }
+    },
+    {
+      "model": "store.product",
+      "pk": 49,
+      "fields": {
+        "category": 12,
+        "name": "Beauty of Joseon Revive Eye Serum (30ml)",
+        "slug": "beauty-of-joseon-revive-eye-serum-30ml",
+        "description": "Ginseng and retinol serum for eyes.",
+        "price": "1250.00",
+        "image": "products/eye3.jpeg",
+        "available": true,
+        "created": "2025-08-15T08:17:49.350Z"
+      }
+    },
+    {
+      "model": "store.product",
+      "pk": 50,
+      "fields": {
+        "category": 12,
+        "name": "AHC Essential Real Eye Cream for Face (30ml)",
+        "slug": "ahc-essential-real-eye-cream-for-face-30ml",
+        "description": "Firming cream usable on eyes and face.",
+        "price": "1450.00",
+        "image": "products/eye4.jpeg",
+        "available": true,
+        "created": "2025-08-15T08:18:28.143Z"
+      }
+    },
+    {
+      "model": "store.product",
+      "pk": 51,
+      "fields": {
+        "category": 12,
+        "name": "Laneige Perfect Renew Youth Eye Cream (20ml)",
+        "slug": "laneige-perfect-renew-youth-eye-cream-20ml",
+        "description": "Luxury anti-aging eye cream.",
+        "price": "4150.00",
+        "image": "products/eye5.jpeg",
+        "available": true,
+        "created": "2025-08-15T08:19:15.404Z"
+      }
+    },
+    {
+      "model": "store.product",
+      "pk": 52,
+      "fields": {
+        "category": 12,
+        "name": "Etude House Moistfull Collagen Eye Cream (28ml)",
+        "slug": "etude-house-moistfull-collagen-eye-cream-28ml",
+        "description": "Firming collagen cream for the eye area.",
+        "price": "1150.00",
+        "image": "products/eye6.jpeg",
+        "available": true,
+        "created": "2025-08-15T08:19:56.869Z"
+      }
+    },
+    {
+      "model": "store.product",
+      "pk": 53,
+      "fields": {
+        "category": 12,
+        "name": "Benton Fermentation Eye Cream (30g)",
+        "slug": "benton-fermentation-eye-cream-30g",
+        "description": "Nourishing eye cream with galactomyces and bifida ferment.",
+        "price": "1250.00",
+        "image": "products/eye7.jpeg",
+        "available": true,
+        "created": "2025-08-15T08:20:40.488Z"
+      }
+    },
+    {
+      "model": "store.product",
+      "pk": 54,
+      "fields": {
+        "category": 12,
+        "name": "The Saem Urban Eco Harakeke Eye Cream (30ml)",
+        "slug": "the-saem-urban-eco-harakeke-eye-cream-30ml",
+        "description": "Hydrating cream with Harakeke extract.",
+        "price": "1050.00",
+        "image": "products/eye8.jpeg",
+        "available": true,
+        "created": "2025-08-15T08:21:27.298Z"
+      }
+    },
+    {
+      "model": "store.product",
+      "pk": 55,
+      "fields": {
+        "category": 12,
+        "name": "Some By Mi Retinol Intense Advanced Triple Action Eye Cream (30ml)",
+        "slug": "some-by-mi-retinol-intense-advanced-triple-action-eye-cream-30ml",
+        "description": "Anti-wrinkle, brightening retinol eye cream.",
+        "price": "1090.00",
+        "image": "products/eye9.jpeg",
+        "available": true,
+        "created": "2025-08-15T08:22:08.343Z"
+      }
+    },
+    {
+      "model": "store.product",
+      "pk": 56,
+      "fields": {
+        "category": 12,
+        "name": "Sulwhasoo Concentrated Ginseng Renewing Eye Cream (20ml)",
+        "slug": "sulwhasoo-concentrated-ginseng-renewing-eye-cream-20ml",
+        "description": "Premium ginseng anti-aging cream.",
+        "price": "12500.00",
+        "image": "products/eye10.webp",
+        "available": true,
+        "created": "2025-08-15T08:23:01.546Z"
+      }
+    },
+    {
+      "model": "store.product",
+      "pk": 57,
+      "fields": {
+        "category": 12,
+        "name": "Klairs Fundamental Eye Awakening Gel (35ml)",
+        "slug": "klairs-fundamental-eye-awakening-gel-35ml",
+        "description": "Cooling caffeine gel for tired eyes.",
+        "price": "1690.00",
+        "image": "products/eye11.jpeg",
+        "available": true,
+        "created": "2025-08-15T08:23:40.583Z"
+      }
+    },
+    {
+      "model": "store.product",
+      "pk": 58,
+      "fields": {
+        "category": 12,
+        "name": "Missha Geum Sul Vitalizing Eye Cream (30ml)",
+        "slug": "missha-geum-sul-vitalizing-eye-cream-30ml",
+        "description": "Ginseng-rich nourishing eye cream.",
+        "price": "3750.00",
+        "image": "products/eye12.webp",
+        "available": true,
+        "created": "2025-08-15T08:24:46.572Z"
+      }
+    },
+    {
+      "model": "store.product",
+      "pk": 59,
+      "fields": {
+        "category": 12,
+        "name": "Dr. Jart+ Ceramidin Eye Cream (20ml)",
+        "slug": "dr-jart-ceramidin-eye-cream-20ml",
+        "description": "Moisturizing cream with ceramides.",
+        "price": "3050.00",
+        "image": "products/eye13.jpeg",
+        "available": true,
+        "created": "2025-08-15T08:25:51.726Z"
+      }
+    },
+    {
+      "model": "store.product",
+      "pk": 60,
+      "fields": {
+        "category": 12,
+        "name": "Holika Holika Aloe Soothing Essence Eye Cream (30ml)",
+        "slug": "holika-holika-aloe-soothing-essence-eye-cream-30ml",
+        "description": "Lightweight aloe-based cream.",
+        "price": "990.00",
+        "image": "products/eye14.png",
+        "available": true,
+        "created": "2025-08-15T08:27:13.550Z"
+      }
+    },
+    {
+      "model": "store.product",
+      "pk": 61,
+      "fields": {
+        "category": 12,
+        "name": "Mediheal Vita Collagen Eye Cream (30ml)",
+        "slug": "mediheal-vita-collagen-eye-cream-30ml",
+        "description": "Hydrating eye cream with collagen and vitamins.",
+        "price": "1150.00",
+        "image": "products/eye15.jpeg",
+        "available": true,
+        "created": "2025-08-15T08:28:03.115Z"
+      }
+    },
+    {
+      "model": "store.product",
+      "pk": 62,
+      "fields": {
+        "category": 8,
+        "name": "Skinfood Black Sugar Mask Wash Off (100g)",
+        "slug": "skinfood-black-sugar-mask-wash-off-100g",
+        "description": "Exfoliating scrub with black sugar granules and nourishing minerals.",
+        "price": "950.00",
+        "image": "products/scrub1.jpeg",
+        "available": true,
+        "created": "2025-08-15T08:42:49.025Z"
+      }
+    },
+    {
+      "model": "store.product",
+      "pk": 63,
+      "fields": {
+        "category": 8,
+        "name": "Innisfree Jeju Volcanic Pore Scrub Foam (150ml)",
+        "slug": "innisfree-jeju-volcanic-pore-scrub-foam-150ml",
+        "description": "Volcanic cluster scrub for deep pore cleansing.",
+        "price": "750.00",
+        "image": "products/scrub2.png",
+        "available": true,
+        "created": "2025-08-15T08:44:16.647Z"
+      }
+    },
+    {
+      "model": "store.product",
+      "pk": 64,
+      "fields": {
+        "category": 8,
+        "name": "The Face Shop Jeju Volcanic Lava Pore Scrub Foam (150ml)",
+        "slug": "the-face-shop-jeju-volcanic-lava-pore-scrub-foam-150ml",
+        "description": "Gentle volcanic scrub to remove excess sebum.",
+        "price": "720.00",
+        "image": "products/scrub3.jpeg",
+        "available": true,
+        "created": "2025-08-15T08:45:07.175Z"
+      }
+    },
+    {
+      "model": "store.product",
+      "pk": 65,
+      "fields": {
+        "category": 8,
+        "name": "Skinfood Rice Mask Wash Off (100g)",
+        "slug": "skinfood-rice-mask-wash-off-100g",
+        "description": "Brightening rice scrub with soft exfoliation.",
+        "price": "890.00",
+        "image": "products/scrub4.jpeg",
+        "available": true,
+        "created": "2025-08-15T08:45:48.251Z"
+      }
+    },
+    {
+      "model": "store.product",
+      "pk": 66,
+      "fields": {
+        "category": 8,
+        "name": "Missha Super Aqua D-TOX Peeling Gel (100ml)",
+        "slug": "missha-super-aqua-d-tox-peeling-gel-100ml",
+        "description": "Enzyme peeling gel for smooth skin.",
+        "price": "1050.00",
+        "image": "products/scrub5.jpeg",
+        "available": true,
+        "created": "2025-08-15T08:46:41.629Z"
+      }
+    },
+    {
+      "model": "store.product",
+      "pk": 67,
+      "fields": {
+        "category": 8,
+        "name": "The Saem Natural Condition Scrub Foam Deep Clean (150ml)",
+        "slug": "the-saem-natural-condition-scrub-foam-deep-clean-150ml",
+        "description": "Scrub foam for refreshing deep cleansing.",
+        "price": "650.00",
+        "image": "products/scrub6.jpeg",
+        "available": true,
+        "created": "2025-08-15T08:47:31.454Z"
+      }
+    },
+    {
+      "model": "store.product",
+      "pk": 68,
+      "fields": {
+        "category": 8,
+        "name": "Neogen Bio-Peel Gauze Peeling Lemon (30 pads)",
+        "slug": "neogen-bio-peel-gauze-peeling-lemon-30-pads",
+        "description": "Vitamin C pads for brightening exfoliation.",
+        "price": "1590.00",
+        "image": "products/scrub7.jpeg",
+        "available": true,
+        "created": "2025-08-15T08:48:36.221Z"
+      }
+    },
+    {
+      "model": "store.product",
+      "pk": 69,
+      "fields": {
+        "category": 8,
+        "name": "Neogen Bio-Peel Gauze Peeling Green Tea (30 pads)",
+        "slug": "neogen-bio-peel-gauze-peeling-green-tea-30-pads",
+        "description": "Antioxidant exfoliating pads with green tea.",
+        "price": "1590.00",
+        "image": "products/scrub8.jpeg",
+        "available": true,
+        "created": "2025-08-15T08:49:24.456Z"
+      }
+    },
+    {
+      "model": "store.product",
+      "pk": 70,
+      "fields": {
+        "category": 8,
+        "name": "Some By Mi Super Matcha Pore Clean Clay Mask + Scrub (100g)",
+        "slug": "some-by-mi-super-matcha-pore-clean-clay-mask-scrub-100g",
+        "description": "Matcha-infused scrub for pore tightening.",
+        "price": "1050.00",
+        "image": "products/scrub9.webp",
+        "available": true,
+        "created": "2025-08-15T08:50:29.128Z"
+      }
+    },
+    {
+      "model": "store.product",
+      "pk": 71,
+      "fields": {
+        "category": 8,
+        "name": "COSRX – BHA Blackhead Power Liquid.",
+        "slug": "cosrx-bha-blackhead-power-liquid",
+        "description": "COSRX BHA Blackhead Power Liquid has a simple yet deeply effective formula designed to detoxify oily or acne-prone skin types\r\nFeatures: Exfoliating, Moisturising\r\nForm: Liquid\r\nKey Ingredient: Butylene Glycol, Hydroxy Acid, Niacinamide, Panthenol, Sodium Hydroxide, Willow Bark",
+        "price": "1250.00",
+        "image": "products/scrub10.webp",
+        "available": true,
+        "created": "2025-08-15T08:53:37.870Z"
+      }
+    },
+    {
+      "model": "store.product",
+      "pk": 72,
+      "fields": {
+        "category": 8,
+        "name": "It’s Skin MangoWhite Peeling Gel (120ml)",
+        "slug": "its-skin-mangowhite-peeling-gel-120ml",
+        "description": "Gentle fruit enzyme peeling gel.",
+        "price": "880.00",
+        "image": "products/scrub11.webp",
+        "available": true,
+        "created": "2025-08-15T08:54:20.468Z"
+      }
+    },
+    {
+      "model": "store.product",
+      "pk": 73,
+      "fields": {
+        "category": 8,
+        "name": "Holika Holika Smooth Egg Skin Peeling Gel (140ml)",
+        "slug": "holika-holika-smooth-egg-skin-peeling-gel-140ml",
+        "description": "Egg extract peeling gel for smooth texture.",
+        "price": "1050.00",
+        "image": "products/scrub_12.jpeg",
+        "available": true,
+        "created": "2025-08-15T08:55:39.142Z"
+      }
+    },
+    {
+      "model": "store.product",
+      "pk": 74,
+      "fields": {
+        "category": 8,
+        "name": "Etude House Baking Powder Crunch Pore Scrub (200ml)",
+        "slug": "etude-house-baking-powder-crunch-pore-scrub-200ml",
+        "description": "Baking powder beads for deep cleansing.",
+        "price": "850.00",
+        "image": "products/scrub13.jpeg",
+        "available": true,
+        "created": "2025-08-15T08:56:24.652Z"
+      }
+    },
+    {
+      "model": "store.product",
+      "pk": 75,
+      "fields": {
+        "category": 8,
+        "name": "Laneige Clear-C Peeling Mask (70ml)",
+        "slug": "laneige-clear-c-peeling-mask-70ml",
+        "description": "Vitamin C peeling mask with berry extract.",
+        "price": "1650.00",
+        "image": "products/scrub14.jpeg",
+        "available": true,
+        "created": "2025-08-15T08:57:16.985Z"
+      }
+    },
+    {
+      "model": "store.product",
+      "pk": 76,
+      "fields": {
+        "category": 8,
+        "name": "TonyMoly Floria Brightening Peeling Gel (150ml)",
+        "slug": "tonymoly-floria-brightening-peeling-gel-150ml",
+        "description": "Gentle gel exfoliator with lotus flower extract.",
+        "price": "980.00",
+        "image": "products/scrub15.jpeg",
+        "available": true,
+        "created": "2025-08-15T08:58:00.573Z"
+      }
+    },
+    {
+      "model": "store.wishlist",
+      "pk": 1,
+      "fields": {
+        "user": 1,
+        "product": 75
+      }
+    },
+    {
+      "model": "cart.cartitem",
+      "pk": 7,
+      "fields": {
+        "user": null,
+        "session_key": "e2rll1lqim2c7mygrc43v6om4sihhad7",
+        "product": 76,
+        "quantity": 1,
+        "added": "2025-08-16T13:20:36.272Z"
+      }
+    },
+    {
+      "model": "cart.cartitem",
+      "pk": 8,
+      "fields": {
+        "user": null,
+        "session_key": "55l71ubbmf8bdudxnmf44iz7a45uv46p",
+        "product": 76,
+        "quantity": 1,
+        "added": "2025-08-16T13:27:30.579Z"
+      }
+    },
+    {
+      "model": "cart.cartitem",
+      "pk": 10,
+      "fields": {
+        "user": null,
+        "session_key": "og99slbpgvvn23oa5pf9czgv41jibztj",
+        "product": 75,
+        "quantity": 1,
+        "added": "2025-09-15T17:58:26.238Z"
+      }
+    },
+    {
+      "model": "cart.cartitem",
+      "pk": 11,
+      "fields": {
+        "user": 1,
+        "session_key": null,
+        "product": 75,
+        "quantity": 2,
+        "added": "2025-09-15T17:58:40.791Z"
+      }
+    },
+    {
+      "model": "orders.order",
+      "pk": 1,
+      "fields": {
+        "user": 1,
+        "full_name": "dev",
+        "email": "dev@gmail.com",
+        "address": "ekklwjfdlkvnc",
+        "created": "2025-08-13T21:51:31.929Z",
+        "status": "pending",
+        "total_amount": "850.00",
+        "stripe_payment_intent_id": null,
+        "stripe_payment_status": null,
+        "location": "Processing warehouse"
+      }
+    },
+    {
+      "model": "orders.order",
+      "pk": 2,
+      "fields": {
+        "user": 1,
+        "full_name": "dev",
+        "email": "dev@gmail.com",
+        "address": "rsdtfyguhijoljkhjghfgcb ",
+        "created": "2025-08-14T03:12:55.304Z",
+        "status": "pending",
+        "total_amount": "2550.00",
+        "stripe_payment_intent_id": null,
+        "stripe_payment_status": null,
+        "location": "Processing warehouse"
+      }
+    },
+    {
+      "model": "orders.order",
+      "pk": 3,
+      "fields": {
+        "user": 1,
+        "full_name": "dev",
+        "email": "dev@gmail.com",
+        "address": "rsdtfyguhijoljkhjghfgcb ",
+        "created": "2025-08-14T03:12:57.629Z",
+        "status": "pending",
+        "total_amount": "2550.00",
+        "stripe_payment_intent_id": null,
+        "stripe_payment_status": null,
+        "location": "Processing warehouse"
+      }
+    },
+    {
+      "model": "orders.order",
+      "pk": 4,
+      "fields": {
+        "user": 1,
+        "full_name": "dev",
+        "email": "dev@gmail.com",
+        "address": "rsdtfyguhijoljkhjghfgcb ",
+        "created": "2025-08-14T03:12:59.626Z",
+        "status": "pending",
+        "total_amount": "2550.00",
+        "stripe_payment_intent_id": null,
+        "stripe_payment_status": null,
+        "location": "Processing warehouse"
+      }
+    },
+    {
+      "model": "orders.order",
+      "pk": 5,
+      "fields": {
+        "user": 1,
+        "full_name": "dev",
+        "email": "dev@gmail.com",
+        "address": "rsdtfyguhijoljkhjghfgcb ",
+        "created": "2025-08-14T03:13:00.101Z",
+        "status": "pending",
+        "total_amount": "2550.00",
+        "stripe_payment_intent_id": null,
+        "stripe_payment_status": null,
+        "location": "Processing warehouse"
+      }
+    },
+    {
+      "model": "orders.order",
+      "pk": 6,
+      "fields": {
+        "user": 1,
+        "full_name": "dev",
+        "email": "dev@gmail.com",
+        "address": "rsdtfyguhijoljkhjghfgcb ",
+        "created": "2025-08-14T03:13:00.334Z",
+        "status": "pending",
+        "total_amount": "2550.00",
+        "stripe_payment_intent_id": null,
+        "stripe_payment_status": null,
+        "location": "Processing warehouse"
+      }
+    },
+    {
+      "model": "orders.order",
+      "pk": 7,
+      "fields": {
+        "user": 1,
+        "full_name": "dev",
+        "email": "dev@gmail.com",
+        "address": "rsdtfyguhijoljkhjghfgcb ",
+        "created": "2025-08-14T03:13:00.564Z",
+        "status": "pending",
+        "total_amount": "2550.00",
+        "stripe_payment_intent_id": null,
+        "stripe_payment_status": null,
+        "location": "Processing warehouse"
+      }
+    },
+    {
+      "model": "orders.order",
+      "pk": 8,
+      "fields": {
+        "user": 1,
+        "full_name": "dev",
+        "email": "dev@gmail.com",
+        "address": "rsdtfyguhijoljkhjghfgcb ",
+        "created": "2025-08-14T03:13:00.784Z",
+        "status": "pending",
+        "total_amount": "2550.00",
+        "stripe_payment_intent_id": null,
+        "stripe_payment_status": null,
+        "location": "Processing warehouse"
+      }
+    },
+    {
+      "model": "orders.order",
+      "pk": 9,
+      "fields": {
+        "user": 1,
+        "full_name": "dev",
+        "email": "dev@gmail.com",
+        "address": "rsdtfyguhijoljkhjghfgcb ",
+        "created": "2025-08-14T03:13:01.028Z",
+        "status": "pending",
+        "total_amount": "2550.00",
+        "stripe_payment_intent_id": null,
+        "stripe_payment_status": null,
+        "location": "Processing warehouse"
+      }
+    },
+    {
+      "model": "orders.order",
+      "pk": 10,
+      "fields": {
+        "user": 1,
+        "full_name": "dev",
+        "email": "dev@gmail.com",
+        "address": "rsdtfyguhijoljkhjghfgcb ",
+        "created": "2025-08-14T03:13:01.911Z",
+        "status": "pending",
+        "total_amount": "2550.00",
+        "stripe_payment_intent_id": null,
+        "stripe_payment_status": null,
+        "location": "Processing warehouse"
+      }
+    },
+    {
+      "model": "orders.order",
+      "pk": 11,
+      "fields": {
+        "user": 1,
+        "full_name": "dev",
+        "email": "dev@gmail.com",
+        "address": "rsdtfyguhijoljkhjghfgcb ",
+        "created": "2025-08-14T03:13:02.539Z",
+        "status": "pending",
+        "total_amount": "2550.00",
+        "stripe_payment_intent_id": null,
+        "stripe_payment_status": null,
+        "location": "Processing warehouse"
+      }
+    },
+    {
+      "model": "orders.order",
+      "pk": 12,
+      "fields": {
+        "user": 1,
+        "full_name": "dev",
+        "email": "dev@gmail.com",
+        "address": "rsdtfyguhijoljkhjghfgcb ",
+        "created": "2025-08-14T03:13:06.113Z",
+        "status": "pending",
+        "total_amount": "2550.00",
+        "stripe_payment_intent_id": null,
+        "stripe_payment_status": null,
+        "location": "Processing warehouse"
+      }
+    },
+    {
+      "model": "orders.order",
+      "pk": 13,
+      "fields": {
+        "user": 1,
+        "full_name": "dev",
+        "email": "dev@gmail.com",
+        "address": "rsdtfyguhijoljkhjghfgcb ",
+        "created": "2025-08-14T03:13:06.353Z",
+        "status": "pending",
+        "total_amount": "2550.00",
+        "stripe_payment_intent_id": null,
+        "stripe_payment_status": null,
+        "location": "Processing warehouse"
+      }
+    },
+    {
+      "model": "orders.order",
+      "pk": 14,
+      "fields": {
+        "user": 1,
+        "full_name": "Y5YRDTFYJGUKH",
+        "email": "SRDG@GMAIL.COM",
+        "address": "ARESRDTFUYGUHIPJOLK.BJNV",
+        "created": "2025-08-15T06:50:02.910Z",
+        "status": "pending",
+        "total_amount": "2550.00",
+        "stripe_payment_intent_id": null,
+        "stripe_payment_status": null,
+        "location": "Processing warehouse"
+      }
+    },
+    {
+      "model": "orders.order",
+      "pk": 15,
+      "fields": {
+        "user": 1,
+        "full_name": "Y5YRDTFYJGUKH",
+        "email": "SRDG@GMAIL.COM",
+        "address": "ARESRDTFUYGUHIPJOLK.BJNV",
+        "created": "2025-08-15T06:50:04.611Z",
+        "status": "pending",
+        "total_amount": "2550.00",
+        "stripe_payment_intent_id": null,
+        "stripe_payment_status": null,
+        "location": "Processing warehouse"
+      }
+    },
+    {
+      "model": "orders.order",
+      "pk": 16,
+      "fields": {
+        "user": 1,
+        "full_name": "Y5YRDTFYJGUKH",
+        "email": "SRDG@GMAIL.COM",
+        "address": "ARESRDTFUYGUHIPJOLK.BJNV",
+        "created": "2025-08-15T06:50:04.945Z",
+        "status": "pending",
+        "total_amount": "2550.00",
+        "stripe_payment_intent_id": null,
+        "stripe_payment_status": null,
+        "location": "Processing warehouse"
+      }
+    },
+    {
+      "model": "orders.order",
+      "pk": 17,
+      "fields": {
+        "user": 1,
+        "full_name": "Y5YRDTFYJGUKH",
+        "email": "SRDG@GMAIL.COM",
+        "address": "ARESRDTFUYGUHIPJOLK.BJNV",
+        "created": "2025-08-15T06:50:05.378Z",
+        "status": "pending",
+        "total_amount": "2550.00",
+        "stripe_payment_intent_id": null,
+        "stripe_payment_status": null,
+        "location": "Processing warehouse"
+      }
+    },
+    {
+      "model": "orders.order",
+      "pk": 18,
+      "fields": {
+        "user": 1,
+        "full_name": "Y5YRDTFYJGUKH",
+        "email": "SRDG@GMAIL.COM",
+        "address": "ARESRDTFUYGUHIPJOLK.BJNV",
+        "created": "2025-08-15T06:50:05.626Z",
+        "status": "pending",
+        "total_amount": "2550.00",
+        "stripe_payment_intent_id": null,
+        "stripe_payment_status": null,
+        "location": "Processing warehouse"
+      }
+    },
+    {
+      "model": "orders.order",
+      "pk": 19,
+      "fields": {
+        "user": 1,
+        "full_name": "Y5YRDTFYJGUKH",
+        "email": "SRDG@GMAIL.COM",
+        "address": "ARESRDTFUYGUHIPJOLK.BJNV",
+        "created": "2025-08-15T06:50:05.842Z",
+        "status": "pending",
+        "total_amount": "2550.00",
+        "stripe_payment_intent_id": null,
+        "stripe_payment_status": null,
+        "location": "Processing warehouse"
+      }
+    },
+    {
+      "model": "orders.order",
+      "pk": 20,
+      "fields": {
+        "user": 1,
+        "full_name": "srtcvhjbkn",
+        "email": "srdghvjb@gmail.com",
+        "address": "exfcvyuijop['klkjhvcgv bam,",
+        "created": "2025-08-15T10:41:23.267Z",
+        "status": "pending",
+        "total_amount": "2550.00",
+        "stripe_payment_intent_id": null,
+        "stripe_payment_status": null,
+        "location": "Processing warehouse"
+      }
+    },
+    {
+      "model": "orders.order",
+      "pk": 21,
+      "fields": {
+        "user": 1,
+        "full_name": "xfg n",
+        "email": "fcgvhbj@gmail.com",
+        "address": "rctvbjnkml",
+        "created": "2025-08-15T10:44:34.302Z",
+        "status": "pending",
+        "total_amount": "2550.00",
+        "stripe_payment_intent_id": null,
+        "stripe_payment_status": null,
+        "location": "Processing warehouse"
+      }
+    },
+    {
+      "model": "orders.order",
+      "pk": 22,
+      "fields": {
+        "user": 1,
+        "full_name": "gvhbn",
+        "email": "hjmjk@gmail.com",
+        "address": "rctvybuniom",
+        "created": "2025-08-15T10:47:25.521Z",
+        "status": "paid",
+        "total_amount": "2550.00",
+        "stripe_payment_intent_id": null,
+        "stripe_payment_status": null,
+        "location": "Processing warehouse"
+      }
+    },
+    {
+      "model": "orders.order",
+      "pk": 23,
+      "fields": {
+        "user": 1,
+        "full_name": "devananda",
+        "email": "devananda@gmail.com",
+        "address": "rctvybujnkml",
+        "created": "2025-08-15T10:54:36.401Z",
+        "status": "paid",
+        "total_amount": "980.00",
+        "stripe_payment_intent_id": null,
+        "stripe_payment_status": null,
+        "location": "Processing warehouse"
+      }
+    },
+    {
+      "model": "orders.order",
+      "pk": 24,
+      "fields": {
+        "user": 1,
+        "full_name": "deva",
+        "email": "deva@gmail.com",
+        "address": "dfghkjhgvbnm,",
+        "created": "2025-08-15T10:58:10.876Z",
+        "status": "pending",
+        "total_amount": "920.00",
+        "stripe_payment_intent_id": null,
+        "stripe_payment_status": null,
+        "location": "Processing warehouse"
+      }
+    },
+    {
+      "model": "orders.order",
+      "pk": 25,
+      "fields": {
+        "user": 1,
+        "full_name": "rtyuj",
+        "email": "rctvybu@gmail.com",
+        "address": "exf ghjbnmopoihgufydtsrfxg hjknlm",
+        "created": "2025-08-15T11:01:45.354Z",
+        "status": "paid",
+        "total_amount": "2570.00",
+        "stripe_payment_intent_id": null,
+        "stripe_payment_status": null,
+        "location": "Processing warehouse"
+      }
+    },
+    {
+      "model": "orders.order",
+      "pk": 26,
+      "fields": {
+        "user": 1,
+        "full_name": "shan z",
+        "email": "safyvh@gmail.com",
+        "address": "dtyvsbjnkd",
+        "created": "2025-08-15T11:35:19.741Z",
+        "status": "paid",
+        "total_amount": "980.00",
+        "stripe_payment_intent_id": null,
+        "stripe_payment_status": null,
+        "location": "Processing warehouse"
+      }
+    },
+    {
+      "model": "orders.order",
+      "pk": 27,
+      "fields": {
+        "user": 1,
+        "full_name": "thedewyritual",
+        "email": "thedewy@gmail.com",
+        "address": "ewrdtfygfdfswdsfvcb",
+        "created": "2025-08-16T12:57:15.868Z",
+        "status": "pending",
+        "total_amount": "980.00",
+        "stripe_payment_intent_id": null,
+        "stripe_payment_status": null,
+        "location": "Processing warehouse"
+      }
+    },
+    {
+      "model": "orders.order",
+      "pk": 28,
+      "fields": {
+        "user": 1,
+        "full_name": "thedewyritual",
+        "email": "thedewy@gmail.com",
+        "address": "ewrdtfygfdfswdsfvcb",
+        "created": "2025-08-16T12:59:00.766Z",
+        "status": "pending",
+        "total_amount": "980.00",
+        "stripe_payment_intent_id": null,
+        "stripe_payment_status": null,
+        "location": "Processing warehouse"
+      }
+    },
+    {
+      "model": "orders.order",
+      "pk": 29,
+      "fields": {
+        "user": 1,
+        "full_name": "thedewyritual",
+        "email": "thedewy@gmail.com",
+        "address": "qwerfghgfd",
+        "created": "2025-08-16T12:59:39.198Z",
+        "status": "pending",
+        "total_amount": "980.00",
+        "stripe_payment_intent_id": null,
+        "stripe_payment_status": null,
+        "location": "Processing warehouse"
+      }
+    },
+    {
+      "model": "orders.order",
+      "pk": 30,
+      "fields": {
+        "user": 1,
+        "full_name": "thedewyritual",
+        "email": "thedewy@gmail.com",
+        "address": "wergfdsx",
+        "created": "2025-08-16T13:05:54.653Z",
+        "status": "pending",
+        "total_amount": "980.00",
+        "stripe_payment_intent_id": null,
+        "stripe_payment_status": null,
+        "location": "Processing warehouse"
+      }
+    },
+    {
+      "model": "orders.order",
+      "pk": 31,
+      "fields": {
+        "user": 1,
+        "full_name": "thedewyritual",
+        "email": "thedewy@gmail.com",
+        "address": "rgfhnm,.",
+        "created": "2025-08-16T13:27:42.111Z",
+        "status": "paid",
+        "total_amount": "980.00",
+        "stripe_payment_intent_id": null,
+        "stripe_payment_status": null,
+        "location": "Processing warehouse"
+      }
+    },
+    {
+      "model": "orders.order",
+      "pk": 32,
+      "fields": {
+        "user": 1,
+        "full_name": "rxtcvhbj",
+        "email": "cghvbj@gmail.com",
+        "address": "cvhbjnkm",
+        "created": "2025-08-16T14:34:20.111Z",
+        "status": "pending",
+        "total_amount": "980.00",
+        "stripe_payment_intent_id": null,
+        "stripe_payment_status": null,
+        "location": "Processing warehouse"
+      }
+    },
+    {
+      "model": "orders.order",
+      "pk": 33,
+      "fields": {
+        "user": 1,
+        "full_name": " hnm",
+        "email": "hgf@gmail.com",
+        "address": "hadj m",
+        "created": "2025-08-16T14:36:18.571Z",
+        "status": "paid",
+        "total_amount": "980.00",
+        "stripe_payment_intent_id": null,
+        "stripe_payment_status": null,
+        "location": "Processing warehouse"
+      }
+    },
+    {
+      "model": "orders.order",
+      "pk": 34,
+      "fields": {
+        "user": 1,
+        "full_name": "dsuhskjn,",
+        "email": "dsli@gmail.com",
+        "address": "ftybusjnk ",
+        "created": "2025-09-15T17:58:51.246Z",
+        "status": "pending",
+        "total_amount": "1650.00",
+        "stripe_payment_intent_id": null,
+        "stripe_payment_status": null,
+        "location": "Processing warehouse"
+      }
+    }
+  ]
