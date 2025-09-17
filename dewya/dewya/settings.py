@@ -27,7 +27,7 @@ from pathlib import Path
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-SECRET_KEY = "django-insecure-!5v5r9j90dy%qkihaqwl$1#+*dorf)bju_=!h+^h3@tjns3iv@"
+SECRET_KEY = os.environ.get('SECRET_KEY')
 
 from decouple import config
 
@@ -152,7 +152,7 @@ DATABASES = {
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 STRIPE_SECRET_KEY = config("STRIPE_SECRET_KEY")
-STRIPE_PUBLIC_KEY = "pk_test_51R7K6rC7WOGeXfsjp4J9m1iZEZbKm0O6WBNXABkQzKRcGoeYaaDAECxJ3wIWehDIxSxiuRBOlqAGmXCAOyCjdqPy00l1hRqEAM"
+STRIPE_PUBLIC_KEY = config("STRIPE_PUBLIC_KEY")
 STRIPE_WEBHOOK_SECRET = "your_test_webhook_secret"
 
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
