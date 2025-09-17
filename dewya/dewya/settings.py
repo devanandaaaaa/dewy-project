@@ -29,7 +29,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 SECRET_KEY = "django-insecure-!5v5r9j90dy%qkihaqwl$1#+*dorf)bju_=!h+^h3@tjns3iv@"
 
-DEBUG = True
+from decouple import config
+
+DEBUG = config('DEBUG', default=False, cast=bool)
 ALLOWED_HOSTS = ['.onrender.com']
 
 INSTALLED_APPS = [
@@ -129,22 +131,12 @@ USE_TZ = True
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/5.2/howto/static-files/
-
-# MEDIA_URL = '/media/'
-# MEDIA_ROOT = BASE_DIR / 'media'
-
-# # STATICFILES_DIRS = [BASE_DIR / "static"]
-
-# STATIC_URL = '/static/'
-# STATICFILES_DIRS = [BASE_DIR / 'static']  
-# STATIC_ROOT = BASE_DIR / 'staticfiles' 
-
 import os
 
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]
 
-# Media files (uploaded products and categories)
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
@@ -152,9 +144,6 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 # https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
-
-# Stripe Config
-from decouple import config
 
 STRIPE_SECRET_KEY = config("STRIPE_SECRET_KEY")
 STRIPE_PUBLIC_KEY = "pk_test_51R7K6rC7WOGeXfsjp4J9m1iZEZbKm0O6WBNXABkQzKRcGoeYaaDAECxJ3wIWehDIxSxiuRBOlqAGmXCAOyCjdqPy00l1hRqEAM"

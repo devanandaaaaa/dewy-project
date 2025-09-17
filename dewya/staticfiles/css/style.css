@@ -193,8 +193,7 @@ h1, h2, h3, h4, h5 {
 }
 
 .hero-banner {
-  background: linear-gradient(rgba(0,0,0,0.35), rgba(0,0,0,0.35)), 
-              url('../images/back.jpg') center/cover no-repeat;
+  background: linear-gradient(rgba(255, 192, 203, 0.5), rgba(255, 192, 203, 0.5)); /* A soft pink gradient */
   height: 360px;
   display: flex;
   align-items: center;
