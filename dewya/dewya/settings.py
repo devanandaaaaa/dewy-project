@@ -31,8 +31,10 @@ SECRET_KEY = os.environ.get('SECRET_KEY', 'django-insecure-local-dev-fallback')
 
 from decouple import config
 
-DEBUG = config('DEBUG', default=False, cast=bool)
-ALLOWED_HOSTS = ['the-dewy-ritual.onrender.com']
+# settings.py
+DEBUG = True
+ALLOWED_HOSTS = ['*']  
+
 
 INSTALLED_APPS = [
     'django.contrib.admin',
