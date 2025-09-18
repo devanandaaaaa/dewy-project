@@ -2,181 +2,267 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{% block title %}{{ site_name }}{% endblock %}</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}The Dewy Ritual{% endblock %}</title>
 
-  <style>
-    body {
-      font-family: 'Poppins', sans-serif;
-      background-color: #fff5f8;
-    }
-    .navbar { background-color: #ff6f91; }
-    .navbar-brand, .nav-link { color: white !important; font-weight: 600; }
-    .navbar-brand:hover, .nav-link:hover { color: #fffde7 !important; }
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
 
-    .icon-btn {
-      display: flex; align-items: center; justify-content: center;
-      width: 45px; height: 45px;
-      border-radius: 50%;
-      background-color: #fff0f5;
-      box-shadow: 0 3px 10px rgba(0,0,0,0.15);
-      transition: transform 0.3s, box-shadow 0.3s;
-    }
-    .icon-btn:hover { transform: scale(1.1); box-shadow: 0 5px 15px rgba(0,0,0,0.25); }
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #fff5f8;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
 
-    .hero-section {
-      background: url("{% static 'images/banner.jpg' %}") center/cover no-repeat;
-      height: 60vh; display: flex; justify-content: center; align-items: center;
-      flex-direction: column; color: white; text-align: center;
-    }
-    .shop-now-btn {
-      background: #ff6f91; color: white; padding: 10px 20px;
-      border-radius: 25px; text-decoration: none; font-weight: bold;
-    }
-    .shop-now-btn:hover { background: #ff3f71; }
+        /* Navbar */
+        header {
+            background: white;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+        }
+        .navbar-brand {
+            font-family: 'Playfair Display', serif;
+            color: #ff1493 !important;
+        }
+        .icon-btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 45px;
+            height: 45px;
+            border-radius: 50%;
+            background-color: #fff0f5;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.15);
+            transition: 0.3s;
+        }
+        .icon-btn:hover {
+            transform: scale(1.1);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.25);
+        }
 
-    .category-wrapper { background: #fff5f8; padding: 10px; display: flex; align-items: center; }
-    .category-section { display: flex; gap: 15px; padding: 0 10px; overflow-x: auto; }
-    .category-card {
-      flex: 0 0 auto; background: #fff0f5; width: 120px; border-radius: 15px;
-      text-align: center; padding: 15px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-    }
-    .category-card img { width: 60px; height: 60px; object-fit: contain; margin-bottom: 8px; }
-    .category-card:hover { transform: scale(1.05); background: #ffe6f0; }
+        /* Hero */
+        .hero-banner {
+            background: url("{% static 'images/hero-bg.jpg' %}") center/cover no-repeat;
+            height: 65vh;
+            border-radius: 15px;
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            margin: 20px;
+            overflow: hidden;
+        }
+        .hero-overlay {
+            position: absolute; top:0; left:0; width:100%; height:100%;
+            background: rgba(255,20,147,0.3);
+        }
+        .hero-content {
+            position: relative;
+            z-index: 2;
+            color: white;
+        }
+        .hero-content h1 { font-size: 3rem; font-family: 'Playfair Display', serif; }
 
-    .products-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px,1fr)); gap: 25px; padding: 20px; }
-    .product-card { background: #fff; border-radius: 15px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); padding: 15px; text-align: center; }
-    .product-card img { width: 100%; height: 200px; object-fit: contain; border-radius: 10px; }
+        /* Categories */
+        .category-wrapper {
+            background: #fff5f8;
+            padding: 15px;
+            margin: 20px 0;
+            overflow-x: auto;
+            display: flex;
+            gap: 15px;
+        }
+        .category-card {
+            flex: 0 0 auto;
+            background: #fff0f5;
+            border-radius: 15px;
+            padding: 15px;
+            text-align: center;
+            width: 120px;
+            transition: 0.3s;
+        }
+        .category-card img {
+            width: 60px; height: 60px; object-fit: contain; margin-bottom: 8px;
+        }
+        .category-card:hover {
+            background: #ffb6d9;
+            transform: translateY(-4px);
+        }
 
-    footer { background: white; padding: 40px 20px; display: flex; justify-content: space-between; flex-wrap: wrap; }
-    footer .footer-col { flex: 1; min-width: 200px; margin-bottom: 15px; }
+        /* Products */
+        .products-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill,minmax(220px,1fr));
+            gap: 25px;
+        }
+        .product-card {
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            text-align: center;
+            padding: 15px;
+            transition: 0.3s;
+        }
+        .product-card img { width: 100%; height: 200px; object-fit: contain; border-radius: 10px; }
+        .product-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 18px rgba(0,0,0,0.2);
+        }
 
-    .chatbot-icon { position: fixed; bottom: 30px; right: 30px; width: 60px; height: 60px; border-radius: 50%; background: #ff6f91;
-      display: flex; align-items: center; justify-content: center; box-shadow: 0 4px 10px rgba(0,0,0,0.3); cursor: pointer; }
-    .chatbot-icon:hover { transform: scale(1.1); }
+        /* Footer */
+        footer {
+            background: white;
+            padding: 40px 20px;
+            box-shadow: 0 -2px 8px rgba(0,0,0,0.05);
+            margin-top: auto;
+        }
+        footer h5 { color: #ff1493; }
+        footer a { text-decoration: none; color: #333; }
 
-    @media (max-width: 768px) {
-      .hero-section h1 { font-size: 2rem; }
-      .category-card { width: 100px; padding: 10px; }
-    }
-  </style>
+        /* Chatbot */
+        .chatbot-icon {
+            position: fixed;
+            bottom: 25px;
+            right: 25px;
+            background: #ff69b4;
+            width: 60px; height: 60px;
+            border-radius: 50%;
+            display: flex; align-items:center; justify-content:center;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+            transition: 0.3s;
+        }
+        .chatbot-icon:hover { transform: scale(1.1); }
+
+        @media(max-width:768px){
+            .hero-content h1 { font-size: 2rem; }
+            .product-card img { height: 160px; }
+        }
+    </style>
 </head>
-<body class="d-flex flex-column min-vh-100">
+<body>
 
-  <!-- Navbar -->
-  <header class="bg-white shadow-sm sticky-top py-3">
-    <div class="container d-flex justify-content-between align-items-center flex-wrap">
-      <a href="{% url 'store:product_list' %}" class="navbar-brand fs-3 fw-bold">The Dewy Ritual</a>
+<header class="py-3 sticky-top">
+  <div class="container d-flex justify-content-between align-items-center flex-wrap">
+    <a href="{% url 'store:product_list' %}" class="navbar-brand fs-3 fw-bold">The Dewy Ritual</a>
 
-      <!-- Search -->
-      <form class="d-flex flex-grow-1 mx-3 position-relative" method="get" action="{% url 'store:product_list' %}">
-        <input class="form-control" type="search" name="q" placeholder="Search products..." value="{{ request.GET.q }}">
-        <button class="btn btn-pink position-absolute end-0 me-1 top-50 translate-middle-y px-3">🔍</button>
-      </form>
+    <form class="d-flex flex-grow-1 mx-3 position-relative" method="get" action="{% url 'store:product_list' %}">
+      <input class="form-control" type="search" name="q" placeholder="Search products..." value="{{ request.GET.q }}">
+      <button class="btn btn-pink position-absolute end-0 me-1 top-50 translate-middle-y px-3">🔍</button>
+    </form>
 
-      <!-- Icons -->
-      <div class="d-flex align-items-center gap-2">
-        <a href="{% url 'store:product_list' %}" class="icon-btn"><img src="{% static 'images/homeicon.png' %}" width="25"></a>
-        <a href="{% url 'store:offers' %}" class="icon-btn"><img src="{% static 'images/offericon.png' %}" width="25"></a>
+    <div class="d-flex align-items-center gap-2">
+      <a href="{% url 'store:product_list' %}" class="icon-btn"><img src="{% static 'images/homeicon.png' %}" width="25"></a>
+      <a href="{% url 'store:offers' %}" class="icon-btn"><img src="{% static 'images/offericon.png' %}" width="25"></a>
 
-        {% if user.is_authenticated %}
-        <div class="dropdown">
-          <a href="#" class="icon-btn dropdown-toggle" data-bs-toggle="dropdown">
-            <img src="{% static 'images/usericon.png' %}" width="25">
-          </a>
-          <ul class="dropdown-menu dropdown-menu-end">
-            <li class="dropdown-item-text">Hello, <strong>{{ user.username }}</strong></li>
-            <li><a class="dropdown-item" href="{% url 'accounts:profile' %}">Profile</a></li>
-            <li><a class="dropdown-item" href="{% url 'orders:order_list' %}">My Orders</a></li>
-            <li><a class="dropdown-item" href="{% url 'orders:track_order' %}">Track Order</a></li>
-            <li><a class="dropdown-item" href="{% url 'accounts:logout' %}">Logout</a></li>
-          </ul>
-        </div>
-        {% else %}
-        <a href="{% url 'accounts:login' %}" class="icon-btn"><img src="{% static 'images/loginicon.jpeg' %}" width="25"></a>
-        <a href="{% url 'accounts:register' %}" class="icon-btn"><img src="{% static 'images/registericon.jpeg' %}" width="25"></a>
-        {% endif %}
-
-        <a href="{% url 'cart:view_cart' %}" class="icon-btn position-relative">
-          <img src="{% static 'images/carticon.jpeg' %}" width="25">
-          {% if cart_item_count %}
-          <span class="badge bg-danger position-absolute top-0 start-100 translate-middle">{{ cart_item_count }}</span>
-          {% endif %}
+      {% if user.is_authenticated %}
+      <div class="dropdown">
+        <a href="#" class="icon-btn dropdown-toggle" data-bs-toggle="dropdown">
+          <img src="{% static 'images/usericon.png' %}" width="25">
         </a>
+        <ul class="dropdown-menu dropdown-menu-end">
+          <li class="dropdown-item-text">Hello, <strong>{{ user.username }}</strong></li>
+          <li><a class="dropdown-item" href="{% url 'accounts:profile' %}">Profile</a></li>
+          <li><a class="dropdown-item" href="{% url 'orders:order_list' %}">My Orders</a></li>
+          <li><a class="dropdown-item" href="{% url 'orders:track_order' %}">Track Order</a></li>
+          <li><a class="dropdown-item" href="{% url 'accounts:logout' %}">Logout</a></li>
+        </ul>
       </div>
-    </div>
-  </header>
+      {% else %}
+      <a href="{% url 'accounts:login' %}" class="icon-btn"><img src="{% static 'images/loginicon.jpeg' %}" width="25"></a>
+      <a href="{% url 'accounts:register' %}" class="icon-btn"><img src="{% static 'images/registericon.jpeg' %}" width="25"></a>
+      {% endif %}
 
-  <!-- Hero -->
-  <section class="hero-section">
+      <a href="{% url 'cart:view_cart' %}" class="icon-btn position-relative">
+        <img src="{% static 'images/carticon.jpeg' %}" width="25">
+        {% if cart_item_count %}
+        <span class="badge bg-danger position-absolute top-0 start-100 translate-middle">{{ cart_item_count }}</span>
+        {% endif %}
+      </a>
+    </div>
+  </div>
+</header>
+
+<section class="hero-banner">
+  <div class="hero-overlay"></div>
+  <div class="hero-content">
     <h1>Glow Without Limits</h1>
     <p>Luxury skincare, crafted to enhance your natural beauty.</p>
-    <a href="#products" class="shop-now-btn">Shop Now</a>
-  </section>
+    <a href="#products" class="btn btn-pink btn-lg mt-3">Explore Products</a>
+  </div>
+</section>
 
-  <!-- Categories -->
-  <section class="category-wrapper">
-    <div class="category-section" id="categorySection">
-      {% for category in categories %}
-      <a href="{% url 'store:product_list' %}?category={{ category.slug }}" class="category-card">
-        <img src="{% if category.image %}{{ category.image.url }}{% else %}{% static 'images/placeholder.png' %}{% endif %}" alt="{{ category.name }}">
-        <span>{{ category.name }}</span>
+<section class="category-wrapper">
+  {% for category in categories %}
+  <a href="{% url 'store:product_list' %}?category={{ category.slug }}" class="category-card">
+    <img src="{% if category.image %}{{ category.image.url }}{% else %}{% static 'images/placeholder.png' %}{% endif %}" alt="{{ category.name }}">
+    <span>{{ category.name }}</span>
+  </a>
+  {% endfor %}
+</section>
+
+<section class="container my-5" id="products">
+  <h2 class="mb-4 text-center">Our Products</h2>
+  <div class="products-grid">
+    {% for product in products %}
+    <div class="product-card">
+      <a href="{% url 'store:product_detail' product.slug %}">
+        <img src="{{ product.image.url }}" alt="{{ product.name }}">
+        <h5 class="mt-2">{{ product.name }}</h5>
       </a>
-      {% endfor %}
+      <p class="text-muted">₹{{ product.price }}</p>
     </div>
-  </section>
+    {% empty %}
+    <p class="text-center">No products available.</p>
+    {% endfor %}
+  </div>
+</section>
 
-  <!-- Products -->
-  <section class="container my-5" id="products">
-    <h2 class="mb-4 text-center">Our Products</h2>
-    <div class="products-grid">
-      {% for product in products %}
-      <div class="product-card">
-        <a href="{% url 'store:product_detail' product.slug %}">
-          <img src="{{ product.image.url }}" alt="{{ product.name }}">
-          <h5 class="mt-2">{{ product.name }}</h5>
-        </a>
-        <p class="text-muted">₹{{ product.price }}</p>
-      </div>
-      {% empty %}
-      <p class="text-center">No products available.</p>
-      {% endfor %}
-    </div>
-  </section>
+<main class="container my-5 flex-fill">
+  {% if messages %}
+  {% for msg in messages %}
+  <div class="alert alert-{{ msg.tags }}">{{ msg }}</div>
+  {% endfor %}
+  {% endif %}
+  {% block content %}{% endblock %}
+</main>
 
-  <!-- Footer -->
-  <footer class="d-flex flex-wrap">
-    <div class="footer-col">
+<!-- Footer -->
+<footer class="d-flex flex-wrap">
+  <div class="footer-col">
       <h5>Quick Links</h5>
       <ul class="list-unstyled">
-        <li><a href="{% url 'store:product_list' %}">Products</a></li>
-        <li><a href="{% url 'store:offers' %}">Offers</a></li>
-        <li><a href="{% url 'orders:order_list' %}">My Orders</a></li>
-        <li><a href="{% url 'orders:track_order' %}">Track Order</a></li>
+          <li><a href="{% url 'store:product_list' %}">Products</a></li>
+          <li><a href="{% url 'store:offers' %}">Offers</a></li>
+          <li><a href="{% url 'accounts:profile' %}">Profile</a></li>
       </ul>
-    </div>
-    <div class="footer-col">
+  </div>
+  <div class="footer-col">
       <h5>Follow Us</h5>
       <a href="#"><img src="{% static 'images/facebook.jpeg' %}" width="30"></a>
       <a href="#"><img src="{% static 'images/instagram.jpeg' %}" width="30"></a>
       <a href="#"><img src="{% static 'images/twitter.png' %}" width="30"></a>
-    </div>
-    <div class="footer-col">
+  </div>
+  <div class="footer-col">
       <h5>Newsletter</h5>
       <form>
-        <input type="email" class="form-control mb-2" placeholder="Your email">
-        <button class="btn btn-pink w-100">Subscribe</button>
+          <input type="email" class="form-control mb-2" placeholder="Your email">
+          <button class="btn btn-pink w-100">Subscribe</button>
       </form>
-    </div>
-  </footer>
+  </div>
+</footer>
 
-  <!-- Chatbot -->
-  <a href="{% url 'chatbot:chatbot_home' %}" class="chatbot-icon">
-    <img src="{% static 'images/chatbot.jpeg' %}" width="30">
-  </a>
+<!-- Chatbot -->
+<a href="{% url 'chatbot:chatbot_home' %}" class="chatbot-icon">
+  <img src="{% static 'images/chatbot.jpeg' %}" width="30">
+</a>
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
+
