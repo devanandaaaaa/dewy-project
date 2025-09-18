@@ -20,31 +20,43 @@
         }
 
         /* Hero Section */
-        .hero-section {
+        .hero-banner {
+            position: relative;
             background: url("{% static 'images/banner.jpg' %}") center/cover no-repeat;
             height: 60vh;
             display: flex;
             justify-content: center;
             align-items: center;
-            flex-direction: column;
-            color: white;
             text-align: center;
+            color: white;
         }
-        .hero-section h1 {
+        .hero-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0,0,0,0.4);
+        }
+        .hero-content {
+            position: relative;
+            z-index: 2;
+        }
+        .hero-content h1 {
             font-size: 3rem;
             font-weight: bold;
         }
-        .shop-now-btn {
-            background: #ff6f91;
+        .btn-pink {
+            background-color: #ff6f91;
             color: white;
-            padding: 10px 20px;
             border-radius: 25px;
-            text-decoration: none;
+            padding: 10px 25px;
             font-weight: bold;
             transition: 0.3s;
         }
-        .shop-now-btn:hover {
-            background: #ff3f71;
+        .btn-pink:hover {
+            background-color: #ff3f71;
+            color: white;
         }
 
         /* Category Wrapper */
@@ -134,9 +146,17 @@
             text-align: center;
         }
 
+        /* Search Form & Icons */
+        .icon-btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            padding: 5px;
+        }
+
         /* Responsive Adjustments */
         @media (max-width: 768px) {
-            .hero-section h1 {
+            .hero-content h1 {
                 font-size: 2rem;
             }
             .category-card {
@@ -146,30 +166,56 @@
         }
     </style>
 </head>
-<body>
+<body class="d-flex flex-column min-vh-100">
 
-<!-- Navbar -->
-<nav class="navbar navbar-expand-lg sticky-top">
-    <div class="container">
-        <a class="navbar-brand" href="{% url 'store:product_list' %}">{{ site_name }}</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto">
-                <li class="nav-item"><a class="nav-link" href="{% url 'store:product_list' %}">Shop</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">About</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
-            </ul>
+<!-- Top Header with Search + Icons -->
+<header class="bg-white shadow-sm sticky-top py-3">
+    <div class="container d-flex justify-content-between align-items-center flex-wrap">
+        <a href="{% url 'store:product_list' %}" class="navbar-brand fs-3 fw-bold">{{ site_name }}</a>
+
+        <form class="d-flex flex-grow-1 mx-3 position-relative" method="get" action="{% url 'store:product_list' %}">
+            <input class="form-control" type="search" name="q" placeholder="Search products..." value="{{ request.GET.q }}">
+            <button class="btn btn-pink position-absolute end-0 me-1 top-50 translate-middle-y px-3">🔍</button>
+        </form>
+
+        <div class="d-flex align-items-center gap-2">
+            <a href="{% url 'store:product_list' %}" class="icon-btn"><img src="{% static 'images/homeicon.png' %}" width="25"></a>
+            <a href="{% url 'store:offers' %}" class="icon-btn"><img src="{% static 'images/offericon.png' %}" width="25"></a>
+
+            {% if user.is_authenticated %}
+            <div class="dropdown">
+                <a href="#" class="icon-btn dropdown-toggle" data-bs-toggle="dropdown">
+                    <img src="{% static 'images/usericon.png.jpeg' %}" width="25">
+                </a>
+                <ul class="dropdown-menu dropdown-menu-end">
+                    <li class="dropdown-item-text">Hello, <strong>{{ user.username }}</strong></li>
+                    <li><a class="dropdown-item" href="{% url 'accounts:profile' %}">Profile</a></li>
+                    <li><a class="dropdown-item" href="{% url 'accounts:logout' %}">Logout</a></li>
+                </ul>
+            </div>
+            {% else %}
+            <a href="{% url 'accounts:login' %}" class="icon-btn"><img src="{% static 'images/loginicon.jpeg' %}" width="25"></a>
+            <a href="{% url 'accounts:register' %}" class="icon-btn"><img src="{% static 'images/registericon.jpeg' %}" width="25"></a>
+            {% endif %}
+
+            <a href="{% url 'cart:view_cart' %}" class="icon-btn position-relative">
+                <img src="{% static 'images/carticon.jpeg' %}" width="25">
+                {% if cart_item_count %}
+                <span class="badge bg-danger position-absolute top-0 start-100 translate-middle">{{ cart_item_count }}</span>
+                {% endif %}
+            </a>
         </div>
     </div>
-</nav>
+</header>
 
-<!-- Hero Section -->
-<section class="hero-section">
-    <h1>Welcome to {{ site_name }}</h1>
-    <p>Luxury skincare, made for you.</p>
-    <a href="#products" class="shop-now-btn">Shop Now</a>
+<!-- Hero Banner -->
+<section class="hero-banner">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+        <h1>Glow Without Limits</h1>
+        <p>Luxury skincare, crafted to enhance your natural beauty.</p>
+        <a href="{% url 'store:product_list' %}" class="btn btn-pink btn-lg mt-3">Explore Products</a>
+    </div>
 </section>
 
 <!-- Category Carousel -->
@@ -192,7 +238,7 @@
     <div class="products-grid">
         {% for product in products %}
             <div class="product-card">
-                <a href="{% url 'store:product_detail' product.slug %}">
+                <a href="{% url 'store:product_detail' product.id %}">
                     <img src="{{ product.image.url }}" alt="{{ product.name }}">
                     <h5 class="mt-2">{{ product.name }}</h5>
                 </a>
@@ -205,13 +251,12 @@
 </section>
 
 <!-- Footer -->
-<footer>
+<footer class="mt-auto">
     <p>&copy; {{ site_name }} {{ now|date:"Y" }}. All rights reserved.</p>
 </footer>
 
 <!-- Scripts -->
 <script>
-    let scrollAmount = 0;
     function scrollCategories(amount) {
         const container = document.getElementById('categorySection');
         container.scrollBy({ left: amount, behavior: 'smooth' });
@@ -220,3 +265,4 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
+
