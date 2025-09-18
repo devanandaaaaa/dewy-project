@@ -123,7 +123,7 @@
     <div class="products-grid">
       {% for product in products %}
       <div class="product-card">
-        <a href="{% url 'store:product_detail' product.id %}" class="text-decoration-none text-dark">
+        <a href="{% url 'store:product_detail' product.slug %}" class="text-decoration-none text-dark">
           {% if product.image %}
           <img src="{{ product.image.url }}" alt="{{ product.name }}">
           {% else %}
