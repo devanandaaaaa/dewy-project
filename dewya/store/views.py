@@ -6,8 +6,8 @@ from django.utils import timezone
 
 def home(request):
     categories = Category.objects.all()
-    products = Product.objects.all()   
-    return render(request, "base.html", {
+    products = Product.objects.all()
+    return render(request, "store/home.html", {
         "categories": categories,
         "products": products
     })
