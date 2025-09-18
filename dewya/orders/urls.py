@@ -11,8 +11,6 @@ urlpatterns = [
     path('stripe-webhook/', views.stripe_webhook, name='stripe_webhook'),
     path('track/<int:order_id>/', views.order_tracking, name='order_tracking'),
     path('refund/<int:order_id>/', views.refund_order, name='refund_order'),
-
+    path("", views.order_list, name="order_list"),
+    path("track/", views.track_order, name="track_order"),
 ]
-
-
-

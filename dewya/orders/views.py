@@ -134,3 +134,12 @@ def refund_order(request, order_id):
     order.save()
 
     return render(request, 'orders/order_refunded.html', {'order': order})
+
+@login_required
+def order_list(request):
+    return render(request, "orders/order_list.html")
+
+@login_required
+def track_order(request):
+    return render(request, "orders/track_order.html")
+
