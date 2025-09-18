@@ -8,3 +8,4 @@ staticfiles/
 .DS_Store
 
 *.sqlite3
+.DS_Store
