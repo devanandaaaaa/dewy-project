@@ -4,6 +4,14 @@ from .models import Offer , Wishlist , Review
 from django.contrib.auth.decorators import login_required
 from django.utils import timezone
 
+def home(request):
+    categories = Category.objects.all()
+    products = Product.objects.all()   
+    return render(request, "base.html", {
+        "categories": categories,
+        "products": products
+    })
+
 def product_list(request):
     category_slug = request.GET.get('category')
     search_query = request.GET.get('q')

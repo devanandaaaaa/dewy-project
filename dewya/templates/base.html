@@ -16,6 +16,7 @@
             font-family: 'Poppins', sans-serif;
             background-color: #fff5f8;
         }
+
         .navbar-brand {
             font-family: 'Playfair Display', serif;
             color: #ff1493 !important;
@@ -54,11 +55,13 @@
             color: white;
             border: none;
             transition: 0.3s;
+            cursor: pointer;
         }
 
         .btn-pink:hover {
             background-color: #ff85c1;
         }
+
         .hero-banner {
             position: relative;
             background: url("{% static 'images/hero-bg.jpg' %}") center/cover no-repeat;
@@ -100,9 +103,10 @@
             overflow-x: auto;
             gap: 15px;
             padding: 20px 15px;
-            margin-top: -50px;
+            margin-top: 20px; /* adjusted to prevent overlap */
             position: relative;
             z-index: 20;
+            background: transparent;
         }
 
         .category-card {
@@ -132,7 +136,7 @@
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
             gap: 20px;
-            margin-top: 40px;
+            margin-top: 20px;
         }
 
         .product-card {
@@ -228,7 +232,7 @@
                 {% if user.is_authenticated %}
                 <div class="dropdown">
                     <a href="#" class="icon-btn dropdown-toggle" data-bs-toggle="dropdown">
-                        <img src="{% static 'images/usericon.png.jpeg' %}" width="25">
+                        <img src="{% static 'images/usericon.png' %}" width="25">
                     </a>
                     <ul class="dropdown-menu dropdown-menu-end">
                         <li class="dropdown-item-text">Hello, <strong>{{ user.username }}</strong></li>
@@ -263,10 +267,27 @@
     <section class="category-section">
         {% for category in categories %}
         <a href="{% url 'store:product_list' %}?category={{ category.slug }}" class="category-card">
-            <img src="{{ category.image.url|default:'/static/images/placeholder.png' }}" alt="{{ category.name }}">
+            <img src="{% if category.image %}{{ category.image.url }}{% else %}{% static 'images/placeholder.png' %}{% endif %}" alt="{{ category.name }}">
             <span>{{ category.name }}</span>
         </a>
         {% endfor %}
+    </section>
+
+    <section class="container my-5">
+        <h2 class="mb-4 text-center">Our Products</h2>
+        <div class="products-grid">
+            {% for product in products %}
+            <div class="product-card">
+                <a href="{% url 'store:product_detail' product.id %}">
+                    <img src="{{ product.image.url }}" alt="{{ product.name }}">
+                    <h5 class="mt-2">{{ product.name }}</h5>
+                </a>
+                <p class="text-muted">₹{{ product.price }}</p>
+            </div>
+            {% empty %}
+            <p class="text-center">No products available.</p>
+            {% endfor %}
+        </div>
     </section>
 
     <main class="container my-5 flex-fill">
@@ -277,6 +298,7 @@
         {% endif %}
         {% block content %}{% endblock %}
     </main>
+
     <a href="{% url 'chatbot:chatbot_home' %}" class="chatbot-icon">
         <img src="{% static 'images/chatbot.jpeg' %}" width="30">
     </a>
@@ -309,9 +331,3 @@
 </body>
 
 </html>
-
-
-
-
-
-
