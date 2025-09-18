@@ -1,14 +1,16 @@
 {% load static %}
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{% block title %}{{ site_name }}{% endblock %}</title>
 
+    <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
     <link href="{% static 'css/style.css' %}" rel="stylesheet">
 
     <style>
@@ -16,12 +18,10 @@
             font-family: 'Poppins', sans-serif;
             background-color: #fff5f8;
         }
-
         .navbar-brand {
             font-family: 'Playfair Display', serif;
             color: #ff1493 !important;
         }
-
         .icon-btn {
             display: flex;
             align-items: center;
@@ -33,35 +33,28 @@
             box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
             transition: transform 0.3s, box-shadow 0.3s;
         }
-
         .icon-btn:hover {
             transform: scale(1.1);
             box-shadow: 0 5px 15px rgba(0, 0, 0, 0.25);
         }
-
         form .form-control {
             border-radius: 50px;
             padding-left: 20px;
             padding-right: 50px;
         }
-
         form .form-control:focus {
             box-shadow: 0 4px 12px rgba(255, 105, 180, 0.3);
             border-color: #ff69b4;
         }
-
         .btn-pink {
             background-color: #ff69b4;
             color: white;
             border: none;
             transition: 0.3s;
-            cursor: pointer;
         }
-
         .btn-pink:hover {
             background-color: #ff85c1;
         }
-
         .hero-banner {
             position: relative;
             background: url("{% static 'images/hero-bg.jpg' %}") center/cover no-repeat;
@@ -72,7 +65,6 @@
             border-radius: 15px;
             overflow: hidden;
         }
-
         .hero-overlay {
             position: absolute;
             top: 0;
@@ -81,34 +73,28 @@
             height: 100%;
             background: rgba(255, 20, 147, 0.25);
         }
-
         .hero-content {
             position: relative;
             text-align: center;
             z-index: 10;
             color: white;
         }
-
         .hero-content h1 {
             font-family: 'Playfair Display', serif;
             font-size: 3rem;
         }
-
         .hero-content p {
             font-size: 1.2rem;
         }
-
         .category-section {
             display: flex;
             overflow-x: auto;
             gap: 15px;
             padding: 20px 15px;
-            margin-top: 20px; /* adjusted to prevent overlap */
+            margin-top: -50px;
             position: relative;
             z-index: 20;
-            background: transparent;
         }
-
         .category-card {
             flex: 0 0 auto;
             background: #fff0f5;
@@ -119,26 +105,22 @@
             box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
             transition: all 0.3s ease;
         }
-
         .category-card img {
             width: 50px;
             height: 50px;
             margin-bottom: 8px;
         }
-
         .category-card:hover {
             transform: translateY(-5px);
             box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
             background-color: #ffb6d9;
         }
-
         .products-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
             gap: 20px;
-            margin-top: 20px;
+            margin-top: 40px;
         }
-
         .product-card {
             background-color: white;
             border-radius: 15px;
@@ -147,17 +129,14 @@
             box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
             transition: transform 0.3s, box-shadow 0.3s;
         }
-
         .product-card:hover {
             transform: translateY(-5px);
             box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
         }
-
         .product-card img {
             width: 100%;
             border-radius: 15px;
         }
-
         .partner-section {
             padding: 20px 0;
             background: white;
@@ -167,7 +146,6 @@
             justify-content: center;
             gap: 30px;
         }
-
         .chatbot-icon {
             position: fixed;
             bottom: 20px;
@@ -182,11 +160,9 @@
             box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
             transition: transform 0.3s;
         }
-
         .chatbot-icon:hover {
             transform: scale(1.1);
         }
-
         footer {
             background: white;
             padding: 40px 20px;
@@ -195,139 +171,142 @@
             flex-wrap: wrap;
             box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.05);
         }
-
         footer .footer-col {
             flex: 1;
             min-width: 200px;
             margin-bottom: 15px;
         }
-
         @media (max-width: 768px) {
             .hero-content h1 {
                 font-size: 2rem;
             }
-
             .hero-content p {
                 font-size: 1rem;
             }
         }
     </style>
 </head>
-
 <body class="d-flex flex-column min-vh-100">
 
-    <header class="bg-white shadow-sm sticky-top py-3">
-        <div class="container d-flex justify-content-between align-items-center flex-wrap">
-            <a href="{% url 'store:product_list' %}" class="navbar-brand fs-3 fw-bold">The Dewy Ritual</a>
+<!-- Header -->
+<header class="bg-white shadow-sm sticky-top py-3">
+    <div class="container d-flex justify-content-between align-items-center flex-wrap">
+        <a href="{% url 'store:product_list' %}" class="navbar-brand fs-3 fw-bold">The Dewy Ritual</a>
 
-            <form class="d-flex flex-grow-1 mx-3 position-relative" method="get" action="{% url 'store:product_list' %}">
-                <input class="form-control" type="search" name="q" placeholder="Search products..." value="{{ request.GET.q }}">
-                <button class="btn btn-pink position-absolute end-0 me-1 top-50 translate-middle-y px-3">🔍</button>
-            </form>
+        <form class="d-flex flex-grow-1 mx-3 position-relative" method="get" action="{% url 'store:product_list' %}">
+            <input class="form-control" type="search" name="q" placeholder="Search products..." value="{{ request.GET.q }}">
+            <button class="btn btn-pink position-absolute end-0 me-1 top-50 translate-middle-y px-3">🔍</button>
+        </form>
 
-            <div class="d-flex align-items-center gap-2">
-                <a href="{% url 'store:product_list' %}" class="icon-btn"><img src="{% static 'images/homeicon.png' %}" width="25"></a>
-                <a href="{% url 'store:offers' %}" class="icon-btn"><img src="{% static 'images/offericon.png' %}" width="25"></a>
+        <div class="d-flex align-items-center gap-2">
+            <a href="{% url 'store:product_list' %}" class="icon-btn"><img src="{% static 'images/homeicon.png' %}" width="25"></a>
+            <a href="{% url 'store:offers' %}" class="icon-btn"><img src="{% static 'images/offericon.png' %}" width="25"></a>
 
-                {% if user.is_authenticated %}
-                <div class="dropdown">
-                    <a href="#" class="icon-btn dropdown-toggle" data-bs-toggle="dropdown">
-                        <img src="{% static 'images/usericon.png' %}" width="25">
-                    </a>
-                    <ul class="dropdown-menu dropdown-menu-end">
-                        <li class="dropdown-item-text">Hello, <strong>{{ user.username }}</strong></li>
-                        <li><a class="dropdown-item" href="{% url 'accounts:profile' %}">Profile</a></li>
-                        <li><a class="dropdown-item" href="{% url 'accounts:logout' %}">Logout</a></li>
-                    </ul>
-                </div>
-                {% else %}
-                <a href="{% url 'accounts:login' %}" class="icon-btn"><img src="{% static 'images/loginicon.jpeg' %}" width="25"></a>
-                <a href="{% url 'accounts:register' %}" class="icon-btn"><img src="{% static 'images/registericon.jpeg' %}" width="25"></a>
-                {% endif %}
-
-                <a href="{% url 'cart:view_cart' %}" class="icon-btn position-relative">
-                    <img src="{% static 'images/carticon.jpeg' %}" width="25">
-                    {% if cart_item_count %}
-                    <span class="badge bg-danger position-absolute top-0 start-100 translate-middle">{{ cart_item_count }}</span>
-                    {% endif %}
+            {% if user.is_authenticated %}
+            <div class="dropdown">
+                <a href="#" class="icon-btn dropdown-toggle" data-bs-toggle="dropdown">
+                    <img src="{% static 'images/usericon.jpeg' %}" width="25">
                 </a>
+                <ul class="dropdown-menu dropdown-menu-end">
+                    <li class="dropdown-item-text">Hello, <strong>{{ user.username }}</strong></li>
+                    <li><a class="dropdown-item" href="{% url 'accounts:profile' %}">Profile</a></li>
+                    <li><a class="dropdown-item" href="{% url 'accounts:logout' %}">Logout</a></li>
+                </ul>
             </div>
-        </div>
-    </header>
+            {% else %}
+            <a href="{% url 'accounts:login' %}" class="icon-btn"><img src="{% static 'images/loginicon.jpeg' %}" width="25"></a>
+            <a href="{% url 'accounts:register' %}" class="icon-btn"><img src="{% static 'images/registericon.jpeg' %}" width="25"></a>
+            {% endif %}
 
-    <section class="hero-banner">
-        <div class="hero-overlay"></div>
-        <div class="hero-content">
-            <h1>Glow Without Limits</h1>
-            <p>Luxury skincare, crafted to enhance your natural beauty.</p>
-            <a href="{% url 'store:product_list' %}" class="btn btn-pink btn-lg mt-3">Explore Products</a>
+            <a href="{% url 'cart:view_cart' %}" class="icon-btn position-relative">
+                <img src="{% static 'images/carticon.jpeg' %}" width="25">
+                {% if cart_item_count %}
+                <span class="badge bg-danger position-absolute top-0 start-100 translate-middle">{{ cart_item_count }}</span>
+                {% endif %}
+            </a>
         </div>
-    </section>
+    </div>
+</header>
 
-    <section class="category-section">
-        {% for category in categories %}
-        <a href="{% url 'store:product_list' %}?category={{ category.slug }}" class="category-card">
-            <img src="{% if category.image %}{{ category.image.url }}{% else %}{% static 'images/placeholder.png' %}{% endif %}" alt="{{ category.name }}">
-            <span>{{ category.name }}</span>
-        </a>
+<!-- Hero Section -->
+<section class="hero-banner">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+        <h1>Glow Without Limits</h1>
+        <p>Luxury skincare, crafted to enhance your natural beauty.</p>
+        <a href="{% url 'store:product_list' %}" class="btn btn-pink btn-lg mt-3">Explore Products</a>
+    </div>
+</section>
+
+<!-- Category Section -->
+<section class="category-section">
+    {% for category in categories %}
+    <a href="{% url 'store:product_list' %}?category={{ category.slug }}" class="category-card">
+        <img src="{{ category.image.url|default:'/static/images/placeholder.png' }}" alt="{{ category.name }}">
+        <span>{{ category.name }}</span>
+    </a>
+    {% endfor %}
+</section>
+
+<!-- Main Content -->
+<main class="container my-5 flex-fill">
+    {% if messages %}
+        {% for msg in messages %}
+            <div class="alert alert-{{ msg.tags }}">{{ msg }}</div>
         {% endfor %}
-    </section>
+    {% endif %}
 
+    {% block content %}
+    <!-- Products Grid -->
     <section class="container my-5">
         <h2 class="mb-4 text-center">Our Products</h2>
         <div class="products-grid">
             {% for product in products %}
-            <div class="product-card">
-                <a href="{% url 'store:product_detail' product.id %}">
-                    <img src="{{ product.image.url }}" alt="{{ product.name }}">
-                    <h5 class="mt-2">{{ product.name }}</h5>
-                </a>
-                <p class="text-muted">₹{{ product.price }}</p>
-            </div>
+                <div class="product-card">
+                    <a href="{% url 'store:product_detail' product.id %}">
+                        <img src="{{ product.image.url|default:'/static/images/placeholder.png' }}" alt="{{ product.name }}">
+                        <h5 class="mt-2">{{ product.name }}</h5>
+                    </a>
+                    <p class="text-muted">₹{{ product.price }}</p>
+                </div>
             {% empty %}
-            <p class="text-center">No products available.</p>
+                <p class="text-center">No products available.</p>
             {% endfor %}
         </div>
     </section>
+    {% endblock %}
+</main>
 
-    <main class="container my-5 flex-fill">
-        {% if messages %}
-        {% for msg in messages %}
-        <div class="alert alert-{{ msg.tags }}">{{ msg }}</div>
-        {% endfor %}
-        {% endif %}
-        {% block content %}{% endblock %}
-    </main>
+<!-- Chatbot -->
+<a href="{% url 'chatbot:chatbot_home' %}" class="chatbot-icon">
+    <img src="{% static 'images/chatbot.jpeg' %}" width="30">
+</a>
 
-    <a href="{% url 'chatbot:chatbot_home' %}" class="chatbot-icon">
-        <img src="{% static 'images/chatbot.jpeg' %}" width="30">
-    </a>
+<!-- Footer -->
+<footer class="d-flex flex-wrap">
+    <div class="footer-col">
+        <h5>Quick Links</h5>
+        <ul class="list-unstyled">
+            <li><a href="{% url 'store:product_list' %}">Products</a></li>
+            <li><a href="{% url 'store:offers' %}">Offers</a></li>
+            <li><a href="{% url 'accounts:profile' %}">Profile</a></li>
+        </ul>
+    </div>
+    <div class="footer-col">
+        <h5>Follow Us</h5>
+        <a href="#"><img src="{% static 'images/facebook.jpeg' %}" width="30"></a>
+        <a href="#"><img src="{% static 'images/instagram.jpeg' %}" width="30"></a>
+        <a href="#"><img src="{% static 'images/twitter.png' %}" width="30"></a>
+    </div>
+    <div class="footer-col">
+        <h5>Newsletter</h5>
+        <form>
+            <input type="email" class="form-control mb-2" placeholder="Your email">
+            <button class="btn btn-pink w-100">Subscribe</button>
+        </form>
+    </div>
+</footer>
 
-    <footer class="d-flex flex-wrap">
-        <div class="footer-col">
-            <h5>Quick Links</h5>
-            <ul class="list-unstyled">
-                <li><a href="{% url 'store:product_list' %}">Products</a></li>
-                <li><a href="{% url 'store:offers' %}">Offers</a></li>
-                <li><a href="{% url 'accounts:profile' %}">Profile</a></li>
-            </ul>
-        </div>
-        <div class="footer-col">
-            <h5>Follow Us</h5>
-            <a href="#"><img src="{% static 'images/facebook.jpeg' %}" width="30"></a>
-            <a href="#"><img src="{% static 'images/instagram.jpeg' %}" width="30"></a>
-            <a href="#"><img src="{% static 'images/twitter.png' %}" width="30"></a>
-        </div>
-        <div class="footer-col">
-            <h5>Newsletter</h5>
-            <form>
-                <input type="email" class="form-control mb-2" placeholder="Your email">
-                <button class="btn btn-pink w-100">Subscribe</button>
-            </form>
-        </div>
-    </footer>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
-
 </html>
