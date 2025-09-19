@@ -1132,5 +1132,285 @@
         "available": true,
         "created": "2025-09-19T08:07:43.453Z"
     }
+},
+{
+    "model": "store.product",
+    "pk": 82,
+    "fields": {
+        "category": 13,
+        "name": "Beauty of Joseon Relief Sun: Rice + Probiotics SPF50+",
+        "slug": "beauty-of-joseon-relief-sun-rice-probiotics-spf50",
+        "description": "Lightweight chemical sunscreen with rice extract and probiotics; hydrating and non-greasy.",
+        "price": "1450.00",
+        "image": "products/sun1.jpeg",
+        "available": true,
+        "created": "2025-09-19T09:59:55.929Z"
+    }
+},
+{
+    "model": "store.product",
+    "pk": 83,
+    "fields": {
+        "category": 13,
+        "name": "COSRX Aloe Soothing Sun Cream SPF50+",
+        "slug": "cosrx-aloe-soothing-sun-cream-spf50",
+        "description": "Broad-spectrum sunscreen infused with aloe vera for hydration and soothing.",
+        "price": "1100.00",
+        "image": "products/sun2.jpeg",
+        "available": true,
+        "created": "2025-09-19T10:00:48.209Z"
+    }
+},
+{
+    "model": "store.product",
+    "pk": 84,
+    "fields": {
+        "category": 13,
+        "name": "Etude House Sunprise Mild Airy Finish SPF50+",
+        "slug": "etude-house-sunprise-mild-airy-finish-spf50",
+        "description": "Description:",
+        "price": "900.00",
+        "image": "products/sun3.jpeg",
+        "available": true,
+        "created": "2025-09-19T10:01:43.431Z"
+    }
+},
+{
+    "model": "store.product",
+    "pk": 85,
+    "fields": {
+        "category": 13,
+        "name": "Missha All Around Safe Block Essence Sun Milk SPF50+",
+        "slug": "missha-all-around-safe-block-essence-sun-milk-spf50",
+        "description": "Hydrating essence-like sunscreen with a natural finish.",
+        "price": "1400.00",
+        "image": "products/sun4.webp",
+        "available": true,
+        "created": "2025-09-19T10:02:29.849Z"
+    }
+},
+{
+    "model": "store.product",
+    "pk": 86,
+    "fields": {
+        "category": 13,
+        "name": "Dr. G Green Mild Up Sun+ SPF50+",
+        "slug": "dr-g-green-mild-up-sun-spf50",
+        "description": "Mineral sunscreen with zinc oxide and panthenol; gentle on sensitive skin.",
+        "price": "1700.00",
+        "image": "products/sun5.png",
+        "available": true,
+        "created": "2025-09-19T10:03:12.393Z"
+    }
+},
+{
+    "model": "store.product",
+    "pk": 87,
+    "fields": {
+        "category": 11,
+        "name": "Laneige Lip Sleeping Mask (Berry)",
+        "slug": "laneige-lip-sleeping-mask-berry",
+        "description": "Overnight lip mask with berry mix complex and vitamin C; deeply nourishes lips.",
+        "price": "1200.00",
+        "image": "products/lip1.webp",
+        "available": true,
+        "created": "2025-09-19T10:03:57.727Z"
+    }
+},
+{
+    "model": "store.product",
+    "pk": 88,
+    "fields": {
+        "category": 11,
+        "name": "Innisfree Canola Honey Lip Balm",
+        "slug": "innisfree-canola-honey-lip-balm",
+        "description": "Moisturizing lip balm with canola honey and seed oil.",
+        "price": "450.00",
+        "image": "products/lip2.jpeg",
+        "available": true,
+        "created": "2025-09-19T10:04:40.870Z"
+    }
+},
+{
+    "model": "store.product",
+    "pk": 89,
+    "fields": {
+        "category": 11,
+        "name": "Etude House Ginger Sugar Lip Balm Stick",
+        "slug": "etude-house-ginger-sugar-lip-balm-stick",
+        "description": "Hydrating lip balm enriched with ginger and sugar extracts.",
+        "price": "350.00",
+        "image": "products/lip3.webp",
+        "available": true,
+        "created": "2025-09-19T10:05:32.851Z"
+    }
+},
+{
+    "model": "store.product",
+    "pk": 90,
+    "fields": {
+        "category": 11,
+        "name": "The Face Shop Lip Care Cream Shea Butter",
+        "slug": "the-face-shop-lip-care-cream-shea-butter",
+        "description": "Creamy lip balm with shea butter for long-lasting hydration.",
+        "price": "500.00",
+        "image": "products/lip4.webp",
+        "available": true,
+        "created": "2025-09-19T10:06:31.822Z"
+    }
+},
+{
+    "model": "store.product",
+    "pk": 91,
+    "fields": {
+        "category": 11,
+        "name": "Aritaum Honey Melting Tint Balm",
+        "slug": "aritaum-honey-melting-tint-balm",
+        "description": "Tinted lip balm with honey extract; gives moisture + natural tint.",
+        "price": "600.00",
+        "image": "products/lip5.png",
+        "available": true,
+        "created": "2025-09-19T10:07:24.988Z"
+    }
+},
+{
+    "model": "store.product",
+    "pk": 92,
+    "fields": {
+        "category": 7,
+        "name": "Mediheal N.M.F Aquaring Ampoule Mask",
+        "slug": "mediheal-nmf-aquaring-ampoule-mask",
+        "description": "Sheet mask with hyaluronic acid and minerals for intense hydration.",
+        "price": "150.00",
+        "image": "products/mask1.jpeg",
+        "available": true,
+        "created": "2025-09-19T10:08:28.766Z"
+    }
+},
+{
+    "model": "store.product",
+    "pk": 93,
+    "fields": {
+        "category": 7,
+        "name": "Innisfree My Real Squeeze Mask (Green Tea)",
+        "slug": "innisfree-my-real-squeeze-mask-green-tea",
+        "description": "Hydrating sheet mask with Jeju green tea extract.",
+        "price": "100.00",
+        "image": "products/mask2.webp",
+        "available": true,
+        "created": "2025-09-19T10:09:34.320Z"
+    }
+},
+{
+    "model": "store.product",
+    "pk": 94,
+    "fields": {
+        "category": 7,
+        "name": "Deep moisturizing sheet mask with aquaxyl and xylitol.",
+        "slug": "deep-moisturizing-sheet-mask-with-aquaxyl-and-xylitol",
+        "description": "Deep moisturizing sheet mask with aquaxyl and xylitol.",
+        "price": "250.00",
+        "image": "products/mask3.webp",
+        "available": true,
+        "created": "2025-09-19T10:10:26.494Z"
+    }
+},
+{
+    "model": "store.product",
+    "pk": 95,
+    "fields": {
+        "category": 7,
+        "name": "Etude House 0.2mm Therapy Air Mask (Collagen)",
+        "slug": "etude-house-02mm-therapy-air-mask-collagen",
+        "description": "Ultra-thin sheet mask with collagen for firming.",
+        "price": "90.00",
+        "image": "products/mask4.jpeg",
+        "available": true,
+        "created": "2025-09-19T10:11:41.054Z"
+    }
+},
+{
+    "model": "store.product",
+    "pk": 96,
+    "fields": {
+        "category": 7,
+        "name": "TonyMoly I’m Real Rice Sheet Mask",
+        "slug": "tonymoly-im-real-rice-sheet-mask",
+        "description": "Brightening mask with rice extract for even skin tone.",
+        "price": "120.00",
+        "image": "products/mask5.webp",
+        "available": true,
+        "created": "2025-09-19T10:12:37.530Z"
+    }
+},
+{
+    "model": "store.product",
+    "pk": 97,
+    "fields": {
+        "category": 9,
+        "name": "Laneige Water Sleeping Mask",
+        "slug": "laneige-water-sleeping-mask",
+        "description": "Overnight gel mask with hydro-ionized mineral water; refreshes tired skin.",
+        "price": "1400.00",
+        "image": "products/nigth1.jpeg",
+        "available": true,
+        "created": "2025-09-19T10:13:31.745Z"
+    }
+},
+{
+    "model": "store.product",
+    "pk": 98,
+    "fields": {
+        "category": 9,
+        "name": "Sulwhasoo Overnight Vitalizing Mask",
+        "slug": "sulwhasoo-overnight-vitalizing-mask",
+        "description": "Luxurious herbal-infused mask that revitalizes skin overnight.",
+        "price": "3500.00",
+        "image": "products/night2.webp",
+        "available": true,
+        "created": "2025-09-19T10:15:21.610Z"
+    }
+},
+{
+    "model": "store.product",
+    "pk": 99,
+    "fields": {
+        "category": 9,
+        "name": "COSRX Hyaluronic Acid Intensive Cream",
+        "slug": "cosrx-hyaluronic-acid-intensive-cream",
+        "description": "Rich cream with hyaluronic acid and sea buckthorn oil; restores hydration.",
+        "price": "1300.00",
+        "image": "products/night3.jpeg",
+        "available": true,
+        "created": "2025-09-19T10:18:17.748Z"
+    }
+},
+{
+    "model": "store.product",
+    "pk": 100,
+    "fields": {
+        "category": 9,
+        "name": "Mizon Snail Repair Intensive Cream",
+        "slug": "mizon-snail-repair-intensive-cream",
+        "description": "Night cream with 92% snail mucin; helps repair acne scars and fine lines.",
+        "price": "1250.00",
+        "image": "products/night4.jpeg",
+        "available": true,
+        "created": "2025-09-19T10:19:12.968Z"
+    }
+},
+{
+    "model": "store.product",
+    "pk": 101,
+    "fields": {
+        "category": 9,
+        "name": "Etude House Moistfull Collagen Sleeping Pack",
+        "slug": "etude-house-moistfull-collagen-sleeping-pack",
+        "description": "Collagen-rich overnight mask that improves elasticity.",
+        "price": "1000.00",
+        "image": "products/night5.jpeg",
+        "available": true,
+        "created": "2025-09-19T10:20:07.703Z"
+    }
 }
 ]
